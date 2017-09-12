@@ -1,0 +1,210 @@
+# 1K
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+ 4872: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 4872: 9.209: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 4872: 9.209: Usage: set $dir=<dir>
+ 4872: 9.209:        set $cached=<bool>    defaults to false
+ 4872: 9.209:        set $filesize=<size>  defaults to 1073741824
+ 4872: 9.209:        set $iosize=<size>    defaults to 1048576
+ 4872: 9.209:        set $nthreads=<value> defaults to 1
+ 4872: 9.209:  
+ 4872: 9.209:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=1024
+filebench> set $iosize=1024
+filebench> run 60
+ 4872: 43.532: Creating/pre-allocating files and filesets
+ 4872: 43.532: File largefile: 0.001MB
+ 4872: 43.534: Removed any existing file largefile in 1 seconds
+ 4872: 43.534: making tree for filset /media/daveti/386D-46CC/largefile
+ 4872: 43.534: Creating file largefile...
+ 4872: 43.535: Preallocated 1 of 1 of file largefile in 1 seconds
+ 4872: 43.536: waiting for fileset pre-allocation to finish
+ 4876: 43.536: Starting 1 filereader instances
+ 4877: 43.537: Starting 1 filereaderthread threads
+ 4872: 44.537: Running...
+ 4872: 104.541: Run took 60 seconds...
+ 4872: 104.541: Per-Operation Breakdown
+seqread-file         2434024ops    40564ops/s  19.8mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 4872: 104.541: IO Summary: 2434024 ops, 40564.469 ops/s, (40564/0 r/w),  19.8mb/s,     25us cpu/op,   0.0ms latency
+ 4872: 104.541: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+
+
+# 10K
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+27388: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+27388: 11.024: FileMicro-SeqRead Version 2.1 personality successfully loaded
+27388: 11.024: Usage: set $dir=<dir>
+27388: 11.024:        set $cached=<bool>    defaults to false
+27388: 11.024:        set $filesize=<size>  defaults to 1073741824
+27388: 11.024:        set $iosize=<size>    defaults to 1048576
+27388: 11.024:        set $nthreads=<value> defaults to 1
+27388: 11.024:  
+27388: 11.024:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=10240
+filebench> set $iosize=1024
+filebench> run 60
+27388: 41.807: Creating/pre-allocating files and filesets
+27388: 41.808: File largefile: 0.010MB
+27388: 41.810: Removed any existing file largefile in 1 seconds
+27388: 41.810: making tree for filset /media/daveti/386D-46CC/largefile
+27388: 41.810: Creating file largefile...
+27388: 41.813: Preallocated 1 of 1 of file largefile in 1 seconds
+27388: 41.813: waiting for fileset pre-allocation to finish
+27392: 41.813: Starting 1 filereader instances
+27393: 41.815: Starting 1 filereaderthread threads
+27388: 42.815: Running...
+27388: 102.819: Run took 60 seconds...
+27388: 102.819: Per-Operation Breakdown
+seqread-file         2457392ops    40954ops/s  36.3mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+27388: 102.819: IO Summary: 2457392 ops, 40953.933 ops/s, (40954/0 r/w),  36.3mb/s,     25us cpu/op,   0.0ms latency
+27388: 102.819: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+
+
+# 100K
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+ 1670: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 1670: 15.318: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 1670: 15.318: Usage: set $dir=<dir>
+ 1670: 15.318:        set $cached=<bool>    defaults to false
+ 1670: 15.318:        set $filesize=<size>  defaults to 1073741824
+ 1670: 15.318:        set $iosize=<size>    defaults to 1048576
+ 1670: 15.318:        set $nthreads=<value> defaults to 1
+ 1670: 15.318:  
+ 1670: 15.318:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=102400
+filebench> set $iosize=1024
+filebench> run 60
+ 1670: 46.405: Creating/pre-allocating files and filesets
+ 1670: 46.405: File largefile: 0.098MB
+ 1670: 46.407: Removed any existing file largefile in 1 seconds
+ 1670: 46.407: making tree for filset /media/daveti/386D-46CC/largefile
+ 1670: 46.408: Creating file largefile...
+ 1670: 46.424: Preallocated 1 of 1 of file largefile in 1 seconds
+ 1670: 46.424: waiting for fileset pre-allocation to finish
+ 1681: 46.424: Starting 1 filereader instances
+ 1682: 46.425: Starting 1 filereaderthread threads
+ 1670: 47.426: Running...
+ 1670: 107.430: Run took 60 seconds...
+ 1670: 107.430: Per-Operation Breakdown
+seqread-file         2455364ops    40920ops/s  39.6mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 1670: 107.430: IO Summary: 2455364 ops, 40920.115 ops/s, (40920/0 r/w),  39.6mb/s,     25us cpu/op,   0.0ms latency
+ 1670: 107.430: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+
+
+# 1M
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+ 7665: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 7665: 6.799: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 7665: 6.799: Usage: set $dir=<dir>
+ 7665: 6.799:        set $cached=<bool>    defaults to false
+ 7665: 6.799:        set $filesize=<size>  defaults to 1073741824
+ 7665: 6.799:        set $iosize=<size>    defaults to 1048576
+ 7665: 6.799:        set $nthreads=<value> defaults to 1
+ 7665: 6.799:  
+ 7665: 6.799:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=1024000
+filebench> set $iosize=1024
+filebench> run 60
+ 7665: 35.422: Creating/pre-allocating files and filesets
+ 7665: 35.423: File largefile: 0.977MB
+ 7665: 35.425: Removed any existing file largefile in 1 seconds
+ 7665: 35.425: making tree for filset /media/daveti/386D-46CC/largefile
+ 7665: 35.425: Creating file largefile...
+ 7665: 35.442: Preallocated 1 of 1 of file largefile in 1 seconds
+ 7665: 35.442: waiting for fileset pre-allocation to finish
+ 7669: 35.443: Starting 1 filereader instances
+ 7670: 35.444: Starting 1 filereaderthread threads
+ 7665: 36.444: Running...
+ 7665: 96.448: Run took 60 seconds...
+ 7665: 96.448: Per-Operation Breakdown
+seqread-file         2437479ops    40622ops/s  39.6mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 7665: 96.448: IO Summary: 2437479 ops, 40622.022 ops/s, (40622/0 r/w),  39.6mb/s,     25us cpu/op,   0.0ms latency
+ 7665: 96.448: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+
+
+# 10M
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+27215: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+27215: 9.394: FileMicro-SeqRead Version 2.1 personality successfully loaded
+27215: 9.394: Usage: set $dir=<dir>
+27215: 9.394:        set $cached=<bool>    defaults to false
+27215: 9.394:        set $filesize=<size>  defaults to 1073741824
+27215: 9.394:        set $iosize=<size>    defaults to 1048576
+27215: 9.394:        set $nthreads=<value> defaults to 1
+27215: 9.394:  
+27215: 9.394:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=10240000
+filebench> set $iosize=1024
+filebench> run 60
+27215: 41.457: Creating/pre-allocating files and filesets
+27215: 41.457: File largefile: 9.766MB
+27215: 41.459: Removed any existing file largefile in 1 seconds
+27215: 41.460: making tree for filset /media/daveti/386D-46CC/largefile
+27215: 41.460: Creating file largefile...
+27215: 41.489: Preallocated 1 of 1 of file largefile in 1 seconds
+27215: 41.489: waiting for fileset pre-allocation to finish
+27220: 41.489: Starting 1 filereader instances
+27221: 41.490: Starting 1 filereaderthread threads
+27215: 42.490: Running...
+27215: 102.494: Run took 60 seconds...
+27215: 102.494: Per-Operation Breakdown
+seqread-file         2444654ops    40742ops/s  39.8mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+27215: 102.494: IO Summary: 2444654 ops, 40741.572 ops/s, (40742/0 r/w),  39.8mb/s,     25us cpu/op,   0.0ms latency
+27215: 102.494: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+
+
+# 100M
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+ 6233: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 6233: 5.739: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 6233: 5.739: Usage: set $dir=<dir>
+ 6233: 5.739:        set $cached=<bool>    defaults to false
+ 6233: 5.739:        set $filesize=<size>  defaults to 1073741824
+ 6233: 5.739:        set $iosize=<size>    defaults to 1048576
+ 6233: 5.739:        set $nthreads=<value> defaults to 1
+ 6233: 5.739:  
+ 6233: 5.739:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $filesize=102400000
+filebench> set $iosize=1024
+filebench> run 60
+ 6233: 61.707: Creating/pre-allocating files and filesets
+ 6233: 61.708: File largefile: 97.656MB
+ 6233: 61.710: Removed any existing file largefile in 1 seconds
+ 6233: 61.710: making tree for filset /media/daveti/386D-46CC/largefile
+ 6233: 61.710: Creating file largefile...
+ 6233: 88.407: Preallocated 1 of 1 of file largefile in 27 seconds
+ 6233: 88.407: waiting for fileset pre-allocation to finish
+ 6239: 88.407: Starting 1 filereader instances
+ 6240: 88.408: Starting 1 filereaderthread threads
+ 6233: 89.408: Running...
+ 6233: 149.412: Run took 60 seconds...
+ 6233: 149.413: Per-Operation Breakdown
+seqread-file         2441784ops    40694ops/s  39.7mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 6233: 149.413: IO Summary: 2441784 ops, 40693.709 ops/s, (40694/0 r/w),  39.7mb/s,     25us cpu/op,   0.0ms latency
+ 6233: 149.413: Shutting down processes
+root@arpsec03:~# 
+
+

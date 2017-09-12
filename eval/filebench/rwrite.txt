@@ -1,0 +1,245 @@
+# 1K
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+ 6646: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+ 6646: 8.345: FileMicro-WriteRand Version 2.1 personality successfully loaded
+ 6646: 8.345: Usage: set $dir=<dir>
+ 6646: 8.345:        set $bytes=<value>    defaults to 134217728
+ 6646: 8.345:        set $cached=<bool>    defaults to false
+ 6646: 8.345:        set $filesize=<size>  defaults to 1073741824
+ 6646: 8.345:        set $iosize=<size>    defaults to 2048
+ 6646: 8.345:        set $iters=<value>    defaults to 1
+ 6646: 8.345:        set $nthreads=<value> defaults to 1
+ 6646: 8.345:        set $sync=<bool>      defaults to false
+ 6646: 8.345:  
+ 6646: 8.345:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=1024
+filebench> set $filesize=1024
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+ 6646: 132.464: Creating/pre-allocating files and filesets
+ 6646: 132.464: File bigfile1: 0.001MB
+ 6646: 132.466: Removed any existing file bigfile1 in 1 seconds
+ 6646: 132.466: making tree for filset /media/daveti/386D-46CC/bigfile1
+ 6646: 132.467: Creating file bigfile1...
+ 6646: 132.468: Preallocated 1 of 1 of file bigfile1 in 1 seconds
+ 6646: 132.468: waiting for fileset pre-allocation to finish
+ 6659: 132.468: Starting 1 filewriter instances
+ 6660: 132.469: Starting 1 filewriterthread threads
+ 6646: 133.469: Running...
+ 6646: 134.470: Run took 1 seconds...
+ 6646: 134.470: Per-Operation Breakdown
+finish               1ops        1ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           101ops      101ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+ 6646: 134.470: IO Summary:   101 ops, 100.987 ops/s, (0/101 r/w),   0.0mb/s,    297us cpu/op,   0.0ms latency
+ 6646: 134.470: Shutting down processes
+root@arpsec03:~# 
+
+
+# 10K
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+25573: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+25573: 11.348: FileMicro-WriteRand Version 2.1 personality successfully loaded
+25573: 11.348: Usage: set $dir=<dir>
+25573: 11.348:        set $bytes=<value>    defaults to 134217728
+25573: 11.348:        set $cached=<bool>    defaults to false
+25573: 11.348:        set $filesize=<size>  defaults to 1073741824
+25573: 11.348:        set $iosize=<size>    defaults to 2048
+25573: 11.348:        set $iters=<value>    defaults to 1
+25573: 11.348:        set $nthreads=<value> defaults to 1
+25573: 11.348:        set $sync=<bool>      defaults to false
+25573: 11.348:  
+25573: 11.348:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=10240
+filebench> set $filesize=10240
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+25573: 60.819: Creating/pre-allocating files and filesets
+25573: 60.820: File bigfile1: 0.010MB
+25573: 60.822: Removed any existing file bigfile1 in 1 seconds
+25573: 60.822: making tree for filset /media/daveti/386D-46CC/bigfile1
+25573: 60.822: Creating file bigfile1...
+25573: 60.825: Preallocated 1 of 1 of file bigfile1 in 1 seconds
+25573: 60.826: waiting for fileset pre-allocation to finish
+25577: 60.826: Starting 1 filewriter instances
+25578: 60.827: Starting 1 filewriterthread threads
+25573: 61.827: Running...
+25573: 62.827: Run took 1 seconds...
+25573: 62.828: Per-Operation Breakdown
+finish               1ops        1ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           101ops      101ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+25573: 62.828: IO Summary:   101 ops, 100.987 ops/s, (0/101 r/w),   0.0mb/s,    396us cpu/op,   0.0ms latency
+25573: 62.828: Shutting down processes
+root@arpsec03:~# 
+
+
+# 100K
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+23484: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+23484: 8.818: FileMicro-WriteRand Version 2.1 personality successfully loaded
+23484: 8.818: Usage: set $dir=<dir>
+23484: 8.818:        set $bytes=<value>    defaults to 134217728
+23484: 8.818:        set $cached=<bool>    defaults to false
+23484: 8.818:        set $filesize=<size>  defaults to 1073741824
+23484: 8.818:        set $iosize=<size>    defaults to 2048
+23484: 8.818:        set $iters=<value>    defaults to 1
+23484: 8.818:        set $nthreads=<value> defaults to 1
+23484: 8.818:        set $sync=<bool>      defaults to false
+23484: 8.818:  
+23484: 8.818:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=102400
+filebench> set $filesize=102400
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+23484: 57.441: Creating/pre-allocating files and filesets
+23484: 57.441: File bigfile1: 0.098MB
+23484: 57.443: Removed any existing file bigfile1 in 1 seconds
+23484: 57.443: making tree for filset /media/daveti/386D-46CC/bigfile1
+23484: 57.443: Creating file bigfile1...
+23484: 57.459: Preallocated 1 of 1 of file bigfile1 in 1 seconds
+23484: 57.459: waiting for fileset pre-allocation to finish
+23497: 57.460: Starting 1 filewriter instances
+23498: 57.461: Starting 1 filewriterthread threads
+23484: 58.461: Running...
+23484: 59.461: Run took 1 seconds...
+23484: 59.462: Per-Operation Breakdown
+finish               2ops        2ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           201ops      201ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+23484: 59.462: IO Summary:   201 ops, 200.974 ops/s, (0/201 r/w),   0.0mb/s,    149us cpu/op,   0.0ms latency
+23484: 59.462: Shutting down processes
+root@arpsec03:~# 
+
+
+# 1M
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+ 9728: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+ 9728: 6.800: FileMicro-WriteRand Version 2.1 personality successfully loaded
+ 9728: 6.800: Usage: set $dir=<dir>
+ 9728: 6.800:        set $bytes=<value>    defaults to 134217728
+ 9728: 6.800:        set $cached=<bool>    defaults to false
+ 9728: 6.800:        set $filesize=<size>  defaults to 1073741824
+ 9728: 6.800:        set $iosize=<size>    defaults to 2048
+ 9728: 6.800:        set $iters=<value>    defaults to 1
+ 9728: 6.800:        set $nthreads=<value> defaults to 1
+ 9728: 6.800:        set $sync=<bool>      defaults to false
+ 9728: 6.800:  
+ 9728: 6.800:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=1024000
+filebench> set $filesize=1024000
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+ 9728: 74.399: Creating/pre-allocating files and filesets
+ 9728: 74.399: File bigfile1: 0.977MB
+ 9728: 74.402: Removed any existing file bigfile1 in 1 seconds
+ 9728: 74.402: making tree for filset /media/daveti/386D-46CC/bigfile1
+ 9728: 74.402: Creating file bigfile1...
+ 9728: 74.421: Preallocated 1 of 1 of file bigfile1 in 1 seconds
+ 9728: 74.421: waiting for fileset pre-allocation to finish
+ 9733: 74.421: Starting 1 filewriter instances
+ 9734: 74.422: Starting 1 filewriterthread threads
+ 9728: 75.423: Running...
+ 9728: 76.423: Run took 1 seconds...
+ 9728: 76.423: Per-Operation Breakdown
+finish               11ops       11ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           1101ops     1101ops/s   1.0mb/s      0.0ms/op       18us/op-cpu [0ms - 0ms]
+ 9728: 76.423: IO Summary:  1101 ops, 1100.878 ops/s, (0/1101 r/w),   1.0mb/s,     45us cpu/op,   0.0ms latency
+ 9728: 76.423: Shutting down processes
+root@arpsec03:~# 
+
+
+# 10M
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+10829: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+10829: 6.504: FileMicro-WriteRand Version 2.1 personality successfully loaded
+10829: 6.504: Usage: set $dir=<dir>
+10829: 6.504:        set $bytes=<value>    defaults to 134217728
+10829: 6.504:        set $cached=<bool>    defaults to false
+10829: 6.504:        set $filesize=<size>  defaults to 1073741824
+10829: 6.504:        set $iosize=<size>    defaults to 2048
+10829: 6.504:        set $iters=<value>    defaults to 1
+10829: 6.504:        set $nthreads=<value> defaults to 1
+10829: 6.504:        set $sync=<bool>      defaults to false
+10829: 6.504:  
+10829: 6.504:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=10240000
+filebench> set $filesize=10240000
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+10829: 53.288: Creating/pre-allocating files and filesets
+10829: 53.288: File bigfile1: 9.766MB
+10829: 53.290: Removed any existing file bigfile1 in 1 seconds
+10829: 53.290: making tree for filset /media/daveti/386D-46CC/bigfile1
+10829: 53.290: Creating file bigfile1...
+10829: 53.314: Preallocated 1 of 1 of file bigfile1 in 1 seconds
+10829: 53.314: waiting for fileset pre-allocation to finish
+10833: 53.314: Starting 1 filewriter instances
+10834: 53.319: Starting 1 filewriterthread threads
+10829: 54.319: Running...
+10829: 55.319: Run took 1 seconds...
+10829: 55.320: Per-Operation Breakdown
+finish               101ops      101ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           10101ops    10100ops/s   9.0mb/s      0.0ms/op       13us/op-cpu [0ms - 0ms]
+10829: 55.320: IO Summary: 10101 ops, 10099.717 ops/s, (0/10100 r/w),   9.0mb/s,     31us cpu/op,   0.0ms latency
+10829: 55.320: Shutting down processes
+root@arpsec03:~# 
+
+
+# 100M
+root@arpsec03:~/git/ProvUSB/eval/filebench# filebench
+Filebench Version 1.4.9.1
+15130: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_rwrite
+15130: 6.321: FileMicro-WriteRand Version 2.1 personality successfully loaded
+15130: 6.321: Usage: set $dir=<dir>
+15130: 6.321:        set $bytes=<value>    defaults to 134217728
+15130: 6.321:        set $cached=<bool>    defaults to false
+15130: 6.321:        set $filesize=<size>  defaults to 1073741824
+15130: 6.321:        set $iosize=<size>    defaults to 2048
+15130: 6.321:        set $iters=<value>    defaults to 1
+15130: 6.321:        set $nthreads=<value> defaults to 1
+15130: 6.321:        set $sync=<bool>      defaults to false
+15130: 6.321:  
+15130: 6.321:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $bytes=102400000
+filebench> set $filesize=102400000
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60
+15130: 42.255: Creating/pre-allocating files and filesets
+15130: 42.255: File bigfile1: 97.656MB
+15130: 42.257: Removed any existing file bigfile1 in 1 seconds
+15130: 42.257: making tree for filset /media/daveti/386D-46CC/bigfile1
+15130: 42.258: Creating file bigfile1...
+15130: 66.374: Preallocated 1 of 1 of file bigfile1 in 25 seconds
+15130: 66.374: waiting for fileset pre-allocation to finish
+15351: 66.375: Starting 1 filewriter instances
+15352: 66.375: Starting 1 filewriterthread threads
+15130: 67.376: Running...
+15130: 70.376: Run took 3 seconds...
+15130: 70.376: Per-Operation Breakdown
+finish               1001ops      334ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           100101ops    33364ops/s  32.3mb/s      0.0ms/op       13us/op-cpu [0ms - 0ms]
+15130: 70.376: IO Summary: 100101 ops, 33364.409 ops/s, (0/33364 r/w),  32.3mb/s,     28us cpu/op,   0.0ms latency
+15130: 70.376: Shutting down processes
+root@arpsec03:~/git/ProvUSB/eval/filebench# 
+

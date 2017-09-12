@@ -1,0 +1,389 @@
+# 1K
+
+# Prov
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+17003: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+17003: 7.830: FileMicro-SeqRead Version 2.1 personality successfully loaded
+17003: 7.830: Usage: set $dir=<dir>
+17003: 7.830:        set $cached=<bool>    defaults to false
+17003: 7.830:        set $filesize=<size>  defaults to 1073741824
+17003: 7.830:        set $iosize=<size>    defaults to 1048576
+17003: 7.830:        set $nthreads=<value> defaults to 1
+17003: 7.830:  
+17003: 7.830:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=1024
+filebench> set $iosize=1024
+filebench> run 60
+17003: 40.990: Creating/pre-allocating files and filesets
+17003: 40.990: File largefile: 0.001MB
+17003: 40.992: Removed any existing file largefile in 1 seconds
+17003: 40.992: making tree for filset /media/daveti/5983-30AF/largefile
+17003: 40.992: Creating file largefile...
+17003: 40.998: Preallocated 1 of 1 of file largefile in 1 seconds
+17003: 40.998: waiting for fileset pre-allocation to finish
+17010: 40.998: Starting 1 filereader instances
+17011: 40.999: Starting 1 filereaderthread threads
+17003: 42.000: Running...
+17003: 102.004: Run took 60 seconds...
+17003: 102.004: Per-Operation Breakdown
+seqread-file         2446651ops    40775ops/s  19.9mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+17003: 102.004: IO Summary: 2446651 ops, 40774.881 ops/s, (40775/0 r/w),  19.9mb/s,     25us cpu/op,   0.0ms latency
+17003: 102.004: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4602
+Bloc: 48
+
+
+# Prov-S
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+27799: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+27799: 7.746: FileMicro-SeqRead Version 2.1 personality successfully loaded
+27799: 7.746: Usage: set $dir=<dir>
+27799: 7.746:        set $cached=<bool>    defaults to false
+27799: 7.746:        set $filesize=<size>  defaults to 1073741824
+27799: 7.746:        set $iosize=<size>    defaults to 1048576
+27799: 7.746:        set $nthreads=<value> defaults to 1
+27799: 7.746:  
+27799: 7.746:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=1024
+filebench> set $iosize=1024
+filebench> run 60
+27799: 29.610: Creating/pre-allocating files and filesets
+27799: 29.610: File largefile: 0.001MB
+27799: 29.612: Removed any existing file largefile in 1 seconds
+27799: 29.612: making tree for filset /media/daveti/5983-30AF/largefile
+27799: 29.612: Creating file largefile...
+27799: 29.617: Preallocated 1 of 1 of file largefile in 1 seconds
+27799: 29.617: waiting for fileset pre-allocation to finish
+27803: 29.617: Starting 1 filereader instances
+27804: 29.619: Starting 1 filereaderthread threads
+27799: 30.619: Running...
+27799: 90.623: Run took 60 seconds...
+27799: 90.623: Per-Operation Breakdown
+seqread-file         2455555ops    40923ops/s  20.0mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+27799: 90.623: IO Summary: 2455555 ops, 40923.317 ops/s, (40923/0 r/w),  20.0mb/s,     25us cpu/op,   0.0ms latency
+27799: 90.623: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4418
+Bloc: 48
+
+# 10K
+
+# Prov
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+ 3108: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 3108: 5.737: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 3108: 5.737: Usage: set $dir=<dir>
+ 3108: 5.737:        set $cached=<bool>    defaults to false
+ 3108: 5.737:        set $filesize=<size>  defaults to 1073741824
+ 3108: 5.737:        set $iosize=<size>    defaults to 1048576
+ 3108: 5.737:        set $nthreads=<value> defaults to 1
+ 3108: 5.737:  
+ 3108: 5.737:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=10240
+filebench> set $iosize=1024
+filebench> run 60
+ 3108: 33.337: Creating/pre-allocating files and filesets
+ 3108: 33.344: File largefile: 0.010MB
+ 3108: 33.346: Removed any existing file largefile in 1 seconds
+ 3108: 33.346: making tree for filset /media/daveti/5983-30AF/largefile
+ 3108: 33.346: Creating file largefile...
+ 3108: 33.347: Preallocated 1 of 1 of file largefile in 1 seconds
+ 3108: 33.347: waiting for fileset pre-allocation to finish
+ 3112: 33.347: Starting 1 filereader instances
+ 3113: 33.349: Starting 1 filereaderthread threads
+ 3108: 34.349: Running...
+ 3108: 94.353: Run took 60 seconds...
+ 3108: 94.353: Per-Operation Breakdown
+seqread-file         2485141ops    41416ops/s  36.8mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 3108: 94.353: IO Summary: 2485141 ops, 41416.334 ops/s, (41416/0 r/w),  36.8mb/s,     24us cpu/op,   0.0ms latency
+ 3108: 94.353: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4603
+Bloc: 48
+
+# Prov-S
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+ 5237: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+ 5237: 6.568: FileMicro-SeqRead Version 2.1 personality successfully loaded
+ 5237: 6.568: Usage: set $dir=<dir>
+ 5237: 6.568:        set $cached=<bool>    defaults to false
+ 5237: 6.568:        set $filesize=<size>  defaults to 1073741824
+ 5237: 6.568:        set $iosize=<size>    defaults to 1048576
+ 5237: 6.568:        set $nthreads=<value> defaults to 1
+ 5237: 6.568:  
+ 5237: 6.568:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=10240
+filebench> set $iosize=1024
+filebench> run 60
+ 5237: 33.984: Creating/pre-allocating files and filesets
+ 5237: 33.984: File largefile: 0.010MB
+ 5237: 33.986: Removed any existing file largefile in 1 seconds
+ 5237: 33.986: making tree for filset /media/daveti/5983-30AF/largefile
+ 5237: 33.986: Creating file largefile...
+ 5237: 33.992: Preallocated 1 of 1 of file largefile in 1 seconds
+ 5237: 33.992: waiting for fileset pre-allocation to finish
+ 5262: 33.992: Starting 1 filereader instances
+ 5263: 33.993: Starting 1 filereaderthread threads
+ 5237: 34.993: Running...
+ 5237: 94.997: Run took 60 seconds...
+ 5237: 94.998: Per-Operation Breakdown
+seqread-file         2469685ops    41159ops/s  36.5mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+ 5237: 94.998: IO Summary: 2469685 ops, 41158.754 ops/s, (41159/0 r/w),  36.5mb/s,     25us cpu/op,   0.0ms latency
+ 5237: 94.998: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4419
+Bloc: 48
+
+
+# 100K
+
+# Prov
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+17477: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+17477: 6.612: FileMicro-SeqRead Version 2.1 personality successfully loaded
+17477: 6.612: Usage: set $dir=<dir>
+17477: 6.612:        set $cached=<bool>    defaults to false
+17477: 6.612:        set $filesize=<size>  defaults to 1073741824
+17477: 6.612:        set $iosize=<size>    defaults to 1048576
+17477: 6.612:        set $nthreads=<value> defaults to 1
+17477: 6.612:  
+17477: 6.612:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=102400
+filebench> set $iosize=1024
+filebench> run 60
+17477: 47.563: Creating/pre-allocating files and filesets
+17477: 47.564: File largefile: 0.098MB
+17477: 47.566: Removed any existing file largefile in 1 seconds
+17477: 47.566: making tree for filset /media/daveti/5983-30AF/largefile
+17477: 47.566: Creating file largefile...
+17477: 47.578: Preallocated 1 of 1 of file largefile in 1 seconds
+17477: 47.578: waiting for fileset pre-allocation to finish
+17481: 47.578: Starting 1 filereader instances
+17482: 47.579: Starting 1 filereaderthread threads
+17477: 48.579: Running...
+17477: 108.583: Run took 60 seconds...
+17477: 108.583: Per-Operation Breakdown
+seqread-file         2474981ops    41247ops/s  39.9mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+17477: 108.583: IO Summary: 2474981 ops, 41246.997 ops/s, (41247/0 r/w),  39.9mb/s,     25us cpu/op,   0.0ms latency
+17477: 108.583: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4604
+Bloc: 48
+
+# Prov-S
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+11522: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+11522: 11.549: FileMicro-SeqRead Version 2.1 personality successfully loaded
+11522: 11.549: Usage: set $dir=<dir>
+11522: 11.549:        set $cached=<bool>    defaults to false
+11522: 11.549:        set $filesize=<size>  defaults to 1073741824
+11522: 11.549:        set $iosize=<size>    defaults to 1048576
+11522: 11.549:        set $nthreads=<value> defaults to 1
+11522: 11.549:  
+11522: 11.549:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=102400
+filebench> set $iosize=1024
+filebench> run 60
+11522: 41.940: Creating/pre-allocating files and filesets
+11522: 41.940: File largefile: 0.098MB
+11522: 41.943: Removed any existing file largefile in 1 seconds
+11522: 41.943: making tree for filset /media/daveti/5983-30AF/largefile
+11522: 41.943: Creating file largefile...
+11522: 41.955: Preallocated 1 of 1 of file largefile in 1 seconds
+11522: 41.955: waiting for fileset pre-allocation to finish
+11526: 41.956: Starting 1 filereader instances
+11527: 41.957: Starting 1 filereaderthread threads
+11522: 42.957: Running...
+11522: 102.961: Run took 60 seconds...
+11522: 102.961: Per-Operation Breakdown
+seqread-file         2468176ops    41134ops/s  39.8mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+11522: 102.961: IO Summary: 2468176 ops, 41133.674 ops/s, (41134/0 r/w),  39.8mb/s,     25us cpu/op,   0.0ms latency
+11522: 102.961: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4420
+Bloc: 48
+
+
+# 1M
+
+# Prov
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+16687: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+16687: 4.738: FileMicro-SeqRead Version 2.1 personality successfully loaded
+16687: 4.738: Usage: set $dir=<dir>
+16687: 4.738:        set $cached=<bool>    defaults to false
+16687: 4.738:        set $filesize=<size>  defaults to 1073741824
+16687: 4.738:        set $iosize=<size>    defaults to 1048576
+16687: 4.738:        set $nthreads=<value> defaults to 1
+16687: 4.738:  
+16687: 4.739:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=1024000
+filebench> set $iosize=1024
+filebench> run 60
+16687: 1272.561: Creating/pre-allocating files and filesets
+16687: 1272.562: File largefile: 0.977MB
+16687: 1272.564: Removed any existing file largefile in 1 seconds
+16687: 1272.564: making tree for filset /media/daveti/5983-30AF/largefile
+16687: 1272.564: Creating file largefile...
+16687: 1272.580: Preallocated 1 of 1 of file largefile in 1 seconds
+16687: 1272.580: waiting for fileset pre-allocation to finish
+ 1158: 1272.580: Starting 1 filereader instances
+ 1159: 1272.581: Starting 1 filereaderthread threads
+16687: 1273.581: Running...
+16687: 1333.585: Run took 60 seconds...
+16687: 1333.585: Per-Operation Breakdown
+seqread-file         2470648ops    41175ops/s  40.2mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+16687: 1333.585: IO Summary: 2470648 ops, 41174.840 ops/s, (41175/0 r/w),  40.2mb/s,     25us cpu/op,   0.0ms latency
+16687: 1333.585: Shutting down processes
+root@arpsec03:~# 
+
+
+Prov: 4877
+Bloc: 112
+
+# Prov-Save
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+31652: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+31652: 6.975: FileMicro-SeqRead Version 2.1 personality successfully loaded
+31652: 6.975: Usage: set $dir=<dir>
+31652: 6.975:        set $cached=<bool>    defaults to false
+31652: 6.975:        set $filesize=<size>  defaults to 1073741824
+31652: 6.975:        set $iosize=<size>    defaults to 1048576
+31652: 6.975:        set $nthreads=<value> defaults to 1
+31652: 6.975:  
+31652: 6.975:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=1024000
+filebench> set $iosize=1024
+filebench> run 60
+31652: 90.151: Creating/pre-allocating files and filesets
+31652: 90.151: File largefile: 0.977MB
+31652: 90.153: Removed any existing file largefile in 1 seconds
+31652: 90.153: making tree for filset /media/daveti/5983-30AF/largefile
+31652: 90.153: Creating file largefile...
+31652: 90.170: Preallocated 1 of 1 of file largefile in 1 seconds
+31652: 90.170: waiting for fileset pre-allocation to finish
+13892: 90.170: Starting 1 filereader instances
+13893: 90.171: Starting 1 filereaderthread threads
+31652: 91.171: Running...
+31652: 151.175: Run took 60 seconds...
+31652: 151.175: Per-Operation Breakdown
+seqread-file         2455650ops    40925ops/s  39.9mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+31652: 151.175: IO Summary: 2455650 ops, 40924.899 ops/s, (40925/0 r/w),  39.9mb/s,     25us cpu/op,   0.0ms latency
+31652: 151.175: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 4669
+Bloc: 112
+
+
+# 10M
+
+# Prov
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+16260: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+16260: 6.846: FileMicro-SeqRead Version 2.1 personality successfully loaded
+16260: 6.846: Usage: set $dir=<dir>
+16260: 6.846:        set $cached=<bool>    defaults to false
+16260: 6.846:        set $filesize=<size>  defaults to 1073741824
+16260: 6.846:        set $iosize=<size>    defaults to 1048576
+16260: 6.846:        set $nthreads=<value> defaults to 1
+16260: 6.846:  
+16260: 6.846:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=10240000
+filebench> set $iosize=1024
+filebench> run 60
+16260: 40.397: Creating/pre-allocating files and filesets
+16260: 40.397: File largefile: 9.766MB
+16260: 40.400: Removed any existing file largefile in 1 seconds
+16260: 40.400: making tree for filset /media/daveti/5983-30AF/largefile
+16260: 40.400: Creating file largefile...
+16260: 40.428: Preallocated 1 of 1 of file largefile in 1 seconds
+16260: 40.428: waiting for fileset pre-allocation to finish
+16264: 40.428: Starting 1 filereader instances
+16265: 40.431: Starting 1 filereaderthread threads
+16260: 41.431: Running...
+16260: 101.435: Run took 60 seconds...
+16260: 101.435: Per-Operation Breakdown
+seqread-file         2454101ops    40899ops/s  39.9mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+16260: 101.435: IO Summary: 2454101 ops, 40899.023 ops/s, (40899/0 r/w),  39.9mb/s,     25us cpu/op,   0.0ms latency
+16260: 101.435: Shutting down processes
+root@arpsec03:~# 
+
+Prov: 7507
+Bloc: 712
+
+
+# Prov-S
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+16509: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqread
+16509: 8.719: FileMicro-SeqRead Version 2.1 personality successfully loaded
+16509: 8.719: Usage: set $dir=<dir>
+16509: 8.719:        set $cached=<bool>    defaults to false
+16509: 8.719:        set $filesize=<size>  defaults to 1073741824
+16509: 8.719:        set $iosize=<size>    defaults to 1048576
+16509: 8.719:        set $nthreads=<value> defaults to 1
+16509: 8.719:  
+16509: 8.719:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/5983-30AF
+filebench> set $filesize=10240000
+filebench> set $iosize=1024
+filebench> run 60
+16509: 68.805: Creating/pre-allocating files and filesets
+16509: 68.805: File largefile: 9.766MB
+16509: 68.807: Removed any existing file largefile in 1 seconds
+16509: 68.808: making tree for filset /media/daveti/5983-30AF/largefile
+16509: 68.808: Creating file largefile...
+16509: 68.829: Preallocated 1 of 1 of file largefile in 1 seconds
+16509: 68.829: waiting for fileset pre-allocation to finish
+ 6080: 68.829: Starting 1 filereader instances
+ 6081: 68.829: Starting 1 filereaderthread threads
+16509: 69.830: Running...
+16509: 129.833: Run took 60 seconds...
+16509: 129.833: Per-Operation Breakdown
+seqread-file         2435985ops    40597ops/s  39.6mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+16509: 129.833: IO Summary: 2435985 ops, 40597.454 ops/s, (40597/0 r/w),  39.6mb/s,     25us cpu/op,   0.0ms latency
+16509: 129.833: Shutting down processes
+You have new mail in /var/mail/root
+root@arpsec03:~# 
+
+Prov: 7323
+Bloc: 712
+
+
+

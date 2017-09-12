@@ -1,0 +1,24 @@
+
+quote_time.txt
+
+Average: 0.344028
+Min: 0.323647
+Max: 0.360209
+Standard deviation: 0.00609977
+Median: 0.347858
+
+getaik_time.txt
+
+Average: 0.0572435
+Min: 0.048220
+Max: 0.060491
+Standard deviation: 0.00521828
+Median: 0.0602725
+
+pcrread_time.txt
+
+Average: 0.0121877
+Min: 0.010633
+Max: 0.023199
+Standard deviation: 0.00170932
+Median: 0.011978

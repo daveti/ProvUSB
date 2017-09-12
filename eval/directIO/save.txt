@@ -1,0 +1,35 @@
+Loop: 100 (+1)
+
+W portion: 0
+blk: 16
+log: 56657
+
+W portion: 1
+blk: 5696
+log: 494216
+
+W portion: 2
+blk: 5696
+log: 777910
+
+W portion: 3
+blk: 5696
+log: 1350089
+
+W portion: 4
+blk: 5696
+log: 1557414
+
+W portion: 5
+blk: 5696
+log: 2041303
+
+W portion: 6
+
+W portion: 7
+
+W portion: 8
+
+W portion: 9
+
+W portion: 10

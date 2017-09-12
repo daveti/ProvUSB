@@ -1,0 +1,556 @@
+root@overo:~$  ls -l
+total 65644
+-rw-r--r-- 1 root root 67108864 Jan  1 00:04 daveti.img
+-rw-r--r-- 1 root root    37520 Jan  1 00:04 dmesg.out
+root@overo:~$  cat dmesg.out
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.5.7-custom (daveti@daveti.me) (gcc version 4.8.2 (GCC) ) #2 PREEMPT Wed Jul 2 104
+[    0.000000] CPU: ARMv7 Processor [413fc082] revision 2 (ARMv7), cr=10c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine: Gumstix Overo
+[    0.000000] Reserving 12582912 bytes SDRAM for VRAM
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] On node 0 totalpages: 127744
+[    0.000000] free_area_init_node: node 0, pgdat c06dec20, node_mem_map c077a000
+[    0.000000]   Normal zone: 1024 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 126720 pages, LIFO batch:31
+[    0.000000] OMAP3630 ES1.2 (l2cache neon isp 192mhz_clk )
+[    0.000000] Clocking rate (Crystal/Core/MPU): 26.0/400/600 MHz
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 126720
+[    0.000000] Kernel command line: console=ttyO2,115200n8 mpurate=500 vram=12M omapfb.mode=dvi:1024x768MR-16@6t
+[    0.000000] PID hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000000] Dentry cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Inode-cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] allocated 1048576 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] Memory: 499MB = 499MB total
+[    0.000000] Memory: 497756k/497756k available, 26532k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xe0800000 - 0xff000000   ( 488 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xe0000000   ( 512 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc064ac20   (6412 kB)
+[    0.000000]       .init : 0xc064b000 - 0xc0684930   ( 231 kB)
+[    0.000000]       .data : 0xc0686000 - 0xc06ee6d0   ( 418 kB)
+[    0.000000]        .bss : 0xc06ee6f4 - 0xc07793a0   ( 556 kB)
+[    0.000000] NR_IRQS:474
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts
+[    0.000000] Total of 96 interrupts on 1 active controller
+[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz
+[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+[    0.000000] OMAP clocksource: 32k_counter at 32768 Hz
+[    0.000000] Console: colour dummy device 80x30
+[    0.000213] Calibrating delay loop... 597.64 BogoMIPS (lpj=2334720)
+[    0.039123] pid_max: default: 32768 minimum: 301
+[    0.039306] Security Framework initialized
+[    0.039428] Mount-cache hash table entries: 512
+[    0.040130] Initializing cgroup subsys debug
+[    0.040161] Initializing cgroup subsys cpuacct
+[    0.040161] Initializing cgroup subsys memory
+[    0.040222] Initializing cgroup subsys devices
+[    0.040222] Initializing cgroup subsys freezer
+[    0.040252] Initializing cgroup subsys perf_event
+[    0.040344] CPU: Testing write buffer coherency: ok
+[    0.040618] Setting up static identity map for 0x8045bc30 - 0x8045bc88
+[    0.046295] devtmpfs: initialized
+[    0.050811] dummy: 
+[    0.051177] NET: Registered protocol family 16
+[    0.051544] GPMC revision 5.0
+[    0.051605] gpmc: irq-20 could not claim: err -22
+[    0.053039] gpiochip_add: registered GPIOs 0 to 31 on device: gpio
+[    0.053161] OMAP GPIO hardware version 2.5
+[    0.053375] gpiochip_add: registered GPIOs 32 to 63 on device: gpio
+[    0.053619] gpiochip_add: registered GPIOs 64 to 95 on device: gpio
+[    0.053894] gpiochip_add: registered GPIOs 96 to 127 on device: gpio
+[    0.054168] gpiochip_add: registered GPIOs 128 to 159 on device: gpio
+[    0.054412] gpiochip_add: registered GPIOs 160 to 191 on device: gpio
+[    0.055419] omap_mux_init: Add partition: #1: core, flags: 0
+[    0.060211] _omap_mux_get_by_name: Could not find signal uart4_rx.uart4_rx
+[    0.066009] Reprogramming SDRC clock to 400000000 Hz
+[    0.066040] dpll3_m2_clk rate change failed: -22
+[    0.066040] Found NAND on CS0
+[    0.066070] Registering NAND on CS0
+[    0.067291]  usbhs_omap: alias fck already exists
+[    0.074707] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.077545]  omap-mcbsp.2: alias fck already exists
+[    0.077758]  omap-mcbsp.3: alias fck already exists
+[    0.078796] Switched to new clocking rate (Crystal/Core/MPU): 26.0/400/500 MHz
+[    0.079010] OMAP DMA hardware revision 5.0
+[    0.088470] bio: create slab <bio-0> at 0
+[    0.089324] fixed-dummy: 
+[    0.089416] reg-fixed-voltage reg-fixed-voltage.0: fixed-dummy supplying 0uV
+[    0.089630] vads7846: override min_uV, 1 -> 3300000
+[    0.089660] vads7846: override max_uV, 2147483647 -> 3300000
+[    0.089660] vads7846: 3300 mV 
+[    0.089782] reg-fixed-voltage reg-fixed-voltage.1: vads7846 supplying 3300000uV
+[    0.090606] SCSI subsystem initialized
+[    0.090942] usbcore: registered new interface driver usbfs
+[    0.091064] usbcore: registered new interface driver hub
+[    0.091308] usbcore: registered new device driver usb
+[    0.091827] omap_i2c omap_i2c.1: bus 1 rev1.4.0 at 2600 kHz
+[    0.094848] twl 1-0048: PIH (irq 7) chaining IRQs 320..328
+[    0.095001] twl 1-0048: power (irq 325) chaining IRQs 328..335
+[    0.095672] twl4030_gpio twl4030_gpio: gpio (irq 320) chaining IRQs 336..353
+[    0.096038] gpiochip_add: registered GPIOs 192 to 211 on device: twl4030
+[    0.096954] VUSB1V5: override min_uV, 1 -> 1500000
+[    0.096954] VUSB1V5: override max_uV, 2147483647 -> 1500000
+[    0.096984] VUSB1V5: 1500 mV normal standby
+[    0.097503] VUSB1V8: override min_uV, 1 -> 1800000
+[    0.097534] VUSB1V8: override max_uV, 2147483647 -> 1800000
+[    0.097564] VUSB1V8: 1800 mV normal standby
+[    0.098052] VUSB3V1: override min_uV, 1 -> 3100000
+[    0.098083] VUSB3V1: override max_uV, 2147483647 -> 3100000
+[    0.098083] VUSB3V1: 3100 mV normal standby
+[    0.099792] twl4030_usb twl4030_usb: HW_CONDITIONS 0x10/16; link 0
+[    0.100036] twl4030_usb twl4030_usb: Initialized TWL4030 USB module
+[    0.100646] vdd_mpu_iva: 600 <--> 1450 mV normal 
+[    0.101165] vdd_core: 600 <--> 1450 mV normal 
+[    0.101806] VMMC1: 1850 <--> 3150 mV at 3150 mV normal standby
+[    0.102447] VDAC: 1800 mV normal standby
+[    0.103057] VDVI: 1800 mV normal standby
+[    0.117309] omap_i2c omap_i2c.3: bus 3 rev1.4.0 at 400 kHz
+[    0.118194] omap-iommu omap-iommu.0: isp registered
+[    0.118408] Advanced Linux Sound Architecture Driver Version 1.0.25.
+[    0.119445] Switching to clocksource 32k_counter
+[    0.151489] usbhs_omap usbhs_omap: xclk60mhsp2_ck set parentfailed error:-22
+[    0.152343] NET: Registered protocol family 2
+[    0.152679] IP route cache hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.153350] TCP established hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.153778] TCP bind hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.154022] TCP: Hash tables configured (established 16384 bind 16384)
+[    0.154022] TCP: reno registered
+[    0.154052] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.154083] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.154449] NET: Registered protocol family 1
+[    0.155059] RPC: Registered named UNIX socket transport module.
+[    0.155059] RPC: Registered udp transport module.
+[    0.155090] RPC: Registered tcp transport module.
+[    0.155090] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.157958] audit: initializing netlink socket (disabled)
+[    0.158050] type=2000 audit(0.148:1): initialized
+[    0.159851] VFS: Disk quotas dquot_6.5.2
+[    0.159973] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.160400] NFS: Registering the id_resolver key type
+[    0.160522] Key type id_resolver registered
+[    0.160522] Key type id_legacy registered
+[    0.161071] jffs2: version 2.2. (NAND) (SUMMARY)  ?© 2001-2006 Red Hat, Inc.
+[    0.161926] fuse init (API version 7.19)
+[    0.162506] msgmni has been set to 972
+[    0.164611] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    0.164611] io scheduler noop registered
+[    0.164642] io scheduler deadline registered (default)
+[    0.165557] OMAP DSS rev 2.0
+[    0.169342] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 72) is a OMAP UART0
+[    0.169860] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 73) is a OMAP UART1
+[    0.170379] omap_uart.2: ttyO2 at MMIO 0x49020000 (irq = 74) is a OMAP UART2
+[    0.860076] console [ttyO2] enabled
+[    0.864288] omap_uart.3: ttyO3 at MMIO 0x49042000 (irq = 80) is a OMAP UART3
+[    0.881805] brd: module loaded
+[    0.890228] loop: module loaded
+[    0.895751] twl4030_madc twl4030_madc: clk disabled, enabling
+[    0.904083] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xbc (Micron NAND 512MiB 1,8V 16-bit), page size: 24
+[    0.916687] Creating 5 MTD partitions on "omap2-nand.0":
+[    0.922302] 0x000000000000-0x000000080000 : "xloader"
+[    0.929595] 0x000000080000-0x000000240000 : "uboot"
+[    0.937744] 0x000000240000-0x000000280000 : "uboot environment"
+[    0.945495] 0x000000280000-0x000000a80000 : "linux"
+[    0.959838] 0x000000a80000-0x000020000000 : "rootfs"
+[    1.468231] smsc911x: Driver version 2008-10-21
+[    1.473602] smsc911x: Driver version 2008-10-21
+[    1.478851] usbcore: registered new interface driver kaweth
+[    1.484893] usbcore: registered new interface driver asix
+[    1.490692] usbcore: registered new interface driver cdc_ether
+[    1.496978] usbcore: registered new interface driver cdc_ncm
+[    1.503326] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.510253] ehci_hcd: block sizes: qh 64 qtd 96 itd 160 sitd 96
+[    1.510406] ehci-omap.0 supply hsusb1 not found, using dummy regulator
+[    2.518066] ehci-omap ehci-omap.0: phy reset operation timed out
+[    2.518096] ehci-omap ehci-omap.0: reset hcs_params 0x1313 dbg=0 cc=1 pcc=3 ordered ports=3
+[    2.518127] ehci-omap ehci-omap.0: reset hcc_params 0016 thresh 1 uframes 256/512/1024 park
+[    2.518157] ehci-omap ehci-omap.0: reset command 0080b02  park=3 ithresh=8 period=1024 Reset HALT
+[    2.518188] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+[    2.524475] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+[    2.532409] ehci-omap ehci-omap.0: park 0
+[    2.532470] ehci-omap ehci-omap.0: irq 77, io mem 0x48064800
+[    2.538482] ehci-omap ehci-omap.0: init command 0010005 (park)=0 ithresh=1 period=512 RUN
+[    2.549346] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+[    2.555541] usb usb1: default language 0x0409
+[    2.555603] usb usb1: udev 1, busnum 1, minor = 0
+[    2.555633] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    2.562805] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.570434] usb usb1: Product: OMAP-EHCI Host Controller
+[    2.576049] usb usb1: Manufacturer: Linux 3.5.7-custom ehci_hcd
+[    2.582305] usb usb1: SerialNumber: ehci-omap.0
+[    2.587738] usb usb1: usb_probe_device
+[    2.587768] usb usb1: configuration #1 chosen from 1 choice
+[    2.587829] usb usb1: adding 1-0:1.0 (config #1, interface 0)
+[    2.588012] hub 1-0:1.0: usb_probe_interface
+[    2.588043] hub 1-0:1.0: usb_probe_interface - got id
+[    2.588073] hub 1-0:1.0: USB hub found
+[    2.592102] hub 1-0:1.0: 3 ports detected
+[    2.596343] hub 1-0:1.0: standalone hub
+[    2.596374] hub 1-0:1.0: individual port power switching
+[    2.596374] hub 1-0:1.0: individual port over-current protection
+[    2.596405] hub 1-0:1.0: power on to power good time: 20ms
+[    2.596435] hub 1-0:1.0: local power source is good
+[    2.596466] hub 1-0:1.0: enabling power on all ports
+[    2.596801] ehci-omap ehci-omap.0: ...powerup ports...
+[    2.627563] Initializing USB Mass Storage driver...
+[    2.632843] usbcore: registered new interface driver usb-storage
+[    2.639190] USB Mass Storage support registered.
+[    2.644073] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
+[    2.656951] twl4030_usb twl4030_usb: twl4030_phy_resume
+[    2.657226] musb-hdrc: ConfigData=0xde (UTMI-8, dyn FIFOs, bulk combine, bulk split, HB-ISO Rx, HB-ISO Tx, S)
+[    2.657226] musb-hdrc: MHDRC RTL version 1.800 
+[    2.657257] musb-hdrc: setup fifo_mode 4
+[    2.657287] musb-hdrc: 28/31 max ep, 16384/16384 memory
+[    2.657836] musb-hdrc musb-hdrc: USB OTG mode controller at fa0ab000 using DMA, IRQ 92
+[    2.668304] twl4030_usb twl4030_usb: twl4030_phy_suspend
+[    2.668945] mousedev: PS/2 mouse device common for all mice
+[    2.675537] twl_rtc twl_rtc: Power up reset detected.
+[    2.681030] twl_rtc twl_rtc: Enabling TWL-RTC
+[    2.688537] twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0
+[    2.695678] i2c /dev entries driver
+[    2.699493] hub 1-0:1.0: state 7 ports 3 chg 0000 evt 0000
+[    2.701385] voltdm_scale: No voltage scale API registered for vdd_mpu_iva
+[    2.708587] platform mpu.0: omap_target: unable to scale voltage up.
+[    2.715332] cpuidle: using governor ladder
+[    2.719635] cpuidle: using governor menu
+[    2.724365] omap_hsmmc omap_hsmmc.0: Failed to get debounce clk
+[    2.730834] omap_hsmmc.0 supply vmmc_aux not found, using dummy regulator
+[    3.112121] omap_hsmmc omap_hsmmc.1: Failed to get debounce clk
+[    3.118438] omap_hsmmc.1 supply vmmc not found, using dummy regulator
+[    3.126617] omap_hsmmc.1 supply vmmc_aux not found, using dummy regulator
+[    3.136322] omap_hsmmc omap_hsmmc.1: could not set regulator OCR (-22)
+[    3.143493] omap_hsmmc omap_hsmmc.1: could not set regulator OCR (-22)
+[    3.190490] Registered led device: overo:red:gpio21
+[    3.190643] Registered led device: overo:blue:gpio22
+[    3.191436] Registered led device: overo:blue:COM
+[    3.193328] usbcore: registered new interface driver usbhid
+[    3.199371] usbhid: USB HID core driver
+[    3.204559] usbcore: registered new interface driver snd-usb-audio
+[    3.212677] overo SoC init
+[    3.215759] soc-audio soc-audio: ASoC machine overo should use snd_soc_register_card()
+[    3.255493] mmc0: host does not support reading read-only switch. assuming write-enable.
+[    3.266693] mmc0: new high speed SDHC card at address b368
+[    3.273254] mmcblk0: mmc0:b368 USD   7.45 GiB 
+[    3.279754]  mmcblk0: p1 p2
+[    3.309936] twl4030-codec twl4030-codec: ASoC: Failed to create Capture debugfs file
+[    3.319122] mmc1: new SDIO card at address 0001
+[    3.328002] asoc: twl4030-hifi <-> omap-mcbsp.2 mapping ok
+[    3.338989] oprofile: hardware counters not available
+[    3.344329] oprofile: using timer interrupt.
+[    3.349334] TCP: cubic registered
+[    3.352813] NET: Registered protocol family 17
+[    3.357604] NET: Registered protocol family 15
+[    3.362487] Key type dns_resolver registered
+[    3.367156] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 3
+[    3.380889] ThumbEE CPU extension supported.
+[    3.385528] sr_init: No PMIC hook to init smartreflex
+[    3.391052] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized
+[    3.399475] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized
+[    3.415679] clock: disabling unused clocks to save power
+[    3.422454] registered taskstats version 1
+[    3.427825] fbcvt: 1024x768@60: CVT Name - .786M3-R
+[    3.454132] Console: switching to colour frame buffer device 128x48
+[    3.475921] VDAC: incomplete constraints, leaving on
+[    3.483459] twl_rtc twl_rtc: setting system clock to 2000-01-01 00:00:11 UTC (946684811)
+[    3.492126] ALSA device list:
+[    3.495269]   #0: overo
+[    3.504638] kjournald starting.  Commit interval 5 seconds
+[    3.515869] EXT3-fs (mmcblk0p2): using internal journal
+[    3.521453] EXT3-fs (mmcblk0p2): mounted filesystem with writeback data mode
+[    3.528961] VFS: Mounted root (ext3 filesystem) on device 179:2.
+[    3.537811] devtmpfs: mounted
+[    3.541412] Freeing init memory: 228K
+[    3.797973] systemd[1]: systemd 211 running in system mode. (+PAM +LIBWRAP -AUDIT -SELINUX +IMA +SYSVINIT -L)
+[    3.813446] systemd[1]: Detected architecture 'arm'.
+[    4.244720] NET: Registered protocol family 10
+[    4.252777] systemd[1]: Inserted module 'ipv6'
+[    4.261322] systemd[1]: Set hostname to <overo>.
+[    4.273101] systemd[1]: Initializing machine ID from random generator.
+[    4.688110] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    4.697052] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    4.705261] systemd[1]: Expecting device dev-ttyGS0.device...
+[    4.729675] systemd[1]: Expecting device dev-ttyO2.device...
+[    4.753051] systemd[1]: Starting Remote File Systems.
+[    4.776397] systemd[1]: Reached target Remote File Systems.
+[    4.782531] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[    4.791442] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    4.799957] systemd[1]: Starting Paths.
+[    4.823333] systemd[1]: Reached target Paths.
+[    4.828216] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    4.862426] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    4.872497] systemd[1]: Starting Swap.
+[    4.893646] systemd[1]: Reached target Swap.
+[    4.898284] systemd[1]: Starting Root Slice.
+[    4.956085] systemd[1]: Created slice Root Slice.
+[    4.961273] systemd[1]: Starting Journal Socket.
+[    4.979492] systemd[1]: Listening on Journal Socket.
+[    4.985015] systemd[1]: Starting udev Kernel Socket.
+[    5.010620] hub 1-0:1.0: hub_suspend
+[    5.010650] usb usb1: bus auto-suspend, wakeup 1
+[    5.010681] ehci-omap ehci-omap.0: suspend root hub
+[    5.011169] systemd[1]: Listening on udev Kernel Socket.
+[    5.016967] systemd[1]: Starting udev Control Socket.
+[    5.042083] systemd[1]: Listening on udev Control Socket.
+[    5.047943] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[    5.073333] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    5.080871] systemd[1]: Starting Delayed Shutdown Socket.
+[    5.104583] systemd[1]: Listening on Delayed Shutdown Socket.
+[    5.110778] systemd[1]: Starting Syslog Socket.
+[    5.135833] systemd[1]: Listening on Syslog Socket.
+[    5.141113] systemd[1]: Starting User and Session Slice.
+[    5.167144] systemd[1]: Created slice User and Session Slice.
+[    5.173400] systemd[1]: Starting System Slice.
+[    5.198425] systemd[1]: Created slice System Slice.
+[    5.209075] systemd[1]: Started Set Up Additional Binary Formats.
+[    5.215698] systemd[1]: Starting Journal Service...
+[    5.248382] systemd[1]: Started Journal Service.
+[    7.612243] systemd-udevd[85]: starting version 211
+[    8.015136] systemd-journald[61]: Received request to flush runtime journal from PID 1
+[    8.387115] Linux media interface: v0.10
+[    8.470306] ads7846 spi1.0: touchscreen, irq 210
+[    8.531005] ads7846 spi1.0: no device detected, test read result was 0x00000FFF
+[    8.703063] Linux video capture interface: v2.00
+[    8.763397] lib80211: common routines for IEEE802.11 drivers
+[    8.979736] lib80211_crypt: registered algorithm 'NULL'
+[    9.642364] omap3isp supply VDD_CSIPHY1 not found, using dummy regulator
+[    9.829620] omap3isp supply VDD_CSIPHY2 not found, using dummy regulator
+[    9.877044] cfg80211: Calling CRDA to update world regulatory domain
+[    9.963684] omap3isp omap3isp: Revision 15.0 found
+[   10.077301] omap-iommu omap-iommu.0: isp: version 1.1
+[   10.272949] mt9v032 3-005c: Probing MT9V032 at address 0x5c
+[   10.316680] mt9v032 3-005c: MT9V032 power up failed
+[   10.322082] isp_register_subdev_group: Unable to register subdev mt9v032
+[   10.358673] libertas_sdio: Libertas SDIO driver
+[   10.511657] libertas_sdio: Copyright Pierre Ossman
+[   11.902130] libertas_sdio mmc1:0001:1: (unregistered net_device): 00:19:88:45:d2:4d, fw 9.70.20p0, cap 0x0003
+[   11.932006] libertas_sdio mmc1:0001:1: wlan0: Marvell WLAN 802.11 adapter
+[   17.228393] SysRq : HELP : loglevel(0-9) reBoot Crash terminate-all-tasks(E) memory-full-oom-kill(F) kill-al 
+[   17.412261] SysRq : HELP : loglevel(0-9) reBoot Crash terminate-all-tasks(E) memory-full-oom-kill(F) kill-al 
+[  215.081665] twl4030_usb twl4030_usb: HW_CONDITIONS 0x90/144; link 1
+[  215.087219] twl4030_usb twl4030_usb: twl4030_phy_resume
+[  247.435455] udc musb-hdrc: registering UDC driver [g_mass_storage]
+[  247.435516]  gadget: adding config #1 'Trusted Linux File-Backed Storage'/bf13e968
+[  247.435546] daveti: trusted-dev fsg_common_init
+[  247.449615]  lun0: open backing file: /home/root/daveti.img
+[  247.451843]  gadget: Mass Storage Function, version: 2009/09/11
+[  247.463653]  gadget: Number of LUNs=1
+[  247.467529]  lun0: LUN: removable file: /home/root/daveti.img
+[  247.478698]  gadget: I/O thread pid: 171
+[  247.478759]  gadget: adding 'Mass Storage Function'/de7e76c0 to config 'Trusted Linux File-Backed Storage'/b8
+[  247.478820]  gadget: cfg 1/bf13e968 speeds: high full
+[  247.478820]  gadget:   interface 0 = Mass Storage Function/de7e76c0
+[  247.478851]  gadget: Trusted Mass Storage Gadget, version: 2014/04/30
+[  247.490386]  gadget: userspace failed to provide iSerialNumber
+[  247.502655]  gadget: g_mass_storage ready
+[  247.506988] musb-hdrc musb-hdrc: MUSB HDRC host driver
+[  247.527740] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 2
+[  247.539306] musb-hdrc musb-hdrc: supports USB remote wakeup
+[  247.539428] usb usb2: default language 0x0409
+[  247.539489] usb usb2: udev 1, busnum 2, minor = 128
+[  247.539520] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[  247.552429] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[  247.566558] usb usb2: Product: MUSB HDRC host driver
+[  247.571807] usb usb2: Manufacturer: Linux 3.5.7-custom musb-hcd
+[  247.586090] usb usb2: SerialNumber: musb-hdrc
+[  247.599792] usb usb2: usb_probe_device
+[  247.599822] usb usb2: configuration #1 chosen from 1 choice
+[  247.599914] usb usb2: adding 2-0:1.0 (config #1, interface 0)
+[  247.600158] hub 2-0:1.0: usb_probe_interface
+[  247.600189] hub 2-0:1.0: usb_probe_interface - got id
+[  247.600219] hub 2-0:1.0: USB hub found
+[  247.616851] hub 2-0:1.0: 1 port detected
+[  247.626556] hub 2-0:1.0: standalone hub
+[  247.626586] hub 2-0:1.0: individual port power switching
+[  247.626617] hub 2-0:1.0: no over-current protection
+[  247.626617] hub 2-0:1.0: Single TT
+[  247.626647] hub 2-0:1.0: TT requires at most 8 FS bit times (666 ns)
+[  247.626647] hub 2-0:1.0: power on to power good time: 10ms
+[  247.626708] hub 2-0:1.0: 100mA bus power budget for each child
+[  247.626739] hub 2-0:1.0: local power source is good
+[  247.626739] hub 2-0:1.0: enabling power on all ports
+[  247.721557] hub 2-0:1.0: state 7 ports 1 chg 0000 evt 0000
+[  248.051269]  gadget: high-speed config #1: Trusted Linux File-Backed Storage
+[  248.058746]  gadget: set_config: interface 0 (Mass Storage Function) requested delayed status
+[  248.058746]  gadget: delayed_status count 1
+[  248.058898]  gadget: usb_composite_setup_continue
+[  248.058898]  gadget: usb_composite_setup_continue: Completing delayed status
+[  249.110137] daveti: enter [fsg_setup]
+[  249.114013] daveti: ep0-setup ctrl req len [8]
+[  249.118682] 00000000: a1 fe 00 00 00 00 01 00
+[  249.123260] daveti: class-specific control req [a1.fe v0000 i0000 l1]
+[  249.130035] daveti: got BULK_get_max_lun
+[  249.134307] daveti: enter [fsg_setup]
+[  249.138153] daveti: ep0-setup ctrl req len [8]
+[  249.142822] 00000000: a1 00 00 00 00 00 01 00
+[  249.147430] daveti: class-specific control req [a1.00 v0000 i0000 l1]
+[  249.154174] daveti: got the damn ADSC
+[  249.163391]  gadget: sending command-failure status
+[  249.168304]  gadget: bulk-in set halt
+[  249.169372]  gadget: bulk-in set halt
+[  249.172180]  gadget: bulk-in set halt
+[  249.173187]  gadget: bulk-in set halt
+[  249.174804] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[  249.191284]  gadget: bulk-in set halt
+[  249.192504]  gadget: bulk-in set halt
+[  249.300750] daveti: trusted-dev do_read, lba[130944], file_offset[67043328], amount[4096]
+[  249.313293] daveti: trusted-dev do_read, lba[131056], file_offset[67100672], amount[4096]
+[  249.325805] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[  249.337097] daveti: trusted-dev do_read, lba[8], file_offset[4096], amount[4096]
+[  249.348937] daveti: trusted-dev do_read, lba[131064], file_offset[67104768], amount[512]
+[  249.361022] daveti: trusted-dev do_read, lba[131065], file_offset[67105280], amount[512]
+[  249.373107] daveti: trusted-dev do_read, lba[131066], file_offset[67105792], amount[512]
+[  249.385131] daveti: trusted-dev do_read, lba[131067], file_offset[67106304], amount[512]
+[  249.397155] daveti: trusted-dev do_read, lba[131068], file_offset[67106816], amount[512]
+[  249.409149] daveti: trusted-dev do_read, lba[131069], file_offset[67107328], amount[512]
+[  249.421142] daveti: trusted-dev do_read, lba[131070], file_offset[67107840], amount[512]
+[  249.433258] daveti: trusted-dev do_read, lba[131071], file_offset[67108352], amount[512]
+[  249.445251] daveti: trusted-dev do_read, lba[130808], file_offset[66973696], amount[4096]
+[  249.457855] daveti: trusted-dev do_read, lba[131008], file_offset[67076096], amount[4096]
+[  249.470306] daveti: trusted-dev do_read, lba[130816], file_offset[66977792], amount[4096]
+[  249.482696] daveti: trusted-dev do_read, lba[130672], file_offset[66904064], amount[4096]
+[  249.495147] daveti: trusted-dev do_read, lba[130480], file_offset[66805760], amount[4096]
+[  249.507537] daveti: trusted-dev do_read, lba[130392], file_offset[66760704], amount[4096]
+[  249.520050] daveti: trusted-dev do_read, lba[130336], file_offset[66732032], amount[4096]
+[  249.532470] daveti: trusted-dev do_read, lba[130160], file_offset[66641920], amount[4096]
+[  249.545043] daveti: trusted-dev do_read, lba[130096], file_offset[66609152], amount[4096]
+[  249.557739] daveti: trusted-dev do_read, lba[130080], file_offset[66600960], amount[4096]
+[  249.570190] daveti: trusted-dev do_read, lba[130120], file_offset[66621440], amount[4096]
+[  249.582702] daveti: trusted-dev do_read, lba[127984], file_offset[65527808], amount[4096]
+[  249.595214] daveti: trusted-dev do_read, lba[2048], file_offset[1048576], amount[4096]
+[  249.607452] daveti: trusted-dev do_read, lba[256], file_offset[131072], amount[20480]
+[  249.620300] daveti: trusted-dev do_read, lba[24], file_offset[12288], amount[4096]
+[  249.632080] daveti: trusted-dev do_read, lba[56], file_offset[28672], amount[4096]
+[  249.644042] daveti: trusted-dev do_read, lba[120], file_offset[61440], amount[4096]
+[  249.655914] daveti: trusted-dev do_read, lba[16], file_offset[8192], amount[4096]
+[  249.667694] daveti: trusted-dev do_read, lba[128], file_offset[65536], amount[4096]
+[  249.679595] daveti: trusted-dev do_read, lba[64], file_offset[32768], amount[4096]
+[  249.691497] daveti: trusted-dev do_read, lba[296], file_offset[151552], amount[4096]
+[  249.703460] daveti: trusted-dev do_read, lba[304], file_offset[155648], amount[4096]
+[  249.715515] daveti: trusted-dev do_read, lba[312], file_offset[159744], amount[4096]
+[  249.727478] daveti: trusted-dev do_read, lba[320], file_offset[163840], amount[4096]
+[  249.739624] daveti: trusted-dev do_read, lba[328], file_offset[167936], amount[4096]
+[  249.751586] daveti: trusted-dev do_read, lba[336], file_offset[172032], amount[4096]
+[  249.763610] daveti: trusted-dev do_read, lba[344], file_offset[176128], amount[4096]
+[  249.775604] daveti: trusted-dev do_read, lba[352], file_offset[180224], amount[4096]
+[  249.787567] daveti: trusted-dev do_read, lba[360], file_offset[184320], amount[4096]
+[  249.799591] daveti: trusted-dev do_read, lba[368], file_offset[188416], amount[4096]
+[  249.811553] daveti: trusted-dev do_read, lba[376], file_offset[192512], amount[4096]
+[  249.823791] daveti: trusted-dev do_read, lba[384], file_offset[196608], amount[4096]
+[  249.835815] daveti: trusted-dev do_read, lba[392], file_offset[200704], amount[4096]
+[  249.847869] daveti: trusted-dev do_read, lba[400], file_offset[204800], amount[4096]
+[  249.859832] daveti: trusted-dev do_read, lba[408], file_offset[208896], amount[4096]
+[  249.871948] daveti: trusted-dev do_read, lba[416], file_offset[212992], amount[4096]
+[  249.883911] daveti: trusted-dev do_read, lba[424], file_offset[217088], amount[4096]
+[  249.895935] daveti: trusted-dev do_read, lba[432], file_offset[221184], amount[4096]
+[  249.907928] daveti: trusted-dev do_read, lba[440], file_offset[225280], amount[4096]
+[  249.919952] daveti: trusted-dev do_read, lba[448], file_offset[229376], amount[4096]
+[  249.931945] daveti: trusted-dev do_read, lba[456], file_offset[233472], amount[4096]
+[  249.943939] daveti: trusted-dev do_read, lba[464], file_offset[237568], amount[4096]
+[  249.955963] daveti: trusted-dev do_read, lba[472], file_offset[241664], amount[4096]
+[  249.967864] daveti: trusted-dev do_read, lba[480], file_offset[245760], amount[4096]
+[  249.979919] daveti: trusted-dev do_read, lba[488], file_offset[249856], amount[4096]
+[  249.991912] daveti: trusted-dev do_read, lba[496], file_offset[253952], amount[4096]
+[  250.004058] daveti: trusted-dev do_read, lba[504], file_offset[258048], amount[4096]
+[  250.015136] hub 2-0:1.0: hub_suspend
+[  250.015197] usb usb2: bus auto-suspend, wakeup 1
+[  250.016174] daveti: trusted-dev do_read, lba[768], file_offset[393216], amount[4096]
+[  250.028808] daveti: trusted-dev do_read, lba[776], file_offset[397312], amount[4096]
+[  250.046600] daveti: trusted-dev do_read, lba[784], file_offset[401408], amount[4096]
+[  250.058715] daveti: trusted-dev do_read, lba[792], file_offset[405504], amount[4096]
+[  250.070678] daveti: trusted-dev do_read, lba[800], file_offset[409600], amount[4096]
+[  250.082794] daveti: trusted-dev do_read, lba[808], file_offset[413696], amount[4096]
+[  250.094757] daveti: trusted-dev do_read, lba[816], file_offset[417792], amount[4096]
+[  250.106811] daveti: trusted-dev do_read, lba[824], file_offset[421888], amount[4096]
+[  250.118835] daveti: trusted-dev do_read, lba[832], file_offset[425984], amount[4096]
+[  250.130889] daveti: trusted-dev do_read, lba[840], file_offset[430080], amount[4096]
+[  250.142944] daveti: trusted-dev do_read, lba[848], file_offset[434176], amount[4096]
+[  250.155059] daveti: trusted-dev do_read, lba[856], file_offset[438272], amount[4096]
+[  250.167358] daveti: trusted-dev do_read, lba[864], file_offset[442368], amount[4096]
+[  250.179290] daveti: trusted-dev do_read, lba[872], file_offset[446464], amount[4096]
+[  250.191436] daveti: trusted-dev do_read, lba[880], file_offset[450560], amount[4096]
+[  250.203430] daveti: trusted-dev do_read, lba[888], file_offset[454656], amount[4096]
+[  250.215545] daveti: trusted-dev do_read, lba[896], file_offset[458752], amount[4096]
+[  250.227569] daveti: trusted-dev do_read, lba[904], file_offset[462848], amount[4096]
+[  250.239685] daveti: trusted-dev do_read, lba[912], file_offset[466944], amount[4096]
+[  250.251678] daveti: trusted-dev do_read, lba[920], file_offset[471040], amount[4096]
+[  250.263732] daveti: trusted-dev do_read, lba[928], file_offset[475136], amount[4096]
+[  250.275726] daveti: trusted-dev do_read, lba[936], file_offset[479232], amount[4096]
+[  250.287811] daveti: trusted-dev do_read, lba[944], file_offset[483328], amount[4096]
+[  250.299804] daveti: trusted-dev do_read, lba[952], file_offset[487424], amount[4096]
+[  250.311798] daveti: trusted-dev do_read, lba[960], file_offset[491520], amount[4096]
+[  250.323913] daveti: trusted-dev do_read, lba[968], file_offset[495616], amount[4096]
+[  250.336059] daveti: trusted-dev do_read, lba[976], file_offset[499712], amount[4096]
+[  250.348175] daveti: trusted-dev do_read, lba[984], file_offset[503808], amount[4096]
+[  250.360168] daveti: trusted-dev do_read, lba[992], file_offset[507904], amount[4096]
+[  250.372314] daveti: trusted-dev do_read, lba[1000], file_offset[512000], amount[4096]
+[  250.384429] daveti: trusted-dev do_read, lba[1008], file_offset[516096], amount[4096]
+[  250.396575] daveti: trusted-dev do_read, lba[1016], file_offset[520192], amount[4096]
+[  250.408782] daveti: trusted-dev do_read, lba[512], file_offset[262144], amount[4096]
+[  250.420806] daveti: trusted-dev do_read, lba[32], file_offset[16384], amount[4096]
+[  250.432830] daveti: trusted-dev do_read, lba[4096], file_offset[2097152], amount[4096]
+[  250.623565] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[512]
+[  250.666687] daveti: trusted-dev do_read, lba[257], file_offset[131584], amount[512]
+[  250.678558] daveti: trusted-dev do_read, lba[258], file_offset[132096], amount[512]
+[  250.690063] daveti: trusted-dev do_read, lba[259], file_offset[132608], amount[512]
+[  250.701660] daveti: trusted-dev do_read, lba[260], file_offset[133120], amount[512]
+[  250.713287] daveti: trusted-dev do_read, lba[261], file_offset[133632], amount[512]
+[  250.725036] daveti: trusted-dev do_read, lba[262], file_offset[134144], amount[512]
+[  250.736633] daveti: trusted-dev do_read, lba[263], file_offset[134656], amount[512]
+[  250.748291] daveti: trusted-dev do_read, lba[264], file_offset[135168], amount[512]
+[  250.759887] daveti: trusted-dev do_read, lba[265], file_offset[135680], amount[512]
+[  250.771545] daveti: trusted-dev do_read, lba[266], file_offset[136192], amount[512]
+[  250.783142] daveti: trusted-dev do_read, lba[267], file_offset[136704], amount[512]
+[  250.794799] daveti: trusted-dev do_read, lba[268], file_offset[137216], amount[512]
+[  250.806427] daveti: trusted-dev do_read, lba[269], file_offset[137728], amount[512]
+[  250.818145] daveti: trusted-dev do_read, lba[270], file_offset[138240], amount[512]
+[  250.829956] daveti: trusted-dev do_read, lba[271], file_offset[138752], amount[512]
+[  250.841644] daveti: trusted-dev do_read, lba[272], file_offset[139264], amount[512]
+[  250.853302] daveti: trusted-dev do_read, lba[273], file_offset[139776], amount[512]
+[  250.864990] daveti: trusted-dev do_read, lba[274], file_offset[140288], amount[512]
+[  250.876617] daveti: trusted-dev do_read, lba[275], file_offset[140800], amount[512]
+[  250.888275] daveti: trusted-dev do_read, lba[276], file_offset[141312], amount[512]
+[  250.899902] daveti: trusted-dev do_read, lba[277], file_offset[141824], amount[512]
+[  250.911560] daveti: trusted-dev do_read, lba[278], file_offset[142336], amount[512]
+[  250.923248] daveti: trusted-dev do_read, lba[279], file_offset[142848], amount[512]
+[  250.934936] daveti: trusted-dev do_read, lba[280], file_offset[143360], amount[512]
+[  250.946624] daveti: trusted-dev do_read, lba[281], file_offset[143872], amount[512]
+[  250.958312] daveti: trusted-dev do_read, lba[282], file_offset[144384], amount[512]
+[  250.969909] daveti: trusted-dev do_read, lba[283], file_offset[144896], amount[512]
+[  250.981628] daveti: trusted-dev do_read, lba[284], file_offset[145408], amount[512]
+[  250.993286] daveti: trusted-dev do_read, lba[285], file_offset[145920], amount[512]
+[  251.005249] daveti: trusted-dev do_read, lba[286], file_offset[146432], amount[512]
+[  251.017028] daveti: trusted-dev do_read, lba[287], file_offset[146944], amount[512]
+[  251.028778] daveti: trusted-dev do_read, lba[288], file_offset[147456], amount[512]
+[  251.040405] daveti: trusted-dev do_write, lba[0], file_offset[0], amount[512]
+[  251.145599] daveti: trusted-dev do_read, lba[1], file_offset[512], amount[512]
+[  251.156890] daveti: trusted-dev do_read, lba[2], file_offset[1024], amount[512]
+[  251.168304] daveti: trusted-dev do_read, lba[3], file_offset[1536], amount[64512]
+[  277.049072] g_mass_storage musb-hdrc: unregistering UDC driver [musb-hdrc]
+[  277.059783]  gadget: reset config
+[  277.059875]  gadget: bulk_out_complete --> -104, 0/31
+[  277.059906]  gadget: reset interface
+[  277.059997]  gadget: unbind function 'Mass Storage Function'/de7e76c0
+[  277.059997]  gadget: unbind
+[  277.060180]  lun0: close backing file
+[  277.060333] musb-hdrc musb-hdrc: remove, state 4
+[  277.075073] musb-hdrc musb-hdrc: roothub graceful disconnect
+[  277.075134] usb usb2: USB disconnect, device number 1
+[  277.080444] usb usb2: unregistering device
+[  277.080474] usb usb2: unregistering interface 2-0:1.0
+[  277.090789] usb usb2: usb_disable_device nuking all URBs
+[  277.091461] musb-hdrc musb-hdrc: USB bus 2 deregistered
+[  277.109588] twl4030_usb twl4030_usb: twl4030_phy_suspend
+root@overo:~$  
+   Meta-Z for help |115200 8N1 | NOR | Minicom 2.6.1  | VT102 |      Offline                                   
+

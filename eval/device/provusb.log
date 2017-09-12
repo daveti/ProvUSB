@@ -1,0 +1,42 @@
+#1
+[  476.541049] usb 3-4: new high-speed USB device number 3 using xhci_hcd
+[  476.557421] provusb-perf: new device plugged
+[  476.558256] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  476.558260] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  476.558263] usb 3-4: Product: Trusted Mass Storage Gadget
+[  476.558265] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  476.589312] daveti2: netlink socket created in USB storage
+[  476.589316] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  476.589347] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  476.589382] scsi6 : usb-storage 3-4:1.0
+[  476.589482] provusb-perf: new device starts to work
+[  476.589609] usbcore: registered new interface driver usb-storage
+[  476.591567] daveti2: netlink received msg opcode [0]
+[  476.591569] daveti2: tpmd pid [3317]
+[  476.591571] daveti2: sent hello msg to tpmd
+[  476.591625] daveti2: netlink received msg opcode [3]
+[  477.618454] daveti2: trusted dev UT mode [0]
+[  477.618459] daveti2: into [usb_stor_Ctrl_get_nonce]
+[  477.646951] daveti2: TPM ATT init with rtn [23]
+[  477.646951] Dump the TPM ATT init:
+[  477.646964] daveti2: sending the nonce with rtn [0]
+[  477.983137] daveti2: netlink received msg opcode [2]
+[  477.983141] daveti2: TPM quote store is ready to go
+[  477.983175] daveti2: into [usb_stor_Ctrl_send_adsc], data_len [284]
+[  478.016388] daveti2: ADSC send with rtn [284]
+[  478.016393] daveti2: into [usb_stor_Ctrl_send_adsc], data_len [304]
+[  478.470619] daveti2: ADSC send with rtn [304]
+[  478.470623] provusb-perf: TPM attestation took [851439] us
+[  478.470624] daveti2: Dump the TPM AIK pub key:
+[  478.470625] daveti2: Dump the TPM ATT quote:
+[  478.470627] daveti2: delay the scan with [1000] ms
+[  479.471553] provusb-perf: scan done
+[  479.472063] scsi 6:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  479.472336] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[  479.476130] sd 6:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  479.476582] sd 6:0:0:0: [sdb] Write Protect is off
+[  479.476588] sd 6:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  479.478154] sd 6:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  479.491678]  sdb:
+[  479.501184] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+

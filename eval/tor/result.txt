@@ -1,0 +1,14 @@
+# Points given by web.basemark.com
+# tor bundle verion: linux64, 5.0.7, en-US
+# tor bundle size: 151.6MB
+# number of items: 2276
+
+kingston2g:
+2627
+
+sandisk16g:
+2633
+
+provusb:
+2436
+log: 80935

@@ -1,0 +1,46 @@
+# 1K
+
+# 10K
+
+# 100K
+
+# 1M
+
+# 10M
+
+# 100M
+root@arpsec03:~# filebench
+Filebench Version 1.4.9.1
+24674: 0.000: Allocated 170MB of shared memory
+filebench> load filemicro_seqwrite
+24674: 6.354: FileMicro-SeqWrite Version 2.2 personality successfully loaded
+24674: 6.354: Usage: set $dir=<dir>
+24674: 6.354:        set $cached=<bool>    defaults to false
+24674: 6.354:        set $count=<value>    defaults to 1024
+24674: 6.354:        set $iosize=<size>    defaults to 1048576
+24674: 6.354:        set $nthreads=<value> defaults to 1
+24674: 6.354:        set $sync=<bool>      defaults to false
+24674: 6.354:  
+24674: 6.354:        run runtime (e.g. run 60)
+filebench> set $dir=/media/daveti/386D-46CC
+filebench> set $count=100000
+filebench> set $iosize=1024
+filebench> run 60
+24674: 132.624: Creating/pre-allocating files and filesets
+24674: 132.624: File bigfile: 0.000MB
+24674: 132.627: Removed any existing file bigfile in 1 seconds
+24674: 132.627: making tree for filset /media/daveti/386D-46CC/bigfile
+24674: 132.627: Creating file bigfile...
+24674: 132.628: Preallocated 1 of 1 of file bigfile in 1 seconds
+24674: 132.628: waiting for fileset pre-allocation to finish
+24685: 132.628: Starting 1 filewriter instances
+24686: 132.629: Starting 1 filewriterthread threads
+24674: 133.630: Running...
+24674: 136.630: Run took 3 seconds...
+24674: 136.630: Per-Operation Breakdown
+finish               1ops        0ops/s   0.0mb/s      0.0ms/op        0us/op-cpu [0ms - 0ms]
+write-file           100001ops    33331ops/s  32.3mb/s      0.0ms/op       12us/op-cpu [0ms - 0ms]
+24674: 136.630: IO Summary: 100001 ops, 33330.967 ops/s, (0/33331 r/w),  32.3mb/s,     27us cpu/op,   0.0ms latency
+24674: 136.630: Shutting down processes
+root@arpsec03:~# 
+

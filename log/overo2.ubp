@@ -1,0 +1,943 @@
+Welcome to minicom 2.6.1
+
+OPTIONS: 
+Compiled on Nov  4 2013, 21:48:22.
+Port /dev/tty.usbserial-A80091Pr
+
+Press Meta-Z for help on special keys
+
+?t?
+U-Boot SPL 2014.01 (Jul 01 2014 - 01:23:23)
+reading u-boot.img
+reading u-boot.img
+
+
+U-Boot 2014.01 (Jul 01 2014 - 01:23:23)
+
+OMAP3530-GP ES3.1, CPU-OPP2, L3-165MHz, Max CPU Clock 600 MHz
+Gumstix Overo board + LPDDR/NAND
+I2C:   ready
+DRAM:  256 MiB
+NAND:  256 MiB
+MMC:   OMAP SD/MMC: 0
+*** Warning - bad CRC, using default environment
+
+In:    serial
+Out:   serial
+Err:   serial
+Board revision: 0
+Tranceiver detected on mmc2
+No EEPROM on expansion board
+Die ID #086400040000000004035c141800f004
+Net:   No ethernet found.
+Hit any key to stop autoboot:  0 
+mmc0 is current device
+reading boot.scr
+** Unable to read file boot.scr **
+reading uEnv.txt
+** Unable to read file uEnv.txt **
+reading uImage
+3479320 bytes read in 267 ms (12.4 MiB/s)
+Booting from mmc ...
+## Booting kernel from Legacy Image at 82000000 ...
+   Image Name:   Linux-3.5.7-custom
+   Image Type:   ARM Linux Kernel Image (uncompressed)
+   Data Size:    3479256 Bytes = 3.3 MiB
+   Load Address: 80008000
+   Entry Point:  80008000
+   Verifying Checksum ... OK
+   Loading Kernel Image ... OK
+
+Starting kernel ...
+
+Uncompressing Linux... done, booting the kernel.
+[    0.000000] Booting Linux on physical CPU 0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Linux version 3.5.7-custom (daveti@daveti.me) (gcc version 4.8.2 (GCC) ) #18 PREEMPT Fri Jan 16 16:5
+[    0.000000] CPU: ARMv7 Processor [411fc083] revision 3 (ARMv7), cr=10c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT nonaliasing instruction cache
+[    0.000000] Machine: Gumstix Overo
+[    0.000000] Reserving 12582912 bytes SDRAM for VRAM
+[    0.000000] Memory policy: ECC disabled, Data cache writeback
+[    0.000000] OMAP3430/3530 ES3.1 (l2cache iva sgx neon isp )
+[    0.000000] Clocking rate (Crystal/Core/MPU): 26.0/332/600 MHz
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 61696
+[    0.000000] Kernel command line: console=ttyO2,115200n8 mpurate=500 vram=12M omapfb.mode=dvi:1024x768MR-16@60 ot
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] allocated 524288 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] Memory: 243MB = 243MB total
+[    0.000000] Memory: 238336k/238336k available, 23808k reserved, 0K highmem
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+[    0.000000]     vmalloc : 0xd0800000 - 0xff000000   ( 744 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+[    0.000000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+[    0.000000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0652ebc   (6444 kB)
+[    0.000000]       .init : 0xc0653000 - 0xc068c938   ( 231 kB)
+[    0.000000]       .data : 0xc068e000 - 0xc06f67d0   ( 418 kB)
+[    0.000000]        .bss : 0xc06f67f4 - 0xc07814a0   ( 556 kB)
+[    0.000000] NR_IRQS:474
+[    0.000000] IRQ: Found an INTC at 0xfa200000 (revision 4.0) with 96 interrupts
+[    0.000000] Total of 96 interrupts on 1 active controller
+[    0.000000] OMAP clockevent source: GPTIMER1 at 32768 Hz
+[    0.000000] sched_clock: 32 bits at 32kHz, resolution 30517ns, wraps every 131071999ms
+[    0.000000] OMAP clocksource: 32k_counter at 32768 Hz
+[    0.000000] Console: colour dummy device 80x30
+[    0.000244] Calibrating delay loop... 597.64 BogoMIPS (lpj=2334720)
+[    0.039093] pid_max: default: 32768 minimum: 301
+[    0.039276] Security Framework initialized
+[    0.039428] Mount-cache hash table entries: 512
+[    0.040283] Initializing cgroup subsys debug
+[    0.040283] Initializing cgroup subsys cpuacct
+[    0.040313] Initializing cgroup subsys memory
+[    0.040374] Initializing cgroup subsys devices
+[    0.040374] Initializing cgroup subsys freezer
+[    0.040374] Initializing cgroup subsys perf_event
+[    0.040527] CPU: Testing write buffer coherency: ok
+[    0.040893] Setting up static identity map for 0x80461df8 - 0x80461e50
+[    0.047149] devtmpfs: initialized
+[    0.052154] dummy: 
+[    0.052612] NET: Registered protocol family 16
+[    0.053009] GPMC revision 5.0
+[    0.053070] gpmc: irq-20 could not claim: err -22
+[    0.055114] OMAP GPIO hardware version 2.5
+[    0.057556] omap_mux_init: Add partition: #1: core, flags: 0
+[    0.068878] Reprogramming SDRC clock to 332000000 Hz
+[    0.068908] dpll3_m2_clk rate change failed: -22
+[    0.068939] Found NAND on CS0
+[    0.068939] Registering NAND on CS0
+[    0.070343]  usbhs_omap: alias fck already exists
+[    0.077941] hw-breakpoint: debug architecture 0x4 unsupported.
+[    0.081359]  omap-mcbsp.2: alias fck already exists
+[    0.081573]  omap-mcbsp.3: alias fck already exists
+[    0.082672] Switched to new clocking rate (Crystal/Core/MPU): 26.0/332/500 MHz
+[    0.082916] OMAP DMA hardware revision 4.0
+[    0.093994] bio: create slab <bio-0> at 0
+[    0.094970] fixed-dummy: 
+[    0.095367] vads7846: 3300 mV 
+[    0.096496] SCSI subsystem initialized
+[    0.096923] usbcore: registered new interface driver usbfs
+[    0.097045] usbcore: registered new interface driver hub
+[    0.097381] usbcore: registered new device driver usb
+[    0.097961] omap_i2c omap_i2c.1: bus 1 rev1.3.12 at 2600 kHz
+[    0.101257] twl 1-0048: PIH (irq 7) chaining IRQs 320..328
+[    0.101409] twl 1-0048: power (irq 325) chaining IRQs 328..335
+[    0.102233] twl4030_gpio twl4030_gpio: gpio (irq 320) chaining IRQs 336..353
+[    0.103698] VUSB1V5: 1500 mV normal standby
+[    0.104339] VUSB1V8: 1800 mV normal standby
+[    0.104949] VUSB3V1: 3100 mV normal standby
+[    0.109497] twl4030_usb twl4030_usb: Initialized TWL4030 USB module
+[    0.110198] vdd_mpu_iva: 600 <--> 1450 mV normal 
+[    0.110778] vdd_core: 600 <--> 1450 mV normal 
+[    0.111450] VMMC1: 1850 <--> 3150 mV at 3150 mV normal standby
+[    0.112121] VDAC: 1800 mV normal standby
+[    0.112823] VDVI: 1800 mV normal standby
+[    0.125091] omap_i2c omap_i2c.3: bus 3 rev1.3.12 at 400 kHz
+[    0.126159] omap-iommu omap-iommu.0: isp registered
+[    0.126434] Advanced Linux Sound Architecture Driver Version 1.0.25.
+[    0.127563] Switching to clocksource 32k_counter
+[    0.166656] usbhs_omap usbhs_omap: xclk60mhsp2_ck set parentfailed error:-22
+[    0.167724] NET: Registered protocol family 2
+[    0.168121] IP route cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.168884] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.169128] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.169250] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.169281] TCP: reno registered
+[    0.169281] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.169311] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.169738] NET: Registered protocol family 1
+[    0.170440] RPC: Registered named UNIX socket transport module.
+[    0.170471] RPC: Registered udp transport module.
+[    0.170471] RPC: Registered tcp transport module.
+[    0.170471] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.173736] audit: initializing netlink socket (disabled)
+[    0.173828] type=2000 audit(0.164:1): initialized
+[    0.175933] VFS: Disk quotas dquot_6.5.2
+[    0.176055] Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.176574] NFS: Registering the id_resolver key type
+[    0.176666] Key type id_resolver registered
+[    0.176696] Key type id_legacy registered
+[    0.177307] jffs2: version 2.2. (NAND) (SUMMARY)  ?© 2001-2006 Red Hat, Inc.
+[    0.178314] fuse init (API version 7.19)
+[    0.178985] msgmni has been set to 465
+[    0.181701] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+[    0.181732] io scheduler noop registered
+[    0.181732] io scheduler deadline registered (default)
+[    0.182952] OMAP DSS rev 2.0
+[    0.187103] omap_uart.0: ttyO0 at MMIO 0x4806a000 (irq = 72) is a OMAP UART0
+[    0.187744] omap_uart.1: ttyO1 at MMIO 0x4806c000 (irq = 73) is a OMAP UART1
+[    0.188323] omap_uart.2: ttyO2 at MMIO 0x49020000 (irq = 74) is a OMAP UART2
+[    0.873962] console [ttyO2] enabled
+[    0.888885] brd: module loaded
+[    0.897888] loop: module loaded
+[    0.903533] twl4030_madc twl4030_madc: clk disabled, enabling
+[    0.912200] NAND device: Manufacturer ID: 0x2c, Chip ID: 0xba (Micron NAND 256MiB 1,8V 16-bit), page size: 20484
+[    0.925018] Creating 5 MTD partitions on "omap2-nand.0":
+[    0.930664] 0x000000000000-0x000000080000 : "xloader"
+[    0.938110] 0x000000080000-0x000000240000 : "uboot"
+[    0.946411] 0x000000240000-0x000000280000 : "uboot environment"
+[    0.954376] 0x000000280000-0x000000a80000 : "linux"
+[    0.968811] 0x000000a80000-0x000010000000 : "rootfs"
+[    1.223999] smsc911x: Driver version 2008-10-21
+[    1.229492] smsc911x: Driver version 2008-10-21
+[    1.234893] usbcore: registered new interface driver kaweth
+[    1.240997] usbcore: registered new interface driver asix
+[    1.246826] usbcore: registered new interface driver cdc_ether
+[    1.253143] usbcore: registered new interface driver cdc_ncm
+[    1.259521] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    1.266662] ehci-omap.0 supply hsusb1 not found, using dummy regulator
+[    2.276306] ehci-omap ehci-omap.0: OMAP-EHCI Host Controller
+[    2.282653] ehci-omap ehci-omap.0: new USB bus registered, assigned bus number 1
+[    2.290710] ehci-omap ehci-omap.0: irq 77, io mem 0x48064800
+[    2.307434] ehci-omap ehci-omap.0: USB 2.0 started, EHCI 1.00
+[    2.313812] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    2.321014] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    2.328704] usb usb1: Product: OMAP-EHCI Host Controller
+[    2.334350] usb usb1: Manufacturer: Linux 3.5.7-custom ehci_hcd
+[    2.340637] usb usb1: SerialNumber: ehci-omap.0
+[    2.346588] hub 1-0:1.0: USB hub found
+[    2.350585] hub 1-0:1.0: 3 ports detected
+[    2.385620] Initializing USB Mass Storage driver...
+[    2.390960] usbcore: registered new interface driver usb-storage
+[    2.397338] USB Mass Storage support registered.
+[    2.402252] musb-hdrc: version 6.0, ?dma?, otg (peripheral+host)
+[    2.409912] musb-hdrc musb-hdrc: USB OTG mode controller at fa0ab000 using DMA, IRQ 92
+[    2.421173] mousedev: PS/2 mouse device common for all mice
+[    2.427947] twl_rtc twl_rtc: Power up reset detected.
+[    2.433532] twl_rtc twl_rtc: Enabling TWL-RTC
+[    2.441375] twl_rtc twl_rtc: rtc core: registered twl_rtc as rtc0
+[    2.448608] i2c /dev entries driver
+[    2.454223] cpuidle: using governor ladder
+[    2.458862] cpuidle: using governor menu
+[    2.463745] omap_hsmmc omap_hsmmc.0: Failed to get debounce clk
+[    2.470184] omap_hsmmc.0 supply vmmc_aux not found, using dummy regulator
+[    2.846801] omap_hsmmc omap_hsmmc.1: Failed to get debounce clk
+[    2.853179] omap_hsmmc.1 supply vmmc not found, using dummy regulator
+[    2.861389] omap_hsmmc.1 supply vmmc_aux not found, using dummy regulator
+[    2.871185] omap_hsmmc omap_hsmmc.1: could not set regulator OCR (-22)
+[    2.878417] omap_hsmmc omap_hsmmc.1: could not set regulator OCR (-22)
+[    2.928588] usbcore: registered new interface driver usbhid
+[    2.934783] usbhid: USB HID core driver
+[    2.940032] usbcore: registered new interface driver snd-usb-audio
+[    2.948364] overo SoC init
+[    2.951446] soc-audio soc-audio: ASoC machine overo should use snd_soc_register_card()
+[    3.032958] twl4030-codec twl4030-codec: ASoC: Failed to create Capture debugfs file
+[    3.044982] mmc0: host does not support reading read-only switch. assuming write-enable.
+[    3.055908] asoc: twl4030-hifi <-> omap-mcbsp.2 mapping ok
+[    3.064239] mmc0: new high speed SDHC card at address b368
+[    3.074707] oprofile: hardware counters not available
+[    3.080047] oprofile: using timer interrupt.
+[    3.084655] mmcblk0: mmc0:b368 NCard 14.8 GiB 
+[    3.091186] TCP: cubic registered
+[    3.095001]  mmcblk0: p1 p2
+[    3.098114] NET: Registered protocol family 17
+[    3.102844] NET: Registered protocol family 15
+[    3.108947] Key type dns_resolver registered
+[    3.113800] VFP support v0.3: implementor 41 architecture 3 part 30 variant c rev 1
+[    3.132751] ThumbEE CPU extension supported.
+[    3.137390] sr_init: No PMIC hook to init smartreflex
+[    3.142974] smartreflex smartreflex.0: omap_sr_probe: SmartReflex driver initialized
+[    3.151550] smartreflex smartreflex.1: omap_sr_probe: SmartReflex driver initialized
+[    3.171966] clock: disabling unused clocks to save power
+[    3.180114] mmc1: new SDIO card at address 0001
+[    3.185119] registered taskstats version 1
+[    3.191375] fbcvt: 1024x768@60: CVT Name - .786M3-R
+[    3.219604] Console: switching to colour frame buffer device 128x48
+[    3.241516] VDAC: incomplete constraints, leaving on
+[    3.248840] twl_rtc twl_rtc: setting system clock to 2000-01-01 00:00:10 UTC (946684810)
+[    3.257598] ALSA device list:
+[    3.260772]   #0: overo
+[    5.087524] kjournald starting.  Commit interval 5 seconds
+[    5.095672] EXT3-fs (mmcblk0p2): using internal journal
+[    5.106384] EXT3-fs (mmcblk0p2): recovery complete
+[    5.111450] EXT3-fs (mmcblk0p2): mounted filesystem with writeback data mode
+[    5.119018] VFS: Mounted root (ext3 filesystem) on device 179:2.
+[    5.131591] devtmpfs: mounted
+[    5.135437] Freeing init memory: 228K
+[    5.472839] systemd[1]: systemd 211 running in system mode. (+PAM +LIBWRAP -AUDIT -SELINUX +IMA +SYSVINIT -LIBC)
+[    5.488403] systemd[1]: Detected architecture 'arm'.
+
+Welcome to Linux!
+
+[    6.067504] NET: Registered protocol family 10
+[    6.076019] systemd[1]: Inserted module 'ipv6'
+[    6.083770] systemd[1]: Set hostname to <overo>.
+[    6.583404] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    6.592376] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    6.600616] systemd[1]: Expecting device dev-ttyGS0.device...
+         Expecting device dev-ttyGS0.device...
+[    6.620635] systemd[1]: Expecting device dev-ttyO2.device...
+         Expecting device dev-ttyO2.device...
+[    6.644012] systemd[1]: Starting Remote File Systems.
+[  OK  ] Reached target Remote File Systems.
+[    6.667449] systemd[1]: Reached target Remote File Systems.
+[    6.673614] systemd[1]: Starting Dispatch Password Requests to Console Directory Watch.
+[    6.682708] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    6.691314] systemd[1]: Starting Paths.
+[  OK  ] Reached target Paths.
+[    6.714294] systemd[1]: Reached target Paths.
+[    6.719207] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[  OK  ] Set up automount Arbitrary Executable File Formats F...utomount Point.
+[    6.753387] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    6.763549] systemd[1]: Starting Swap.
+[  OK  ] Reached target Swap.
+[    6.784606] systemd[1]: Reached target Swap.
+[    6.789276] systemd[1]: Starting Root Slice.
+[  OK  ] Created slice Root Slice.
+[    6.854858] systemd[1]: Created slice Root Slice.
+[    6.860076] systemd[1]: Starting Journal Socket.
+[  OK  ] Listening on Journal Socket.
+[    6.878326] systemd[1]: Listening on Journal Socket.
+[    6.883850] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.
+[    6.909637] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    6.917297] systemd[1]: Starting Delayed Shutdown Socket.
+[  OK  ] Listening on Delayed Shutdown Socket.
+[    6.940856] systemd[1]: Listening on Delayed Shutdown Socket.
+[    6.947143] systemd[1]: Starting udev Control Socket.
+[  OK  ] Listening on udev Control Socket.
+[    6.972106] systemd[1]: Listening on udev Control Socket.
+[    6.978027] systemd[1]: Starting udev Kernel Socket.
+[  OK  ] Listening on udev Kernel Socket.
+[    7.003601] systemd[1]: Listening on udev Kernel Socket.
+[    7.009399] systemd[1]: Starting Syslog Socket.
+[  OK  ] Listening on Syslog Socket.
+[    7.034606] systemd[1]: Listening on Syslog Socket.
+[    7.039947] systemd[1]: Starting User and Session Slice.
+[  OK  ] Created slice User and Session Slice.
+[    7.065887] systemd[1]: Created slice User and Session Slice.
+[    7.072174] systemd[1]: Starting System Slice.
+[  OK  ] Created slice System Slice.
+[    7.097137] systemd[1]: Created slice System Slice.
+[    7.107696] systemd[1]: Started Set Up Additional Binary Formats.
+[    7.114593] systemd[1]: Mounting Debug File System...
+         Mounting Debug File System...
+[    7.140777] systemd[1]: Mounted POSIX Message Queue File System.
+[    7.154083] systemd[1]: Starting Journal Service...
+         Starting Journal Service...
+[  OK  ] Started Journal Service.
+[    7.198486] systemd[1]: Started Journal Service.
+         Starting udev Coldplug all Devices...
+         Mounting FUSE Control File System...
+         Starting Create list of required static device nodes...rrent kernel...
+         Starting Apply Kernel Variables...
+[  OK  ] Reached target Slices.
+[  OK  ] Created slice system-getty.slice.
+[  OK  ] Created slice system-serial\x2dgetty.slice.
+         Starting Remount Root and Kernel File Systems...
+         Mounting Temporary Directory...
+[  OK  ] Mounted FUSE Control File System.
+[  OK  ] Mounted Debug File System.
+[  OK  ] Mounted Temporary Directory.
+[  OK  ] Started Create list of required static device nodes ...current kernel.
+[  OK  ] Started Apply Kernel Variables.
+         Starting Create Static Device Nodes in /dev...
+[  OK  ] Started udev Coldplug all Devices.
+[  OK  ] Started Create Static Device Nodes in /dev.
+         Starting udev Kernel Device Manager...
+[  OK  ] Started Remount Root and Kernel File Systems.
+[    8.461639] systemd-udevd[85]: starting version 211
+[  OK  ] Started udev Kernel Device Manager.
+         Starting Load/Save Random Seed...
+[  OK  ] Reached target Local File Systems (Pre).
+         Mounting /var/volatile...
+[  OK  ] Started Load/Save Random Seed.
+[  OK  ] Mounted /var/volatile.
+[  OK  ] Reached target Local File Systems.
+         Starting Trigger Flushing of Journal to Persistent Storage...
+         Starting Create Volatile Files and Directories...
+[    8.911132] systemd-journald[63]: Received request to flush runtime journal from PID 1
+[  OK  ] Started Trigger Flushing of Journal to Persistent Storage.
+[  OK  ] Started Create Volatile Files and Directories.
+         Starting Update UTMP about System Boot/Shutdown...
+[  OK  ] Started Update UTMP about System Boot/Shutdown.
+[  OK  ] Reached target System Initialization.
+[  OK  ] Reached target Timers.
+[  OK  ] Listening on Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Listening on D-Bus System Message Bus Socket.
+         Starting Restore Sound Card State...
+[  OK  ] Listening on sshd.socket.
+[  OK  ] Reached target Sockets.
+[  OK  ] Reached target Basic System.
+[    9.570129] ads7846 spi1.0: touchscreen, irq 210
+         Starting Kernel Logging Service...
+[  OK  ] Started Kernel Logging Service.
+[    9.626525] Linux media interface: v0.10
+         Starting System Logging Service...
+[    9.667999] ads7846 spi1.0: no device detected, test read result was 0x00000000
+[  OK  ] Started System Logging Service.
+         Starting Avahi mDNS/DNS-SD Stack...
+         Starting D-Bus System Message Bus...
+[  OK  ] Started D-Bus System Message Bus.
+[   10.017486] lib80211: common routines for IEEE802.11 drivers
+[   10.133453] Linux video capture interface: v2.00
+[  OK  ] Started Avahi mDNS/DNS-SD Stack.
+         Starting Network Service...
+         Starting Permit User Sessions...
+         Starting Login Service...
+[  OK  ] Started Network Service.
+[  OK  ] Started Restore Sound Card State.
+[  OK  ] Started Permit User Sessions.
+[  OK  ] Started Login Service.
+         Starting Getty on tty1...
+[  OK  ] Started Getty on tty1.
+[  OK  ] Reached target Network.
+         Starting Network Time Service...
+[  OK  ] Found device /dev/ttyO2.
+[   11.105834] systemd[1]: PID file /run/ntpd.pid not readable (yet?) after start.
+[  OK  ] Started Network Time Service.
+         Starting Serial Getty on ttyO2...
+[   11.208587] omap3isp supply VDD_CSIPHY1 not found, using dummy regulator
+[  OK  ] Started Serial Getty on ttyO2.
+[   11.304351] cfg80211: Calling CRDA to update world regulatory domain
+[   11.337402] omap3isp supply VDD_CSIPHY2 not found, using dummy regulator
+[  OK  ] Reached target Sound Card.
+[   11.498229] omap3isp omap3isp: Revision 2.0 found
+[   11.588958] omap-iommu omap-iommu.0: isp: version 1.1
+[   11.594421] omap3isp supply vdds_csib not found, using dummy regulator
+[   11.930725] mt9v032 3-005c: Probing MT9V032 at address 0x5c
+[   11.945861] libertas_sdio: Libertas SDIO driver
+[   11.984954] mt9v032 3-005c: MT9V032 power up failed
+[   12.125518] libertas_sdio: Copyright Pierre Ossman
+[   12.162261] isp_register_subdev_group: Unable to register subdev mt9v032
+[   13.519714] libertas_sdio mmc1:0001:1: (unregistered net_device): 00:19:88:11:e3:e1, fw 9.70.20p0, cap 0x0000033
+[   13.549957] libertas_sdio mmc1:0001:1: wlan0: Marvell WLAN 802.11 adapter
+
+Poky (Yocto Project Reference Distro) 1.6.1 overo ttyO2
+
+overo login: root
+root@overo:~$  ls
+arpsec03_aik_pub.key     daveti.img  load-mod.sh
+arpsec03_ut_aik_pub.key  genbin.sh
+root@overo:~$  ll
+-sh: ll: command not found
+root@overo:~$  ls -l
+total 64
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_aik_pub.key
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_ut_aik_pub.key
+-rw-r--r-- 1 root root 67108864 Aug  8  2014 daveti.img
+-rwxr-xr-x 1 root root      273 Aug  8  2014 genbin.sh
+-rwxr-xr-x 1 root root       83 Aug  8  2014 load-mod.sh
+root@overo:~$  ./load-mod.sh
+[   39.224609] daveti: trusted-dev fsg_common_init
+[   39.242126]  gadget: Mass Storage Function, version: 2009/09/11
+[   39.253601]  gadget: Number of LUNs=1
+[   39.257507]  lun0: LUN: removable file: /home/root/daveti.img
+[   39.272186] daveti: into [fsg_trusted_dev_init]
+[   39.280151] daveti: fsg_trusted_dev_ctrl is initialized
+[   39.288848] daveti: into [fsg_trusted_dev_load_config]
+[   39.297485] daveti: into [fsg_trusted_dev_load_key_file]
+[   39.307769] daveti: into [fsg_trusted_dev_parse_aik_pub_key]
+[   39.313781] daveti: fsg_trusted_dev_ctrl is loaded with config:
+[   39.313781] key_file [arpsec03_aik_pub.key], force_fail [0] - dump the TIM DB:
+[   39.331970] AIK: 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   39.346862] AIK: 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   39.354156] AIK: 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   39.365264] AIK: 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   39.377807] AIK: 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   39.385101] AIK: 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   39.396209] AIK: 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   39.409149] AIK: 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   39.416442] AIK: 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   39.427612] AIK: 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   39.440093] AIK: 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   39.450714] AIK: 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   39.461212] AIK: 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   39.471771] AIK: 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   39.479034] AIK: 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   39.490203] AIK: 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   39.502593] AIK: 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   39.513397] AIK: 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   39.522888] valid: 00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   39.533721] valid: 00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   39.544555] valid: 00000020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   39.555267] RSA-n: 00000000: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8
+[   39.566070] RSA-n: 00000010: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71
+[   39.576690] RSA-n: 00000020: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18
+[   39.587310] RSA-n: 00000030: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66
+[   39.598114] RSA-n: 00000040: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4
+[   39.608734] RSA-n: 00000050: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3
+[   39.619354] RSA-n: 00000060: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12
+[   39.630035] RSA-n: 00000070: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90
+[   39.640747] RSA-n: 00000080: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee
+[   39.651458] RSA-n: 00000090: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71
+[   39.662078] RSA-n: 000000a0: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94
+[   39.672729] RSA-n: 000000b0: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb
+[   39.683532] RSA-n: 000000c0: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2
+[   39.694152] RSA-n: 000000d0: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08
+[   39.704803] RSA-n: 000000e0: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53
+[   39.715576] RSA-n: 000000f0: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   39.726196] RSA-e: 00000000: 01 00 01
+[   39.733520]  gadget: Trusted Mass Storage Gadget, version: 2014/04/30
+[   39.745697]  gadget: userspace failed to provide iSerialNumber
+[   39.751922]  gadget: g_mass_storage ready
+[   39.778228] musb-hdrc musb-hdrc: MUSB HDRC host driver
+[   39.794525] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 2
+[   39.809204] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[   39.820190] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   39.837585] usb usb2: Product: MUSB HDRC host driver
+[   39.848968] usb usb2: Manufacturer: Linux 3.5.7-custom musb-hcd
+[   39.858642] usb usb2: SerialNumber: musb-hdrc
+[   39.874267] hub 2-0:1.0: USB hub found
+[   39.891540] hub 2-0:1.0: 1 port detected
+root@overo:~$  [   40.194061]  gadget: high-speed config #1: Trusted Linux File-Backed Storage
+[   41.200775] daveti: enter [fsg_setup]
+[   41.204650] daveti: ep0-setup ctrl req len [8]
+[   41.209350] 00000000: a1 fe 00 00 00 00 01 00
+[   41.213958] daveti: class-specific control req [a1.fe v0000 i0000 l1]
+[   41.220733] daveti: got BULK_get_max_lun
+[   41.224884] daveti: into [ep0_complete]
+[   41.229095] daveti: enter [fsg_setup]
+[   41.232940] daveti: ep0-setup ctrl req len [8]
+[   41.237640] 00000000: a1 00 00 00 00 00 17 00
+[   41.242248] daveti: class-specific control req [a1.00 v0000 i0000 l23]
+[   41.249145] daveti: got the damn ADSC req
+[   41.253387] daveti: dump the req->buf:
+[   41.257324] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   41.263214] 01 01 01 01 ff 00 00
+[   41.266632] daveti: into [ep0_complete]
+[   41.620758] daveti: enter [fsg_setup]
+[   41.624633] daveti: ep0-setup ctrl req len [8]
+[   41.629333] 00000000: 21 00 00 00 00 00 1c 01
+[   41.633941] daveti: class-specific control req [21.00 v0000 i0000 l284]
+[   41.640930] daveti: got the damn ADSC req
+[   41.645721] daveti: into [ep0_complete]
+[   41.649780] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   41.655761] daveti: got AIK pub key:
+[   41.659545] 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   41.666351] 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   41.673126] 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   41.679931] 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   41.686737] 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   41.693542] 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   41.700347] 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   41.707153] 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   41.713928] 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   41.720733] 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   41.727539] 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   41.734344] 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   41.741149] 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   41.747924] 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   41.754730] 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   41.761535] 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   41.768341] 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   41.775146] 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   41.780822] daveti: into [fsg_trusted_dev_update_state]
+[   41.786346] daveti: into [fsg_trusted_dev_find_matching_aik]
+[   41.792327] daveti: found matching AIK
+[   41.796295] daveti: AIK processing done
+[   41.800445] daveti: enter [fsg_setup]
+[   41.804321] daveti: ep0-setup ctrl req len [8]
+[   41.809020] 00000000: 21 00 00 00 00 00 30 01
+[   41.813629] daveti: class-specific control req [21.00 v0000 i0000 l304]
+[   41.820587] daveti: got the damn ADSC req
+[   41.825073] daveti: into [ep0_complete]
+[   41.829132] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   41.835083] daveti: got TPM quote:
+[   41.838684] 00000000: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+[   41.845489] 00000010: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+[   41.852294] 00000020: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   41.859069] 00000030: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   41.865875] 00000040: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   41.872680] 00000050: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   41.879486] 00000060: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   41.886291] 00000070: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   41.893066] 00000080: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   41.899871] 00000090: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   41.906677] 000000a0: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   41.913482] 000000b0: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   41.920257] 000000c0: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   41.927062] 000000d0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   41.933868] 000000e0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   41.940673] 000000f0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   41.947479] 00000100: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   41.954254] 00000110: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   41.961059] 00000120: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   41.967864] daveti: into [fsg_trusted_dev_update_state]
+[   41.973388] daveti: into [fsg_trusted_dev_build_valid_data]
+[   41.979278] sig: 00000000: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   41.986511] sig: 00000010: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   41.993774] sig: 00000020: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   42.001037] sig: 00000030: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   42.008300] sig: 00000040: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   42.015563] sig: 00000050: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   42.022827] sig: 00000060: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   42.030059] sig: 00000070: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   42.037322] sig: 00000080: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   42.044586] sig: 00000090: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   42.051849] sig: 000000a0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   42.059112] sig: 000000b0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   42.066345] sig: 000000c0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   42.073608] sig: 000000d0: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   42.080871] sig: 000000e0: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   42.088134] sig: 000000f0: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   42.095397] Krsa: Entering: krsa_init
+[   42.099243] sig_bf140648: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04  EW..?.K:@g.*....
+[   42.108062] sig_bf140658: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9  (.@..<?..C..A...
+[   42.116882] sig_bf140668: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71  .$uk..Q......tcq
+[   42.125701] sig_bf140678: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa  ...)...QZR....|.
+[   42.134521] sig_bf140688: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d  E...P......-h\V.
+[   42.143341] sig_bf140698: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c  L.`..I"v.....U.,
+[   42.152160] sig_bf1406a8: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f  .AR....y....2J..
+[   42.160980] sig_bf1406b8: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a  .E...4.5F....%.*
+[   42.169799] sig_bf1406c8: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94  .jt73..Z2.wyJ...
+[   42.178619] sig_bf1406d8: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56  ...Aw[..Z6.$`DmV
+[   42.187438] sig_bf1406e8: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0  .&d... ....e..c.
+[   42.196258] sig_bf1406f8: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1  .....nr1...94"/.
+[   42.205047] sig_bf140708: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05  .N.R..+.,=$..+G.
+[   42.213867] sig_bf140718: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6  .....)...f..._J.
+[   42.222686] sig_bf140728: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f  T3.@.F.YR9.....O
+[   42.231506] sig_bf140738: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08  3.*..2.....Bh...
+[   42.240325] valid_bf140748: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   42.249328] valid_bf140758: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   42.258331] valid_bf140768: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   42.267333] rsa_n_bf140778: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8  .a._......K5..H.
+[   42.276336] rsa_n_bf140788: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71  ~Q.+o;.h.Q..N.wq
+[   42.285339] rsa_n_bf140798: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18  Q,.u5h..N)....X.
+[   42.294342] rsa_n_bf1407a8: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66  ./kk....wL..@xVf
+[   42.303344] rsa_n_bf1407b8: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4  ...*.i...)?@}._.
+[   42.312347] rsa_n_bf1407c8: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3  B.."..1"..}..@A.
+[   42.321350] rsa_n_bf1407d8: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12  ..}~._..g5......
+[   42.330322] rsa_n_bf1407e8: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90  ...1...E..i.....
+[   42.339324] rsa_n_bf1407f8: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee  ..D.......c:....
+[   42.348327] rsa_n_bf140808: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71  ......n..u...;.q
+[   42.357330] rsa_n_bf140818: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94  .(...3.]...&....
+[   42.366333] rsa_n_bf140828: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb  6..g.....&^E.R}.
+[   42.375335] rsa_n_bf140838: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2  ...x.3..K.N.$...
+[   42.384338] rsa_n_bf140848: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08  <.*..4/[.=....2.
+[   42.393341] rsa_n_bf140858: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53  9D/......t..?..S
+[   42.402343] rsa_n_bf140868: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29  ].............j)
+[   42.411346] rsa_e_bf140878: 01 00 01                                         ...
+[   42.419158] Krsa: ==>krsa_make_digest()
+[   42.423217] Krsa: hash [2], digest_size [20]
+[   42.427734] valid_ce62b700: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   42.436737] valid_ce62b710: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   42.445739] valid_ce62b720: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   42.454772] Krsa: <==krsa_make_digest() = ok
+[   42.459289] digest_cc87b1c0: 56 c1 39 ad a6 22 92 3a 46 f6 c5 a4 ce cd 21 13  V.9..".:F.....!.
+[   42.468383] digest_cc87b1d0: e5 0c 71 be                                      ..q.
+[   42.476379] Krsa: krsa_init() done
+[   42.479980] Krsa: ==> krsa_verify()
+[   42.483642] Krsa: step 1: k=2048 size(S)=2047
+[   42.492736] Krsa: size(x)=2033 xLen*8=2048
+[   42.497070] Krsa: ==> RSA_verify(,,256,20,15)
+[   42.501678] Krsa: <== RSA_verify() = 0
+[   42.505645] Krsa: <== krsa_verify() = 0
+[   42.509674] daveti: RSA verification success - TPM Attestation success
+[   42.516571] Krsa: exiting krsa module
+[   42.520446] daveti: Quote processing done
+[   43.538024] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   43.558776] daveti: trusted-dev do_read, lba[130944], file_offset[67043328], amount[4096]
+[   43.578643] daveti: trusted-dev do_read, lba[131056], file_offset[67100672], amount[4096]
+[   43.597229] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   43.609161] daveti: trusted-dev do_read, lba[8], file_offset[4096], amount[4096]
+[   43.621734] daveti: trusted-dev do_read, lba[131064], file_offset[67104768], amount[512]
+[   43.635955] daveti: trusted-dev do_read, lba[131065], file_offset[67105280], amount[512]
+[   43.648345] daveti: trusted-dev do_read, lba[131066], file_offset[67105792], amount[512]
+[   43.660705] daveti: trusted-dev do_read, lba[131067], file_offset[67106304], amount[512]
+[   43.672882] daveti: trusted-dev do_read, lba[131068], file_offset[67106816], amount[512]
+[   43.685211] daveti: trusted-dev do_read, lba[131069], file_offset[67107328], amount[512]
+[   43.697448] daveti: trusted-dev do_read, lba[131070], file_offset[67107840], amount[512]
+[   43.709625] daveti: trusted-dev do_read, lba[131071], file_offset[67108352], amount[512]
+[   43.722290] daveti: trusted-dev do_read, lba[130808], file_offset[66973696], amount[4096]
+[   43.735595] daveti: trusted-dev do_read, lba[131008], file_offset[67076096], amount[4096]
+[   43.748809] daveti: trusted-dev do_read, lba[130816], file_offset[66977792], amount[4096]
+[   43.762176] daveti: trusted-dev do_read, lba[130672], file_offset[66904064], amount[4096]
+[   43.775390] daveti: trusted-dev do_read, lba[130480], file_offset[66805760], amount[4096]
+[   43.788696] daveti: trusted-dev do_read, lba[130392], file_offset[66760704], amount[4096]
+[   43.802001] daveti: trusted-dev do_read, lba[130336], file_offset[66732032], amount[4096]
+[   43.815277] daveti: trusted-dev do_read, lba[130160], file_offset[66641920], amount[4096]
+[   43.828521] daveti: trusted-dev do_read, lba[130096], file_offset[66609152], amount[4096]
+[   43.841796] daveti: trusted-dev do_read, lba[130080], file_offset[66600960], amount[4096]
+[   43.855163] daveti: trusted-dev do_read, lba[130120], file_offset[66621440], amount[4096]
+[   43.868194] daveti: trusted-dev do_read, lba[127984], file_offset[65527808], amount[4096]
+[   43.881561] daveti: trusted-dev do_read, lba[2048], file_offset[1048576], amount[4096]
+[   43.896148] daveti: trusted-dev do_read, lba[256], file_offset[131072], amount[20480]
+[   43.910491] daveti: trusted-dev do_read, lba[24], file_offset[12288], amount[4096]
+[   43.923004] daveti: trusted-dev do_read, lba[56], file_offset[28672], amount[4096]
+[   43.935577] daveti: trusted-dev do_read, lba[120], file_offset[61440], amount[4096]
+[   43.948242] daveti: trusted-dev do_read, lba[16], file_offset[8192], amount[4096]
+[   43.960571] daveti: trusted-dev do_read, lba[128], file_offset[65536], amount[4096]
+[   43.975585] daveti: trusted-dev do_read, lba[64], file_offset[32768], amount[4096]
+[   43.988311] daveti: trusted-dev do_read, lba[296], file_offset[151552], amount[4096]
+[   44.000976] daveti: trusted-dev do_read, lba[304], file_offset[155648], amount[4096]
+[   44.013977] daveti: trusted-dev do_read, lba[312], file_offset[159744], amount[4096]
+[   44.026824] daveti: trusted-dev do_read, lba[320], file_offset[163840], amount[4096]
+[   44.040069] daveti: trusted-dev do_read, lba[328], file_offset[167936], amount[4096]
+[   44.052795] daveti: trusted-dev do_read, lba[336], file_offset[172032], amount[4096]
+[   44.065490] daveti: trusted-dev do_read, lba[344], file_offset[176128], amount[4096]
+[   44.078247] daveti: trusted-dev do_read, lba[352], file_offset[180224], amount[4096]
+[   44.091461] daveti: trusted-dev do_read, lba[360], file_offset[184320], amount[4096]
+[   44.104125] daveti: trusted-dev do_read, lba[368], file_offset[188416], amount[4096]
+[   44.116729] daveti: trusted-dev do_read, lba[376], file_offset[192512], amount[4096]
+[   44.129547] daveti: trusted-dev do_read, lba[384], file_offset[196608], amount[4096]
+[   44.142120] daveti: trusted-dev do_read, lba[392], file_offset[200704], amount[4096]
+[   44.154815] daveti: trusted-dev do_read, lba[400], file_offset[204800], amount[4096]
+[   44.167602] daveti: trusted-dev do_read, lba[408], file_offset[208896], amount[4096]
+[   44.180236] daveti: trusted-dev do_read, lba[416], file_offset[212992], amount[4096]
+[   44.192932] daveti: trusted-dev do_read, lba[424], file_offset[217088], amount[4096]
+[   44.205566] daveti: trusted-dev do_read, lba[432], file_offset[221184], amount[4096]
+[   44.218200] daveti: trusted-dev do_read, lba[440], file_offset[225280], amount[4096]
+[   44.231018] daveti: trusted-dev do_read, lba[448], file_offset[229376], amount[4096]
+[   44.244140] daveti: trusted-dev do_read, lba[456], file_offset[233472], amount[4096]
+[   44.256835] daveti: trusted-dev do_read, lba[464], file_offset[237568], amount[4096]
+[   44.269561] daveti: trusted-dev do_read, lba[472], file_offset[241664], amount[4096]
+[   44.282226] daveti: trusted-dev do_read, lba[480], file_offset[245760], amount[4096]
+[   44.294921] daveti: trusted-dev do_read, lba[488], file_offset[249856], amount[4096]
+[   44.307617] daveti: trusted-dev do_read, lba[496], file_offset[253952], amount[4096]
+[   44.320251] daveti: trusted-dev do_read, lba[504], file_offset[258048], amount[4096]
+[   44.333068] daveti: trusted-dev do_read, lba[768], file_offset[393216], amount[4096]
+[   44.345733] daveti: trusted-dev do_read, lba[776], file_offset[397312], amount[4096]
+[   44.358489] daveti: trusted-dev do_read, lba[784], file_offset[401408], amount[4096]
+[   44.371215] daveti: trusted-dev do_read, lba[792], file_offset[405504], amount[4096]
+[   44.383789] daveti: trusted-dev do_read, lba[800], file_offset[409600], amount[4096]
+[   44.396514] daveti: trusted-dev do_read, lba[808], file_offset[413696], amount[4096]
+[   44.409240] daveti: trusted-dev do_read, lba[816], file_offset[417792], amount[4096]
+[   44.421875] daveti: trusted-dev do_read, lba[824], file_offset[421888], amount[4096]
+[   44.434600] daveti: trusted-dev do_read, lba[832], file_offset[425984], amount[4096]
+[   44.447204] daveti: trusted-dev do_read, lba[840], file_offset[430080], amount[4096]
+[   44.459960] daveti: trusted-dev do_read, lba[848], file_offset[434176], amount[4096]
+[   44.472717] daveti: trusted-dev do_read, lba[856], file_offset[438272], amount[4096]
+[   44.485321] daveti: trusted-dev do_read, lba[864], file_offset[442368], amount[4096]
+[   44.498016] daveti: trusted-dev do_read, lba[872], file_offset[446464], amount[4096]
+[   44.511383] daveti: trusted-dev do_read, lba[880], file_offset[450560], amount[4096]
+[   44.524047] daveti: trusted-dev do_read, lba[888], file_offset[454656], amount[4096]
+[   44.536743] daveti: trusted-dev do_read, lba[896], file_offset[458752], amount[4096]
+[   44.549377] daveti: trusted-dev do_read, lba[904], file_offset[462848], amount[4096]
+[   44.562072] daveti: trusted-dev do_read, lba[912], file_offset[466944], amount[4096]
+[   44.574798] daveti: trusted-dev do_read, lba[920], file_offset[471040], amount[4096]
+[   44.587432] daveti: trusted-dev do_read, lba[928], file_offset[475136], amount[4096]
+[   44.600189] daveti: trusted-dev do_read, lba[936], file_offset[479232], amount[4096]
+[   44.613037] daveti: trusted-dev do_read, lba[944], file_offset[483328], amount[4096]
+[   44.625610] daveti: trusted-dev do_read, lba[952], file_offset[487424], amount[4096]
+[   44.638305] daveti: trusted-dev do_read, lba[960], file_offset[491520], amount[4096]
+[   44.652069] daveti: trusted-dev do_read, lba[968], file_offset[495616], amount[4096]
+[   44.664672] daveti: trusted-dev do_read, lba[976], file_offset[499712], amount[4096]
+[   44.677490] daveti: trusted-dev do_read, lba[984], file_offset[503808], amount[4096]
+[   44.690124] daveti: trusted-dev do_read, lba[992], file_offset[507904], amount[4096]
+[   44.702789] daveti: trusted-dev do_read, lba[1000], file_offset[512000], amount[4096]
+[   44.715637] daveti: trusted-dev do_read, lba[1008], file_offset[516096], amount[4096]
+[   44.728302] daveti: trusted-dev do_read, lba[1016], file_offset[520192], amount[4096]
+[   44.741088] daveti: trusted-dev do_read, lba[512], file_offset[262144], amount[4096]
+[   44.753845] daveti: trusted-dev do_read, lba[32], file_offset[16384], amount[4096]
+[   44.766357] daveti: trusted-dev do_read, lba[4096], file_offset[2097152], amount[4096]
+[   44.784118] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   44.920501] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[512]
+[   44.932159] daveti: trusted-dev do_read, lba[257], file_offset[131584], amount[512]
+[   44.944396] daveti: trusted-dev do_read, lba[258], file_offset[132096], amount[512]
+[   44.956390] daveti: trusted-dev do_read, lba[259], file_offset[132608], amount[512]
+[   44.968566] daveti: trusted-dev do_read, lba[260], file_offset[133120], amount[512]
+[   44.980834] daveti: trusted-dev do_read, lba[261], file_offset[133632], amount[512]
+[   44.992980] daveti: trusted-dev do_read, lba[262], file_offset[134144], amount[512]
+[   45.005676] daveti: trusted-dev do_read, lba[263], file_offset[134656], amount[512]
+[   45.018280] daveti: trusted-dev do_read, lba[264], file_offset[135168], amount[512]
+[   45.031524] daveti: trusted-dev do_read, lba[265], file_offset[135680], amount[512]
+[   45.045166] daveti: trusted-dev do_read, lba[266], file_offset[136192], amount[512]
+[   45.058197] daveti: trusted-dev do_read, lba[267], file_offset[136704], amount[512]
+[   45.070220] daveti: trusted-dev do_read, lba[268], file_offset[137216], amount[512]
+[   45.082519] daveti: trusted-dev do_read, lba[269], file_offset[137728], amount[512]
+[   45.095001] daveti: trusted-dev do_read, lba[270], file_offset[138240], amount[512]
+[   45.107269] daveti: trusted-dev do_read, lba[271], file_offset[138752], amount[512]
+[   45.119537] daveti: trusted-dev do_read, lba[272], file_offset[139264], amount[512]
+[   45.131744] daveti: trusted-dev do_read, lba[273], file_offset[139776], amount[512]
+[   45.143981] daveti: trusted-dev do_read, lba[274], file_offset[140288], amount[512]
+[   45.156188] daveti: trusted-dev do_read, lba[275], file_offset[140800], amount[512]
+[   45.168579] daveti: trusted-dev do_read, lba[276], file_offset[141312], amount[512]
+[   45.180755] daveti: trusted-dev do_read, lba[277], file_offset[141824], amount[512]
+[   45.192993] daveti: trusted-dev do_read, lba[278], file_offset[142336], amount[512]
+[   45.204864] daveti: trusted-dev do_read, lba[279], file_offset[142848], amount[512]
+[   45.217041] daveti: trusted-dev do_read, lba[280], file_offset[143360], amount[512]
+[   45.229217] daveti: trusted-dev do_read, lba[281], file_offset[143872], amount[512]
+[   45.241363] daveti: trusted-dev do_read, lba[282], file_offset[144384], amount[512]
+[   45.253356] daveti: trusted-dev do_read, lba[283], file_offset[144896], amount[512]
+[   45.265411] daveti: trusted-dev do_read, lba[284], file_offset[145408], amount[512]
+[   45.277679] daveti: trusted-dev do_read, lba[285], file_offset[145920], amount[512]
+[   45.289855] daveti: trusted-dev do_read, lba[286], file_offset[146432], amount[512]
+[   45.302154] daveti: trusted-dev do_read, lba[287], file_offset[146944], amount[512]
+[   45.314331] daveti: trusted-dev do_read, lba[288], file_offset[147456], amount[512]
+[   45.377319] daveti: trusted-dev do_read, lba[1], file_offset[512], amount[512]
+[   45.389068] daveti: trusted-dev do_read, lba[2], file_offset[1024], amount[512]
+[   45.400604] daveti: trusted-dev do_read, lba[3], file_offset[1536], amount[64512]
+[   51.252899] daveti: into [fsg_trusted_dev_tpm_quote_timer_handler]
+
+root@overo:~$  [  132.863861] daveti: trusted-dev do_write, lba[293], file_offset[150016], amount[116224]
+[  132.892639] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[512]
+[  132.904998] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[512]
+[  132.917236] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  192.964782] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  267.306732] daveti: trusted-dev do_write, lba[521], file_offset[266752], amount[122880]
+[  267.331909] daveti: trusted-dev do_write, lba[761], file_offset[389632], amount[67072]
+[  267.351043] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[512]
+[  267.362915] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[512]
+[  267.374847] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  316.552520] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  316.610565] daveti: trusted-dev do_write, lba[893], file_offset[457216], amount[116224]
+[  316.634490] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  316.647216] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[512]
+[  316.659240] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[512]
+[  316.671539] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  320.789001] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  320.849670] daveti: trusted-dev do_write, lba[1121], file_offset[573952], amount[116224]
+[  320.873168] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  320.885742] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[1024]
+[  320.897796] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[1024]
+[  320.910461] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[512]
+[  320.922332] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[512]
+[  320.934387] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  322.070831] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  322.130126] daveti: trusted-dev do_write, lba[1349], file_offset[690688], amount[116224]
+[  322.153808] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  322.166046] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  322.178100] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  322.190521] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[512]
+[  322.202453] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[512]
+[  322.214569] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  326.015136] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  326.073974] daveti: trusted-dev do_write, lba[1577], file_offset[807424], amount[116224]
+[  326.097473] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  326.110046] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  326.122344] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  326.134735] daveti: trusted-dev do_write, lba[1], file_offset[512], amount[1024]
+[  326.146911] daveti: trusted-dev do_write, lba[129], file_offset[66048], amount[1024]
+[  326.159423] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  327.396057] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  332.641235] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  332.701843] daveti: trusted-dev do_write, lba[1805], file_offset[924160], amount[116224]
+[  332.726501] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  332.739227] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  332.751220] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  332.763916] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  332.775878] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  332.787841] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  349.959472] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  350.018157] daveti: trusted-dev do_write, lba[2033], file_offset[1040896], amount[116224]
+[  350.042755] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  350.055328] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  350.067443] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  350.079833] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  350.092163] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  350.104187] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  351.037353] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  351.093048] daveti: trusted-dev do_write, lba[2261], file_offset[1157632], amount[116224]
+[  351.117706] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  351.130371] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[1024]
+[  351.142578] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[1024]
+[  351.155212] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  351.166961] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  351.178802] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  352.009124] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  352.067779] daveti: trusted-dev do_write, lba[2489], file_offset[1274368], amount[116224]
+[  352.091857] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  352.104492] daveti: trusted-dev do_write, lba[3], file_offset[1536], amount[512]
+[  352.116485] daveti: trusted-dev do_write, lba[131], file_offset[67072], amount[512]
+[  352.128875] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[512]
+[  352.140899] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[512]
+[  352.153289] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  356.869628] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  356.924438] daveti: trusted-dev do_write, lba[2717], file_offset[1391104], amount[116224]
+[  356.948516] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  356.961059] daveti: trusted-dev do_write, lba[3], file_offset[1536], amount[512]
+[  356.973266] daveti: trusted-dev do_write, lba[131], file_offset[67072], amount[512]
+[  356.985565] daveti: trusted-dev do_write, lba[2], file_offset[1024], amount[1024]
+[  356.997833] daveti: trusted-dev do_write, lba[130], file_offset[66560], amount[1024]
+[  357.010559] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  357.817047] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  357.878021] daveti: trusted-dev do_write, lba[2945], file_offset[1507840], amount[116224]
+[  357.902679] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  357.915252] daveti: trusted-dev do_write, lba[3], file_offset[1536], amount[512]
+[  357.927459] daveti: trusted-dev do_write, lba[131], file_offset[67072], amount[512]
+[  357.939727] daveti: trusted-dev do_write, lba[3], file_offset[1536], amount[512]
+[  357.951843] daveti: trusted-dev do_write, lba[131], file_offset[67072], amount[512]
+[  357.963806] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+[  422.547119] daveti: trusted-dev do_write, lba[257], file_offset[131584], amount[512]
+
+root@overo:~$  poweroff
+[  OK  ] Removed slice user-0.slice.
+[  OK  ] Stopped target Sound Card.
+[  OK  ] Stopped target Multi-User System.
+         Stopping Network Time Service...
+         Stopping Kernel Logging Service...
+         Stopping System Logging Service...
+         Stopping Avahi mDNS/DNS-SD Stack...
+[  OK  ] Stopped target Login Prompts.
+         Stopping Getty on tty1...
+         Stopping Serial Getty on ttyO2...
+         Stopping D-Bus System Message Bus...
+         Stopping Login Service...
+         Starting Store Sound Card State...
+[  OK  ] Stopped Kernel Logging Service.
+[  OK  ] Stopped System Logging Service.
+[  OK  ] Stopped Avahi mDNS/DNS-SD Stack.
+[  OK  ] Stopped D-Bus System Message Bus.
+[  OK  ] Stopped Login Service.
+[  OK  ] Stopped Getty on tty1.
+[  OK  ] Stopped Network Time Service.
+[  OK  ] Stopped Serial Getty on ttyO2.
+[  OK  ] Started Store Sound Card State.
+[  OK  ] Removed slice system-serial\x2dgetty.slice.
+[  OK  ] Stopped target Network.
+[  OK  ] Removed slice system-getty.slice.
+         Stopping Permit User Sessions...
+[  OK  ] Stopped Permit User Sessions.
+[  OK  ] Stopped target Basic System.
+[  OK  ] Stopped target Slices.
+[  OK  ] Removed slice User and Session Slice.
+[  OK  ] Stopped target Paths.
+[  OK  ] Stopped target Timers.
+[  OK  ] Stopped target Sockets.
+[  OK  ] Closed sshd.socket.
+[  OK  ] Closed Syslog Socket.
+[  OK  ] Closed Avahi mDNS/DNS-SD Stack Activation Socket.
+[  OK  ] Closed D-Bus System Message Bus Socket.
+[  OK  ] Stopped target System Initialization.
+         Stopping Load/Save Random Seed...
+         Stopping Apply Kernel Variables...
+[  OK  ] Stopped Apply Kernel Variables.
+         Stopping Update UTMP about System Boot/Shutdown...
+[  OK  ] Stopped target Swap.
+[  OK  ] Stopped target Remote File Systems.
+[  OK  ] Stopped Load/Save Random Seed.
+[  OK  ] Stopped Update UTMP about System Boot/Shutdown.
+         Stopping Create Volatile Files and Directories...
+[  OK  ] Stopped Create Volatile Files and Directories.
+[  OK  ] Stopped target Local File Systems.
+         Unmounting /run/user/0...
+         Unmounting /var/volatile...
+         Unmounting Temporary Directory...
+[  OK  ] Unmounted /run/user/0.
+[  OK  ] Unmounted /var/volatile.
+[  OK  ] Unmounted Temporary Directory.
+[  OK  ] Reached target Unmount All Filesystems.
+[  OK  ] Stopped target Local File Systems (Pre).
+         Stopping Remount Root and Kernel File Systems...
+[  OK  ] Stopped Remount Root and Kernel File Systems.
+[  OK  ] Reached target Shutdown.
+[  507.349456] systemd-shutdown[1]+---------------------------------------------+
+[  507.384277] systemd-journald[63|                                             |).
+[  507.403381] systemd-shutdown[1]|  Cannot open /dev/tty.usbserial-A80091Pr!   |
+[  507.433929] systemd-shutdown[1]|                                             |
+[  507.441040] systemd-shutdown[1]+---------------------------------------------+
+[  507.456176] systemd-shutdown[1]: Unmounting /sys/kernel/debug.
+[  507.710998] systemd-shutdown[1]: All filesystems unmounted.
+[  507.717041] systemd-shutdown[1]: Deactivating swaps.
+[  507.722869] systemd-shutdown[1]: All swaps deactivated.
+[  507.728424] systemd-shutdown[1]: Detaching loop devices.
+[  507.736572] systemd-shutdown[1]: All loop devices detached.
+[  507.742584] systemd-shutdown[1]: Detaching DM devices.
+[  507.748840] systemd-shutdown[1]: All DM devices detached.
+[  507.754760] systemd-shutdown[1]: Storage is finalized.
+[  507.834930] systemd-shutdown[1]: Powering off.
+[  507.840667] daveti: into [fsg_trusted_dev_free]
+[  507.845520] musb-hdrc musb-hdrc: remove, state 4
+[  507.850585] usb usb2: USB disconnect, device number 1
+[  507.857025] musb-hdrc musb-hdrc: USB bus 2 deregistered
+[  507.870574] Power down.
+
+   Meta-Z for help |115200 8N1 | NOR | Minicom 2.6.1  | VT102 |      Offline                                      
+

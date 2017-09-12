@@ -1,0 +1,96 @@
+# Timing for ClamAV
+# Version: 0.98.7
+# using unzipped Linux kernel 4.4 source
+# Size: 614.3MB (under ext4, over 2G under vfat/fat16 - WTF!)
+# No! using ubuntu-1404-amd64-server.iso
+# Size: 608387072 (581 MB)
+
+kingston2g:
+----------- SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 45.695 sec (0 m 45 s)
+
+----------- SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 71.237 sec (1 m 11 s)
+
+----------- 2nd consecutive SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 20.246 sec (0 m 20 s)
+
+
+
+sandisk16g:
+----------- SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 47.002 sec (0 m 47 s)
+
+----------- SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 46.334 sec (0 m 46 s)
+
+----------- 2nd consecutive SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 21.180 sec (0 m 21 s)
+
+
+
+provusb:
+----------- SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 175.463 sec (2 m 55 s)
+
+----------- 2nd consecutive SCAN SUMMARY -----------
+Known viruses: 4235277
+Engine version: 0.98.7
+Scanned directories: 882
+Scanned files: 1910
+Infected files: 0
+Data scanned: 433.72 MB
+Data read: 570.65 MB (ratio 0.76:1)
+Time: 21.361 sec (0 m 21 s)
+
+
+log: 471851

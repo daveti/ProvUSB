@@ -1,0 +1,447 @@
+#1
+[ 4615.311521] usb 1-1.3: new high-speed USB device number 27 using ehci-pci
+[ 4615.403701] provusb-perf: new device plugged
+[ 4615.405070] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 4615.405075] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4615.405078] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 4615.405080] usb 1-1.3: Manufacturer: SanDisk
+[ 4615.405082] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 4615.405364] daveti2: netlink socket created in USB storage
+[ 4615.405368] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4615.405482] scsi27 : usb-storage 1-1.3:1.0
+[ 4615.405547] provusb-perf: new device starts to work
+[ 4616.404573] provusb-perf: scan done
+[ 4616.405604] scsi 27:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 4616.405902] sd 27:0:0:0: Attached scsi generic sg2 type 0
+[ 4616.408285] sd 27:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 4616.410474] sd 27:0:0:0: [sdb] Write Protect is off
+[ 4616.410479] sd 27:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 4616.413182] sd 27:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 4616.429370]  sdb: sdb1
+[ 4616.433168] sd 27:0:0:0: [sdb] Attached SCSI removable disk
+
+#2
+[ 4806.962544] usb 1-1.3: new high-speed USB device number 28 using ehci-pci
+[ 4807.054777] provusb-perf: new device plugged
+[ 4807.056032] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 4807.056036] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4807.056039] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 4807.056041] usb 1-1.3: Manufacturer: SanDisk
+[ 4807.056043] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 4807.056460] daveti2: netlink socket created in USB storage
+[ 4807.056465] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4807.056607] scsi28 : usb-storage 1-1.3:1.0
+[ 4807.056679] provusb-perf: new device starts to work
+[ 4808.055631] provusb-perf: scan done
+[ 4808.056672] scsi 28:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 4808.056996] sd 28:0:0:0: Attached scsi generic sg2 type 0
+[ 4808.061629] sd 28:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 4808.064387] sd 28:0:0:0: [sdb] Write Protect is off
+[ 4808.064391] sd 28:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 4808.065502] sd 28:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 4808.081317]  sdb: sdb1
+[ 4808.085267] sd 28:0:0:0: [sdb] Attached SCSI removable disk
+
+#3
+[ 4964.788798] usb 1-1.3: new high-speed USB device number 29 using ehci-pci
+[ 4964.881069] provusb-perf: new device plugged
+[ 4964.882068] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 4964.882073] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4964.882076] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 4964.882078] usb 1-1.3: Manufacturer: SanDisk
+[ 4964.882080] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 4964.882496] daveti2: netlink socket created in USB storage
+[ 4964.882502] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4964.882677] scsi29 : usb-storage 1-1.3:1.0
+[ 4964.882756] provusb-perf: new device starts to work
+[ 4965.881915] provusb-perf: scan done
+[ 4965.882964] scsi 29:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 4965.883267] sd 29:0:0:0: Attached scsi generic sg2 type 0
+[ 4965.884791] sd 29:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 4965.888612] sd 29:0:0:0: [sdb] Write Protect is off
+[ 4965.888617] sd 29:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 4965.889850] sd 29:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 4965.905689]  sdb: sdb1
+[ 4965.909399] sd 29:0:0:0: [sdb] Attached SCSI removable disk
+
+#4
+[ 5075.474965] usb 1-1.3: new high-speed USB device number 30 using ehci-pci
+[ 5075.567204] provusb-perf: new device plugged
+[ 5075.568201] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5075.568205] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5075.568208] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5075.568210] usb 1-1.3: Manufacturer: SanDisk
+[ 5075.568212] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5075.568642] daveti2: netlink socket created in USB storage
+[ 5075.568647] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5075.568853] scsi30 : usb-storage 1-1.3:1.0
+[ 5075.568927] provusb-perf: new device starts to work
+[ 5076.568073] provusb-perf: scan done
+[ 5076.569103] scsi 30:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5076.569403] sd 30:0:0:0: Attached scsi generic sg2 type 0
+[ 5076.574461] sd 30:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5076.576564] sd 30:0:0:0: [sdb] Write Protect is off
+[ 5076.576567] sd 30:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5076.577704] sd 30:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5076.594128]  sdb: sdb1
+[ 5076.597817] sd 30:0:0:0: [sdb] Attached SCSI removable disk
+
+#5
+[ 5213.064003] usb 1-1.3: new high-speed USB device number 31 using ehci-pci
+[ 5213.156312] provusb-perf: new device plugged
+[ 5213.157572] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5213.157577] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5213.157580] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5213.157582] usb 1-1.3: Manufacturer: SanDisk
+[ 5213.157584] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5213.157971] daveti2: netlink socket created in USB storage
+[ 5213.157976] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5213.158186] scsi31 : usb-storage 1-1.3:1.0
+[ 5213.158268] provusb-perf: new device starts to work
+[ 5214.157183] provusb-perf: scan done
+[ 5214.158277] scsi 31:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5214.159323] sd 31:0:0:0: Attached scsi generic sg2 type 0
+[ 5214.160037] sd 31:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5214.161642] sd 31:0:0:0: [sdb] Write Protect is off
+[ 5214.161648] sd 31:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5214.162611] sd 31:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5214.179198]  sdb: sdb1
+[ 5214.182917] sd 31:0:0:0: [sdb] Attached SCSI removable disk
+
+#6
+[ 5294.028881] usb 1-1.3: new high-speed USB device number 32 using ehci-pci
+[ 5294.121104] provusb-perf: new device plugged
+[ 5294.122224] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5294.122229] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5294.122231] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5294.122234] usb 1-1.3: Manufacturer: SanDisk
+[ 5294.122236] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5294.122657] daveti2: netlink socket created in USB storage
+[ 5294.122662] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5294.123390] scsi32 : usb-storage 1-1.3:1.0
+[ 5294.123467] provusb-perf: new device starts to work
+[ 5295.121969] provusb-perf: scan done
+[ 5295.122994] scsi 32:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5295.123290] sd 32:0:0:0: Attached scsi generic sg2 type 0
+[ 5295.128579] sd 32:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5295.130719] sd 32:0:0:0: [sdb] Write Protect is off
+[ 5295.130725] sd 32:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5295.131795] sd 32:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5295.147648]  sdb: sdb1
+[ 5295.151589] sd 32:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#7
+[ 5461.595434] usb 1-1.3: new high-speed USB device number 33 using ehci-pci
+[ 5461.687754] provusb-perf: new device plugged
+[ 5461.688856] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5461.688861] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5461.688864] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5461.688866] usb 1-1.3: Manufacturer: SanDisk
+[ 5461.688868] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5461.689284] daveti2: netlink socket created in USB storage
+[ 5461.689289] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5461.689522] scsi33 : usb-storage 1-1.3:1.0
+[ 5461.689599] provusb-perf: new device starts to work
+[ 5462.688605] provusb-perf: scan done
+[ 5462.689626] scsi 33:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5462.690454] sd 33:0:0:0: Attached scsi generic sg2 type 0
+[ 5462.693464] sd 33:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5462.695439] sd 33:0:0:0: [sdb] Write Protect is off
+[ 5462.695442] sd 33:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5462.696454] sd 33:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5462.712149]  sdb: sdb1
+[ 5462.715974] sd 33:0:0:0: [sdb] Attached SCSI removable disk
+
+#8
+[ 5562.028861] usb 1-1.3: new high-speed USB device number 34 using ehci-pci
+[ 5562.121107] provusb-perf: new device plugged
+[ 5562.122347] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5562.122352] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5562.122355] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5562.122357] usb 1-1.3: Manufacturer: SanDisk
+[ 5562.122359] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5562.122776] daveti2: netlink socket created in USB storage
+[ 5562.122782] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5562.123008] scsi34 : usb-storage 1-1.3:1.0
+[ 5562.123073] provusb-perf: new device starts to work
+[ 5563.121963] provusb-perf: scan done
+[ 5563.123137] scsi 34:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5563.123653] sd 34:0:0:0: Attached scsi generic sg2 type 0
+[ 5563.125068] sd 34:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5563.127664] sd 34:0:0:0: [sdb] Write Protect is off
+[ 5563.127670] sd 34:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5563.129867] sd 34:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5563.146137]  sdb: sdb1
+[ 5563.150231] sd 34:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#9
+[ 5734.719762] usb 1-1.3: new high-speed USB device number 35 using ehci-pci
+[ 5734.812046] provusb-perf: new device plugged
+[ 5734.813191] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5734.813196] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5734.813198] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5734.813201] usb 1-1.3: Manufacturer: SanDisk
+[ 5734.813203] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5734.813604] daveti2: netlink socket created in USB storage
+[ 5734.813610] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5734.814386] scsi35 : usb-storage 1-1.3:1.0
+[ 5734.814452] provusb-perf: new device starts to work
+[ 5735.812915] provusb-perf: scan done
+[ 5735.813942] scsi 35:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5735.814241] sd 35:0:0:0: Attached scsi generic sg2 type 0
+[ 5735.815785] sd 35:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5735.821184] sd 35:0:0:0: [sdb] Write Protect is off
+[ 5735.821189] sd 35:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5735.822250] sd 35:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5735.838076]  sdb: sdb1
+[ 5735.841835] sd 35:0:0:0: [sdb] Attached SCSI removable disk
+
+#10
+[ 5978.895503] usb 1-1.3: new high-speed USB device number 36 using ehci-pci
+[ 5978.987683] provusb-perf: new device plugged
+[ 5978.988793] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 5978.988797] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5978.988800] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 5978.988802] usb 1-1.3: Manufacturer: SanDisk
+[ 5978.988804] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 5978.989092] daveti2: netlink socket created in USB storage
+[ 5978.989098] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 5978.989251] scsi36 : usb-storage 1-1.3:1.0
+[ 5978.989304] provusb-perf: new device starts to work
+[ 5979.988680] provusb-perf: scan done
+[ 5979.989708] scsi 36:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 5979.990028] sd 36:0:0:0: Attached scsi generic sg2 type 0
+[ 5979.993085] sd 36:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5979.996407] sd 36:0:0:0: [sdb] Write Protect is off
+[ 5979.996413] sd 36:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 5979.997623] sd 36:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5980.013583]  sdb: sdb1
+[ 5980.017080] sd 36:0:0:0: [sdb] Attached SCSI removable disk
+
+#11
+[ 6096.751756] usb 1-1.3: new high-speed USB device number 37 using ehci-pci
+[ 6096.844000] provusb-perf: new device plugged
+[ 6096.844997] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6096.845002] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6096.845005] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6096.845007] usb 1-1.3: Manufacturer: SanDisk
+[ 6096.845009] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6096.845428] daveti2: netlink socket created in USB storage
+[ 6096.845434] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6096.845652] scsi37 : usb-storage 1-1.3:1.0
+[ 6096.845728] provusb-perf: new device starts to work
+[ 6097.844870] provusb-perf: scan done
+[ 6097.845892] scsi 37:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6097.846380] sd 37:0:0:0: Attached scsi generic sg2 type 0
+[ 6097.847858] sd 37:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6097.849463] sd 37:0:0:0: [sdb] Write Protect is off
+[ 6097.849468] sd 37:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6097.850820] sd 37:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6097.867147]  sdb: sdb1
+[ 6097.870860] sd 37:0:0:0: [sdb] Attached SCSI removable disk
+
+#12
+[ 6260.475020] usb 1-1.3: new high-speed USB device number 38 using ehci-pci
+[ 6260.567258] provusb-perf: new device plugged
+[ 6260.568766] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6260.568771] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6260.568774] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6260.568776] usb 1-1.3: Manufacturer: SanDisk
+[ 6260.568778] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6260.569087] daveti2: netlink socket created in USB storage
+[ 6260.569092] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6260.569424] scsi38 : usb-storage 1-1.3:1.0
+[ 6260.569489] provusb-perf: new device starts to work
+[ 6261.568129] provusb-perf: scan done
+[ 6261.569159] scsi 38:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6261.569459] sd 38:0:0:0: Attached scsi generic sg2 type 0
+[ 6261.575984] sd 38:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6261.577867] sd 38:0:0:0: [sdb] Write Protect is off
+[ 6261.577871] sd 38:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6261.578985] sd 38:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6261.595035]  sdb: sdb1
+[ 6261.598969] sd 38:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#13
+[ 6426.248047] usb 1-1.3: new high-speed USB device number 39 using ehci-pci
+[ 6426.340266] provusb-perf: new device plugged
+[ 6426.341526] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6426.341531] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6426.341533] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6426.341536] usb 1-1.3: Manufacturer: SanDisk
+[ 6426.341538] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6426.341932] daveti2: netlink socket created in USB storage
+[ 6426.341938] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6426.342194] scsi39 : usb-storage 1-1.3:1.0
+[ 6426.342256] provusb-perf: new device starts to work
+[ 6427.341120] provusb-perf: scan done
+[ 6427.342148] scsi 39:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6427.342453] sd 39:0:0:0: Attached scsi generic sg2 type 0
+[ 6427.344102] sd 39:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6427.348898] sd 39:0:0:0: [sdb] Write Protect is off
+[ 6427.348904] sd 39:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6427.350158] sd 39:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6427.366290]  sdb: sdb1
+[ 6427.370362] sd 39:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#14
+[ 6586.989085] provusb-perf: new device plugged
+[ 6586.990574] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6586.990578] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6586.990581] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6586.990583] usb 1-1.3: Manufacturer: SanDisk
+[ 6586.990586] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6586.990952] daveti2: netlink socket created in USB storage
+[ 6586.990957] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6586.991136] scsi40 : usb-storage 1-1.3:1.0
+[ 6586.991211] provusb-perf: new device starts to work
+[ 6587.989766] provusb-perf: scan done
+[ 6587.990813] scsi 40:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6587.991137] sd 40:0:0:0: Attached scsi generic sg2 type 0
+[ 6587.992645] sd 40:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6587.994244] sd 40:0:0:0: [sdb] Write Protect is off
+[ 6587.994249] sd 40:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6587.995257] sd 40:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6588.012332]  sdb: sdb1
+[ 6588.016278] sd 40:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#15
+[ 6706.290282] usb 1-1.3: new high-speed USB device number 41 using ehci-pci
+[ 6706.382528] provusb-perf: new device plugged
+[ 6706.383652] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6706.383657] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6706.383660] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6706.383662] usb 1-1.3: Manufacturer: SanDisk
+[ 6706.383664] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6706.384071] daveti2: netlink socket created in USB storage
+[ 6706.384075] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6706.384168] scsi41 : usb-storage 1-1.3:1.0
+[ 6706.384239] provusb-perf: new device starts to work
+[ 6707.383399] provusb-perf: scan done
+[ 6707.384420] scsi 41:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6707.384743] sd 41:0:0:0: Attached scsi generic sg2 type 0
+[ 6707.388375] sd 41:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6707.391149] sd 41:0:0:0: [sdb] Write Protect is off
+[ 6707.391155] sd 41:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6707.392347] sd 41:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6707.408330]  sdb: sdb1
+[ 6707.412268] sd 41:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#16
+[ 6792.635721] usb 1-1.3: new high-speed USB device number 42 using ehci-pci
+[ 6792.728002] provusb-perf: new device plugged
+[ 6792.729005] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6792.729010] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6792.729013] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6792.729015] usb 1-1.3: Manufacturer: SanDisk
+[ 6792.729017] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6792.729432] daveti2: netlink socket created in USB storage
+[ 6792.729437] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6792.730108] scsi42 : usb-storage 1-1.3:1.0
+[ 6792.730167] provusb-perf: new device starts to work
+[ 6793.728873] provusb-perf: scan done
+[ 6793.729896] scsi 42:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6793.730754] sd 42:0:0:0: Attached scsi generic sg2 type 0
+[ 6793.732247] sd 42:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6793.734217] sd 42:0:0:0: [sdb] Write Protect is off
+[ 6793.734223] sd 42:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6793.735573] sd 42:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6793.752015]  sdb: sdb1
+[ 6793.755863] sd 42:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#17
+[ 6935.349109] usb 1-1.3: new high-speed USB device number 43 using ehci-pci
+[ 6935.441435] provusb-perf: new device plugged
+[ 6935.442933] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 6935.442938] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 6935.442940] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 6935.442943] usb 1-1.3: Manufacturer: SanDisk
+[ 6935.442945] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 6935.443326] daveti2: netlink socket created in USB storage
+[ 6935.443331] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 6935.443531] scsi43 : usb-storage 1-1.3:1.0
+[ 6935.443609] provusb-perf: new device starts to work
+[ 6936.442229] provusb-perf: scan done
+[ 6936.443285] scsi 43:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 6936.443571] sd 43:0:0:0: Attached scsi generic sg2 type 0
+[ 6936.445029] sd 43:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 6936.446654] sd 43:0:0:0: [sdb] Write Protect is off
+[ 6936.446660] sd 43:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 6936.448306] sd 43:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 6936.464563]  sdb: sdb1
+[ 6936.468660] sd 43:0:0:0: [sdb] Attached SCSI removable disk
+
+#18
+[ 7054.234268] usb 1-1.3: new high-speed USB device number 44 using ehci-pci
+[ 7054.326615] provusb-perf: new device plugged
+[ 7054.327597] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 7054.327602] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 7054.327604] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 7054.327606] usb 1-1.3: Manufacturer: SanDisk
+[ 7054.327609] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 7054.327999] daveti2: netlink socket created in USB storage
+[ 7054.328004] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 7054.328737] scsi44 : usb-storage 1-1.3:1.0
+[ 7054.328813] provusb-perf: new device starts to work
+[ 7055.327337] provusb-perf: scan done
+[ 7055.328363] scsi 44:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 7055.328669] sd 44:0:0:0: Attached scsi generic sg2 type 0
+[ 7055.330324] sd 44:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 7055.332784] sd 44:0:0:0: [sdb] Write Protect is off
+[ 7055.332789] sd 44:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 7055.334073] sd 44:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 7055.350757]  sdb: sdb1
+[ 7055.356831] sd 44:0:0:0: [sdb] Attached SCSI removable disk
+
+#19
+[ 7179.264649] usb 1-1.3: new high-speed USB device number 45 using ehci-pci
+[ 7179.356981] provusb-perf: new device plugged
+[ 7179.358084] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 7179.358089] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 7179.358092] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 7179.358094] usb 1-1.3: Manufacturer: SanDisk
+[ 7179.358096] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 7179.358513] daveti2: netlink socket created in USB storage
+[ 7179.358519] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 7179.359204] scsi45 : usb-storage 1-1.3:1.0
+[ 7179.359280] provusb-perf: new device starts to work
+[ 7180.357700] provusb-perf: scan done
+[ 7180.358726] scsi 45:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 7180.359017] sd 45:0:0:0: Attached scsi generic sg2 type 0
+[ 7180.360544] sd 45:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 7180.362195] sd 45:0:0:0: [sdb] Write Protect is off
+[ 7180.362201] sd 45:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 7180.364045] sd 45:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 7180.381622]  sdb: sdb1
+[ 7180.385442] sd 45:0:0:0: [sdb] Attached SCSI removable disk
+
+#20
+[ 7284.570219] usb 1-1.3: new high-speed USB device number 46 using ehci-pci
+[ 7284.662449] provusb-perf: new device plugged
+[ 7284.663835] usb 1-1.3: New USB device found, idVendor=0781, idProduct=5571
+[ 7284.663840] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 7284.663843] usb 1-1.3: Product: Firebird USB Flash Drive
+[ 7284.663845] usb 1-1.3: Manufacturer: SanDisk
+[ 7284.663847] usb 1-1.3: SerialNumber: 4C532000051023104204
+[ 7284.664231] daveti2: netlink socket created in USB storage
+[ 7284.664236] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 7284.664935] scsi46 : usb-storage 1-1.3:1.0
+[ 7284.665008] provusb-perf: new device starts to work
+[ 7285.663298] provusb-perf: scan done
+[ 7285.664326] scsi 46:0:0:0: Direct-Access     SanDisk  Cruzer Fit       1.26 PQ: 0 ANSI: 5
+[ 7285.665156] sd 46:0:0:0: Attached scsi generic sg2 type 0
+[ 7285.666132] sd 46:0:0:0: [sdb] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 7285.668170] sd 46:0:0:0: [sdb] Write Protect is off
+[ 7285.668175] sd 46:0:0:0: [sdb] Mode Sense: 43 00 00 00
+[ 7285.669753] sd 46:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 7285.686849]  sdb: sdb1
+[ 7285.690638] sd 46:0:0:0: [sdb] Attached SCSI removable disk
+
+

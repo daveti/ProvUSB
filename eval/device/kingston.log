@@ -1,0 +1,559 @@
+#1
+[  435.145692] usb 1-1.3: new high-speed USB device number 6 using ehci-pci
+[  435.238105] provusb-perf: new device plugged
+[  435.240727] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[  435.240732] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  435.240734] usb 1-1.3: Product: DT 101 II
+[  435.240736] usb 1-1.3: Manufacturer: Kingston
+[  435.240739] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[  435.291021] daveti2: netlink socket created in USB storage
+[  435.291025] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[  435.291224] scsi6 : usb-storage 1-1.3:1.0
+[  435.291338] provusb-perf: new device starts to work
+[  435.291352] usbcore: registered new interface driver usb-storage
+[  436.290390] provusb-perf: scan done
+[  436.290974] scsi 6:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[  436.291252] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[  436.292946] sd 6:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[  436.293692] sd 6:0:0:0: [sdb] Write Protect is off
+[  436.293697] sd 6:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[  436.296537] sd 6:0:0:0: [sdb] No Caching mode page found
+[  436.296542] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[  436.300314] sd 6:0:0:0: [sdb] No Caching mode page found
+[  436.300320] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[  436.530865]  sdb: sdb1
+[  436.533915] sd 6:0:0:0: [sdb] No Caching mode page found
+[  436.533920] sd 6:0:0:0: [sdb] Assuming drive cache: write through
+[  436.533924] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+
+#2
+[  626.280819] usb 1-1.3: new high-speed USB device number 7 using ehci-pci
+[  626.373238] provusb-perf: new device plugged
+[  626.375861] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[  626.375866] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  626.375868] usb 1-1.3: Product: DT 101 II
+[  626.375870] usb 1-1.3: Manufacturer: Kingston
+[  626.375872] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[  626.376246] daveti2: netlink socket created in USB storage
+[  626.376252] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[  626.376343] scsi7 : usb-storage 1-1.3:1.0
+[  626.376393] provusb-perf: new device starts to work
+[  627.373458] provusb-perf: scan done
+[  627.374105] scsi 7:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[  627.374427] sd 7:0:0:0: Attached scsi generic sg2 type 0
+[  627.376992] sd 7:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[  627.380946] sd 7:0:0:0: [sdb] Write Protect is off
+[  627.380952] sd 7:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[  627.382045] sd 7:0:0:0: [sdb] No Caching mode page found
+[  627.382048] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[  627.385569] sd 7:0:0:0: [sdb] No Caching mode page found
+[  627.385573] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[  627.616254]  sdb: sdb1
+[  627.619233] sd 7:0:0:0: [sdb] No Caching mode page found
+[  627.619238] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[  627.619242] sd 7:0:0:0: [sdb] Attached SCSI removable disk
+
+#3
+[  769.763181] usb 1-1.3: new high-speed USB device number 8 using ehci-pci
+[  769.855525] provusb-perf: new device plugged
+[  769.858153] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[  769.858158] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  769.858160] usb 1-1.3: Product: DT 101 II
+[  769.858162] usb 1-1.3: Manufacturer: Kingston
+[  769.858165] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[  769.858696] daveti2: netlink socket created in USB storage
+[  769.858701] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[  769.859399] scsi8 : usb-storage 1-1.3:1.0
+[  769.859464] provusb-perf: new device starts to work
+[  770.859836] provusb-perf: scan done
+[  770.860423] scsi 8:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[  770.860727] sd 8:0:0:0: Attached scsi generic sg2 type 0
+[  770.862490] sd 8:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[  770.866149] sd 8:0:0:0: [sdb] Write Protect is off
+[  770.866154] sd 8:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[  770.867411] sd 8:0:0:0: [sdb] No Caching mode page found
+[  770.867416] sd 8:0:0:0: [sdb] Assuming drive cache: write through
+[  770.871233] sd 8:0:0:0: [sdb] No Caching mode page found
+[  770.871238] sd 8:0:0:0: [sdb] Assuming drive cache: write through
+[  771.102004]  sdb: sdb1
+[  771.105327] sd 8:0:0:0: [sdb] No Caching mode page found
+[  771.105333] sd 8:0:0:0: [sdb] Assuming drive cache: write through
+[  771.105336] sd 8:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#4
+[  874.812067] usb 1-1.3: new high-speed USB device number 9 using ehci-pci
+[  874.904416] provusb-perf: new device plugged
+[  874.907036] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[  874.907041] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[  874.907043] usb 1-1.3: Product: DT 101 II
+[  874.907046] usb 1-1.3: Manufacturer: Kingston
+[  874.907048] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[  874.907459] daveti2: netlink socket created in USB storage
+[  874.907465] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[  874.908202] scsi9 : usb-storage 1-1.3:1.0
+[  874.908277] provusb-perf: new device starts to work
+[  875.908801] provusb-perf: scan done
+[  875.909432] scsi 9:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[  875.910362] sd 9:0:0:0: Attached scsi generic sg2 type 0
+[  875.910742] sd 9:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[  875.912038] sd 9:0:0:0: [sdb] Write Protect is off
+[  875.912044] sd 9:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[  875.913616] sd 9:0:0:0: [sdb] No Caching mode page found
+[  875.913621] sd 9:0:0:0: [sdb] Assuming drive cache: write through
+[  875.919355] sd 9:0:0:0: [sdb] No Caching mode page found
+[  875.919360] sd 9:0:0:0: [sdb] Assuming drive cache: write through
+[  876.150156]  sdb: sdb1
+[  876.153088] sd 9:0:0:0: [sdb] No Caching mode page found
+[  876.153093] sd 9:0:0:0: [sdb] Assuming drive cache: write through
+[  876.153097] sd 9:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#5
+[ 1000.612522] usb 1-1.3: new high-speed USB device number 10 using ehci-pci
+[ 1000.704942] provusb-perf: new device plugged
+[ 1000.707569] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1000.707574] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1000.707577] usb 1-1.3: Product: DT 101 II
+[ 1000.707579] usb 1-1.3: Manufacturer: Kingston
+[ 1000.707581] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1000.707979] daveti2: netlink socket created in USB storage
+[ 1000.707985] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1000.708236] scsi10 : usb-storage 1-1.3:1.0
+[ 1000.708310] provusb-perf: new device starts to work
+[ 1001.705674] provusb-perf: scan done
+[ 1001.706316] scsi 10:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1001.706607] sd 10:0:0:0: Attached scsi generic sg2 type 0
+[ 1001.708513] sd 10:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1001.709364] sd 10:0:0:0: [sdb] Write Protect is off
+[ 1001.709369] sd 10:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1001.712128] sd 10:0:0:0: [sdb] No Caching mode page found
+[ 1001.712134] sd 10:0:0:0: [sdb] Assuming drive cache: write through
+[ 1001.716645] sd 10:0:0:0: [sdb] No Caching mode page found
+[ 1001.716651] sd 10:0:0:0: [sdb] Assuming drive cache: write through
+[ 1001.947402]  sdb: sdb1
+[ 1001.950441] sd 10:0:0:0: [sdb] No Caching mode page found
+[ 1001.950447] sd 10:0:0:0: [sdb] Assuming drive cache: write through
+[ 1001.950450] sd 10:0:0:0: [sdb] Attached SCSI removable disk
+
+#6
+[ 1273.997087] usb 1-1.3: new high-speed USB device number 11 using ehci-pci
+[ 1274.089442] provusb-perf: new device plugged
+[ 1274.092070] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1274.092075] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1274.092077] usb 1-1.3: Product: DT 101 II
+[ 1274.092080] usb 1-1.3: Manufacturer: Kingston
+[ 1274.092082] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1274.092480] daveti2: netlink socket created in USB storage
+[ 1274.092486] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1274.093162] scsi11 : usb-storage 1-1.3:1.0
+[ 1274.093241] provusb-perf: new device starts to work
+[ 1275.094213] provusb-perf: scan done
+[ 1275.094851] scsi 11:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1275.095724] sd 11:0:0:0: Attached scsi generic sg2 type 0
+[ 1275.095944] sd 11:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1275.098252] sd 11:0:0:0: [sdb] Write Protect is off
+[ 1275.098256] sd 11:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1275.099055] sd 11:0:0:0: [sdb] No Caching mode page found
+[ 1275.099061] sd 11:0:0:0: [sdb] Assuming drive cache: write through
+[ 1275.103909] sd 11:0:0:0: [sdb] No Caching mode page found
+[ 1275.103914] sd 11:0:0:0: [sdb] Assuming drive cache: write through
+[ 1275.334703]  sdb: sdb1
+[ 1275.337847] sd 11:0:0:0: [sdb] No Caching mode page found
+[ 1275.337852] sd 11:0:0:0: [sdb] Assuming drive cache: write through
+[ 1275.337855] sd 11:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#7
+[ 1429.521390] usb 1-1.3: new high-speed USB device number 12 using ehci-pci
+[ 1429.613833] provusb-perf: new device plugged
+[ 1429.616434] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1429.616439] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1429.616442] usb 1-1.3: Product: DT 101 II
+[ 1429.616444] usb 1-1.3: Manufacturer: Kingston
+[ 1429.616446] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1429.616846] daveti2: netlink socket created in USB storage
+[ 1429.616851] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1429.616972] scsi12 : usb-storage 1-1.3:1.0
+[ 1429.617039] provusb-perf: new device starts to work
+[ 1430.614546] provusb-perf: scan done
+[ 1430.615196] scsi 12:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1430.615588] sd 12:0:0:0: Attached scsi generic sg2 type 0
+[ 1430.616258] sd 12:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1430.617713] sd 12:0:0:0: [sdb] Write Protect is off
+[ 1430.617717] sd 12:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1430.618498] sd 12:0:0:0: [sdb] No Caching mode page found
+[ 1430.618502] sd 12:0:0:0: [sdb] Assuming drive cache: write through
+[ 1430.625248] sd 12:0:0:0: [sdb] No Caching mode page found
+[ 1430.625251] sd 12:0:0:0: [sdb] Assuming drive cache: write through
+[ 1430.856025]  sdb: sdb1
+[ 1430.859111] sd 12:0:0:0: [sdb] No Caching mode page found
+[ 1430.859117] sd 12:0:0:0: [sdb] Assuming drive cache: write through
+[ 1430.859120] sd 12:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#8
+[ 1541.740857] usb 1-1.3: new high-speed USB device number 13 using ehci-pci
+[ 1541.833232] provusb-perf: new device plugged
+[ 1541.835858] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1541.835863] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1541.835866] usb 1-1.3: Product: DT 101 II
+[ 1541.835868] usb 1-1.3: Manufacturer: Kingston
+[ 1541.835870] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1541.836297] daveti2: netlink socket created in USB storage
+[ 1541.836302] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1541.836586] scsi13 : usb-storage 1-1.3:1.0
+[ 1541.836659] provusb-perf: new device starts to work
+[ 1542.833985] provusb-perf: scan done
+[ 1542.834627] scsi 13:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1542.834955] sd 13:0:0:0: Attached scsi generic sg2 type 0
+[ 1542.835691] sd 13:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1542.836477] sd 13:0:0:0: [sdb] Write Protect is off
+[ 1542.836483] sd 13:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1542.837319] sd 13:0:0:0: [sdb] No Caching mode page found
+[ 1542.837324] sd 13:0:0:0: [sdb] Assuming drive cache: write through
+[ 1542.844481] sd 13:0:0:0: [sdb] No Caching mode page found
+[ 1542.844487] sd 13:0:0:0: [sdb] Assuming drive cache: write through
+[ 1543.075207]  sdb: sdb1
+[ 1543.078011] sd 13:0:0:0: [sdb] No Caching mode page found
+[ 1543.078013] sd 13:0:0:0: [sdb] Assuming drive cache: write through
+[ 1543.078014] sd 13:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#9
+[ 1687.016439] usb 1-1.3: new high-speed USB device number 14 using ehci-pci
+[ 1687.108761] provusb-perf: new device plugged
+[ 1687.111426] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1687.111430] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1687.111433] usb 1-1.3: Product: DT 101 II
+[ 1687.111435] usb 1-1.3: Manufacturer: Kingston
+[ 1687.111437] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1687.111859] daveti2: netlink socket created in USB storage
+[ 1687.111864] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1687.112561] scsi14 : usb-storage 1-1.3:1.0
+[ 1687.112640] provusb-perf: new device starts to work
+[ 1688.113516] provusb-perf: scan done
+[ 1688.114203] scsi 14:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1688.115077] sd 14:0:0:0: Attached scsi generic sg2 type 0
+[ 1688.115266] sd 14:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1688.116213] sd 14:0:0:0: [sdb] Write Protect is off
+[ 1688.116219] sd 14:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1688.117143] sd 14:0:0:0: [sdb] No Caching mode page found
+[ 1688.117147] sd 14:0:0:0: [sdb] Assuming drive cache: write through
+[ 1688.123576] sd 14:0:0:0: [sdb] No Caching mode page found
+[ 1688.123581] sd 14:0:0:0: [sdb] Assuming drive cache: write through
+[ 1688.354237]  sdb: sdb1
+[ 1688.356943] sd 14:0:0:0: [sdb] No Caching mode page found
+[ 1688.356947] sd 14:0:0:0: [sdb] Assuming drive cache: write through
+[ 1688.356950] sd 14:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#10
+[ 1815.381626] usb 1-1.3: new high-speed USB device number 15 using ehci-pci
+[ 1815.474127] provusb-perf: new device plugged
+[ 1815.476884] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1815.476889] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1815.476892] usb 1-1.3: Product: DT 101 II
+[ 1815.476894] usb 1-1.3: Manufacturer: Kingston
+[ 1815.476896] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1815.477396] daveti2: netlink socket created in USB storage
+[ 1815.477402] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1815.477478] scsi15 : usb-storage 1-1.3:1.0
+[ 1815.477537] provusb-perf: new device starts to work
+[ 1816.474874] provusb-perf: scan done
+[ 1816.475504] scsi 15:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1816.475841] sd 15:0:0:0: Attached scsi generic sg2 type 0
+[ 1816.476578] sd 15:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1816.477726] sd 15:0:0:0: [sdb] Write Protect is off
+[ 1816.477731] sd 15:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1816.480419] sd 15:0:0:0: [sdb] No Caching mode page found
+[ 1816.480425] sd 15:0:0:0: [sdb] Assuming drive cache: write through
+[ 1816.485306] sd 15:0:0:0: [sdb] No Caching mode page found
+[ 1816.485312] sd 15:0:0:0: [sdb] Assuming drive cache: write through
+[ 1816.716077]  sdb: sdb1
+[ 1816.719252] sd 15:0:0:0: [sdb] No Caching mode page found
+[ 1816.719258] sd 15:0:0:0: [sdb] Assuming drive cache: write through
+[ 1816.719261] sd 15:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#11
+[ 1977.055173] usb 1-1.3: new high-speed USB device number 16 using ehci-pci
+[ 1977.147683] provusb-perf: new device plugged
+[ 1977.150285] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 1977.150290] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 1977.150293] usb 1-1.3: Product: DT 101 II
+[ 1977.150295] usb 1-1.3: Manufacturer: Kingston
+[ 1977.150297] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 1977.150693] daveti2: netlink socket created in USB storage
+[ 1977.150699] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 1977.151033] scsi16 : usb-storage 1-1.3:1.0
+[ 1977.151094] provusb-perf: new device starts to work
+[ 1978.148406] provusb-perf: scan done
+[ 1978.149030] scsi 16:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 1978.149374] sd 16:0:0:0: Attached scsi generic sg2 type 0
+[ 1978.150269] sd 16:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 1978.152951] sd 16:0:0:0: [sdb] Write Protect is off
+[ 1978.152956] sd 16:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1978.154644] sd 16:0:0:0: [sdb] No Caching mode page found
+[ 1978.154649] sd 16:0:0:0: [sdb] Assuming drive cache: write through
+[ 1978.159765] sd 16:0:0:0: [sdb] No Caching mode page found
+[ 1978.159767] sd 16:0:0:0: [sdb] Assuming drive cache: write through
+[ 1978.390494]  sdb: sdb1
+[ 1978.393806] sd 16:0:0:0: [sdb] No Caching mode page found
+[ 1978.393812] sd 16:0:0:0: [sdb] Assuming drive cache: write through
+[ 1978.393815] sd 16:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#12
+[ 2043.155403] usb 1-1.3: new high-speed USB device number 17 using ehci-pci
+[ 2043.247791] provusb-perf: new device plugged
+[ 2043.250398] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 2043.250402] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2043.250405] usb 1-1.3: Product: DT 101 II
+[ 2043.250407] usb 1-1.3: Manufacturer: Kingston
+[ 2043.250410] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 2043.250969] daveti2: netlink socket created in USB storage
+[ 2043.250974] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 2043.251135] scsi17 : usb-storage 1-1.3:1.0
+[ 2043.251193] provusb-perf: new device starts to work
+[ 2044.248507] provusb-perf: scan done
+[ 2044.249062] scsi 17:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 2044.249410] sd 17:0:0:0: Attached scsi generic sg2 type 0
+[ 2044.251421] sd 17:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 2044.255161] sd 17:0:0:0: [sdb] Write Protect is off
+[ 2044.255167] sd 17:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 2044.256253] sd 17:0:0:0: [sdb] No Caching mode page found
+[ 2044.256258] sd 17:0:0:0: [sdb] Assuming drive cache: write through
+[ 2044.260355] sd 17:0:0:0: [sdb] No Caching mode page found
+[ 2044.260360] sd 17:0:0:0: [sdb] Assuming drive cache: write through
+[ 2044.491166]  sdb: sdb1
+[ 2044.494177] sd 17:0:0:0: [sdb] No Caching mode page found
+[ 2044.494182] sd 17:0:0:0: [sdb] Assuming drive cache: write through
+[ 2044.494185] sd 17:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#13
+[ 2287.587323] usb 1-1.3: new high-speed USB device number 18 using ehci-pci
+[ 2287.679794] provusb-perf: new device plugged
+[ 2287.682409] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 2287.682414] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2287.682416] usb 1-1.3: Product: DT 101 II
+[ 2287.682419] usb 1-1.3: Manufacturer: Kingston
+[ 2287.682421] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 2287.682819] daveti2: netlink socket created in USB storage
+[ 2287.682824] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 2287.682994] scsi18 : usb-storage 1-1.3:1.0
+[ 2287.683070] provusb-perf: new device starts to work
+[ 2288.680511] provusb-perf: scan done
+[ 2288.681162] scsi 18:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 2288.681452] sd 18:0:0:0: Attached scsi generic sg2 type 0
+[ 2288.683556] sd 18:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 2288.685524] sd 18:0:0:0: [sdb] Write Protect is off
+[ 2288.685529] sd 18:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 2288.686894] sd 18:0:0:0: [sdb] No Caching mode page found
+[ 2288.686900] sd 18:0:0:0: [sdb] Assuming drive cache: write through
+[ 2288.692098] sd 18:0:0:0: [sdb] No Caching mode page found
+[ 2288.692103] sd 18:0:0:0: [sdb] Assuming drive cache: write through
+[ 2288.922741]  sdb: sdb1
+[ 2288.925464] sd 18:0:0:0: [sdb] No Caching mode page found
+[ 2288.925469] sd 18:0:0:0: [sdb] Assuming drive cache: write through
+[ 2288.925472] sd 18:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#14
+[ 3803.104573] usb 1-1.3: new high-speed USB device number 19 using ehci-pci
+[ 3803.196940] provusb-perf: new device plugged
+[ 3803.199545] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 3803.199550] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 3803.199553] usb 1-1.3: Product: DT 101 II
+[ 3803.199555] usb 1-1.3: Manufacturer: Kingston
+[ 3803.199557] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 3803.200090] daveti2: netlink socket created in USB storage
+[ 3803.200094] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 3803.200257] scsi19 : usb-storage 1-1.3:1.0
+[ 3803.200314] provusb-perf: new device starts to work
+[ 3804.197653] provusb-perf: scan done
+[ 3804.198311] scsi 19:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 3804.198643] sd 19:0:0:0: Attached scsi generic sg2 type 0
+[ 3804.199434] sd 19:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 3804.200335] sd 19:0:0:0: [sdb] Write Protect is off
+[ 3804.200337] sd 19:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 3804.201261] sd 19:0:0:0: [sdb] No Caching mode page found
+[ 3804.201265] sd 19:0:0:0: [sdb] Assuming drive cache: write through
+[ 3804.206944] sd 19:0:0:0: [sdb] No Caching mode page found
+[ 3804.206948] sd 19:0:0:0: [sdb] Assuming drive cache: write through
+[ 3804.437494]  sdb: sdb1
+[ 3804.440349] sd 19:0:0:0: [sdb] No Caching mode page found
+[ 3804.440355] sd 19:0:0:0: [sdb] Assuming drive cache: write through
+[ 3804.440358] sd 19:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#15
+[ 3894.061939] usb 1-1.3: new high-speed USB device number 20 using ehci-pci
+[ 3894.154300] provusb-perf: new device plugged
+[ 3894.156929] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 3894.156933] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 3894.156936] usb 1-1.3: Product: DT 101 II
+[ 3894.156939] usb 1-1.3: Manufacturer: Kingston
+[ 3894.156941] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 3894.157461] daveti2: netlink socket created in USB storage
+[ 3894.157466] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 3894.157634] scsi20 : usb-storage 1-1.3:1.0
+[ 3894.157692] provusb-perf: new device starts to work
+[ 3895.155181] provusb-perf: scan done
+[ 3895.155816] scsi 20:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 3895.156122] sd 20:0:0:0: Attached scsi generic sg2 type 0
+[ 3895.158257] sd 20:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 3895.161349] sd 20:0:0:0: [sdb] Write Protect is off
+[ 3895.161354] sd 20:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 3895.162786] sd 20:0:0:0: [sdb] No Caching mode page found
+[ 3895.162790] sd 20:0:0:0: [sdb] Assuming drive cache: write through
+[ 3895.167150] sd 20:0:0:0: [sdb] No Caching mode page found
+[ 3895.167155] sd 20:0:0:0: [sdb] Assuming drive cache: write through
+[ 3895.397777]  sdb: sdb1
+[ 3895.400844] sd 20:0:0:0: [sdb] No Caching mode page found
+[ 3895.400849] sd 20:0:0:0: [sdb] Assuming drive cache: write through
+[ 3895.400852] sd 20:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#16
+[ 4000.136173] usb 1-1.3: new high-speed USB device number 21 using ehci-pci
+[ 4000.228691] provusb-perf: new device plugged
+[ 4000.231326] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 4000.231331] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4000.231334] usb 1-1.3: Product: DT 101 II
+[ 4000.231336] usb 1-1.3: Manufacturer: Kingston
+[ 4000.231338] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 4000.231816] daveti2: netlink socket created in USB storage
+[ 4000.231822] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4000.232044] scsi21 : usb-storage 1-1.3:1.0
+[ 4000.232121] provusb-perf: new device starts to work
+[ 4001.229288] provusb-perf: scan done
+[ 4001.229940] scsi 21:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 4001.230804] sd 21:0:0:0: Attached scsi generic sg2 type 0
+[ 4001.232489] sd 21:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 4001.235240] sd 21:0:0:0: [sdb] Write Protect is off
+[ 4001.235246] sd 21:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4001.236427] sd 21:0:0:0: [sdb] No Caching mode page found
+[ 4001.236431] sd 21:0:0:0: [sdb] Assuming drive cache: write through
+[ 4001.241165] sd 21:0:0:0: [sdb] No Caching mode page found
+[ 4001.241170] sd 21:0:0:0: [sdb] Assuming drive cache: write through
+[ 4001.471919]  sdb: sdb1
+[ 4001.474969] sd 21:0:0:0: [sdb] No Caching mode page found
+[ 4001.474974] sd 21:0:0:0: [sdb] Assuming drive cache: write through
+[ 4001.474977] sd 21:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#17
+[ 4093.143291] usb 1-1.3: new high-speed USB device number 22 using ehci-pci
+[ 4093.235756] provusb-perf: new device plugged
+[ 4093.238415] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 4093.238420] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4093.238423] usb 1-1.3: Product: DT 101 II
+[ 4093.238425] usb 1-1.3: Manufacturer: Kingston
+[ 4093.238427] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 4093.238969] daveti2: netlink socket created in USB storage
+[ 4093.238975] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4093.239579] scsi22 : usb-storage 1-1.3:1.0
+[ 4093.239656] provusb-perf: new device starts to work
+[ 4094.240394] provusb-perf: scan done
+[ 4094.241045] scsi 22:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 4094.241877] sd 22:0:0:0: Attached scsi generic sg2 type 0
+[ 4094.242104] sd 22:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 4094.242869] sd 22:0:0:0: [sdb] Write Protect is off
+[ 4094.242874] sd 22:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4094.244501] sd 22:0:0:0: [sdb] No Caching mode page found
+[ 4094.244507] sd 22:0:0:0: [sdb] Assuming drive cache: write through
+[ 4094.251214] sd 22:0:0:0: [sdb] No Caching mode page found
+[ 4094.251219] sd 22:0:0:0: [sdb] Assuming drive cache: write through
+[ 4094.482012]  sdb: sdb1
+[ 4094.484888] sd 22:0:0:0: [sdb] No Caching mode page found
+[ 4094.484894] sd 22:0:0:0: [sdb] Assuming drive cache: write through
+[ 4094.484897] sd 22:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#18
+[ 4293.761973] usb 1-1.3: new high-speed USB device number 24 using ehci-pci
+[ 4293.854399] provusb-perf: new device plugged
+[ 4293.857309] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 4293.857314] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4293.857316] usb 1-1.3: Product: DT 101 II
+[ 4293.857319] usb 1-1.3: Manufacturer: Kingston
+[ 4293.857321] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 4293.857706] daveti2: netlink socket created in USB storage
+[ 4293.857712] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4293.858109] scsi24 : usb-storage 1-1.3:1.0
+[ 4293.858188] provusb-perf: new device starts to work
+[ 4294.859186] provusb-perf: scan done
+[ 4294.859806] scsi 24:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 4294.860120] sd 24:0:0:0: Attached scsi generic sg2 type 0
+[ 4294.862315] sd 24:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 4294.863273] sd 24:0:0:0: [sdb] Write Protect is off
+[ 4294.863278] sd 24:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4294.866212] sd 24:0:0:0: [sdb] No Caching mode page found
+[ 4294.866218] sd 24:0:0:0: [sdb] Assuming drive cache: write through
+[ 4294.870247] sd 24:0:0:0: [sdb] No Caching mode page found
+[ 4294.870252] sd 24:0:0:0: [sdb] Assuming drive cache: write through
+[ 4295.101014]  sdb: sdb1
+[ 4295.103954] sd 24:0:0:0: [sdb] No Caching mode page found
+[ 4295.103959] sd 24:0:0:0: [sdb] Assuming drive cache: write through
+[ 4295.103962] sd 24:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#19
+[ 4388.302395] usb 1-1.3: new high-speed USB device number 25 using ehci-pci
+[ 4388.394802] provusb-perf: new device plugged
+[ 4388.397415] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 4388.397420] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4388.397422] usb 1-1.3: Product: DT 101 II
+[ 4388.397425] usb 1-1.3: Manufacturer: Kingston
+[ 4388.397427] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 4388.397884] daveti2: netlink socket created in USB storage
+[ 4388.397889] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4388.398512] scsi25 : usb-storage 1-1.3:1.0
+[ 4388.398589] provusb-perf: new device starts to work
+[ 4389.399546] provusb-perf: scan done
+[ 4389.400204] scsi 25:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 4389.400536] sd 25:0:0:0: Attached scsi generic sg2 type 0
+[ 4389.401244] sd 25:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 4389.403302] sd 25:0:0:0: [sdb] Write Protect is off
+[ 4389.403307] sd 25:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4389.405470] sd 25:0:0:0: [sdb] No Caching mode page found
+[ 4389.405475] sd 25:0:0:0: [sdb] Assuming drive cache: write through
+[ 4389.410397] sd 25:0:0:0: [sdb] No Caching mode page found
+[ 4389.410403] sd 25:0:0:0: [sdb] Assuming drive cache: write through
+[ 4389.641237]  sdb: sdb1
+[ 4389.643999] sd 25:0:0:0: [sdb] No Caching mode page found
+[ 4389.644004] sd 25:0:0:0: [sdb] Assuming drive cache: write through
+[ 4389.644008] sd 25:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#20
+[ 4482.078168] usb 1-1.3: new high-speed USB device number 26 using ehci-pci
+[ 4482.170551] provusb-perf: new device plugged
+[ 4482.173189] usb 1-1.3: New USB device found, idVendor=0951, idProduct=1625
+[ 4482.173194] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 4482.173197] usb 1-1.3: Product: DT 101 II
+[ 4482.173199] usb 1-1.3: Manufacturer: Kingston
+[ 4482.173201] usb 1-1.3: SerialNumber: 0014780DE1A1A921752601CB
+[ 4482.173601] daveti2: netlink socket created in USB storage
+[ 4482.173607] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[ 4482.173780] scsi26 : usb-storage 1-1.3:1.0
+[ 4482.173854] provusb-perf: new device starts to work
+[ 4483.171297] provusb-perf: scan done
+[ 4483.171943] scsi 26:0:0:0: Direct-Access     Kingston DT 101 II        1.00 PQ: 0 ANSI: 2
+[ 4483.172251] sd 26:0:0:0: Attached scsi generic sg2 type 0
+[ 4483.174197] sd 26:0:0:0: [sdb] 3973120 512-byte logical blocks: (2.03 GB/1.89 GiB)
+[ 4483.174991] sd 26:0:0:0: [sdb] Write Protect is off
+[ 4483.174996] sd 26:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 4483.177045] sd 26:0:0:0: [sdb] No Caching mode page found
+[ 4483.177049] sd 26:0:0:0: [sdb] Assuming drive cache: write through
+[ 4483.181238] sd 26:0:0:0: [sdb] No Caching mode page found
+[ 4483.181243] sd 26:0:0:0: [sdb] Assuming drive cache: write through
+[ 4483.412020]  sdb: sdb1
+[ 4483.414953] sd 26:0:0:0: [sdb] No Caching mode page found
+[ 4483.414958] sd 26:0:0:0: [sdb] Assuming drive cache: write through
+[ 4483.414962] sd 26:0:0:0: [sdb] Attached SCSI removable disk
+
+
+

@@ -1,0 +1,1593 @@
+root@overo:~$  ./load-mod.sh
+[   42.892333] daveti: trusted-dev fsg_common_init
+[   42.912780]  gadget: Mass Storage Function, version: 2009/09/11
+[   42.926116]  gadget: Number of LUNs=1
+[   42.939025]  lun0: LUN: removable file: /home/root/daveti.img
+[   42.955230] daveti: into [fsg_trusted_dev_init]
+[   42.967712] provusb: netlink socket created
+[   42.972137] daveti: fsg_trusted_dev_ctrl is initialized
+[   42.987060] provusb: entering [provusb_nl_handler]
+[   42.995697] daveti: into [fsg_trusted_dev_load_config]
+[   43.004425] provusb: netlink received msg opcode: 0
+[   43.013061] daveti: into [fsg_trusted_dev_load_key_file]
+[   43.022003] provusb: into [provusb_nl_handle_init]
+[   43.031372] provusb: provd pid [160]
+[   43.035491] daveti: into [fsg_trusted_dev_parse_aik_pub_key]
+[   43.045562] provusb: into [provusb_nl_send], opcode [0], data [ce0a1cd8], len [32]
+[   43.058746] daveti: fsg_trusted_dev_ctrl is loaded with config:
+[   43.058746] key_file [arpsec03_aik_pub.key], force_fail [0] - dump the TIM DB:
+[   43.077148] provusb: sent an nlmsg request to the provd
+[   43.082702] provusb: sent init msg to provd
+[   43.094360] AIK: 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   43.105102] AIK: 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   43.115692] AIK: 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   43.126251] AIK: 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   43.136901] AIK: 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   43.147521] AIK: 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   43.154785] AIK: 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   43.166168] AIK: 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   43.178802] AIK: 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   43.186065] AIK: 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   43.197174] AIK: 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   43.209625] AIK: 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   43.220184] AIK: 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   43.230773] AIK: 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   43.241485] AIK: 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   43.251922] AIK: 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   43.262359] AIK: 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   43.272949] AIK: 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   43.279113] valid: 00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   43.290527] valid: 00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   43.303100] valid: 00000020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   43.313751] RSA-n: 00000000: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8
+[   43.324462] RSA-n: 00000010: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71
+[   43.335205] RSA-n: 00000020: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18
+[   43.345825] RSA-n: 00000030: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66
+[   43.356536] RSA-n: 00000040: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4
+[   43.367279] RSA-n: 00000050: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3
+[   43.377899] RSA-n: 00000060: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12
+[   43.388488] RSA-n: 00000070: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90
+[   43.399261] RSA-n: 00000080: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee
+[   43.409881] RSA-n: 00000090: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71
+[   43.420501] RSA-n: 000000a0: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94
+[   43.431274] RSA-n: 000000b0: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb
+[   43.442016] RSA-n: 000000c0: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2
+[   43.452789] RSA-n: 000000d0: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08
+[   43.463775] RSA-n: 000000e0: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53
+[   43.474517] RSA-n: 000000f0: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   43.485351] RSA-e: 00000000: 01 00 01
+[   43.489227] provusb: fsg_trusted_dev_ctrl has been added [bf1412f4]
+[   43.499908]  gadget: Trusted Mass Storage Gadget, version: 2014/04/30
+[   43.516479]  gadget: userspace failed to provide iSerialNumber
+[   43.527618]  gadget: g_mass_storage ready
+[   43.547729] musb-hdrc musb-hdrc: MUSB HDRC host driver
+[   43.564025] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 2
+[   43.578582] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[   43.589660] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   43.606933] usb usb2: Product: MUSB HDRC host driver
+[   43.618438] usb usb2: Manufacturer: Linux 3.5.7-custom musb-hcd
+[   43.628143] usb usb2: SerialNumber: musb-hdrc
+[   43.643737] hub 2-0:1.0: USB hub found
+[   43.660919] hub 2-0:1.0: 1 port detected
+root@overo:~$  [   43.985992]  gadget: high-speed config #1: Trusted Linux File-Backed Storage
+[   44.992767] daveti: enter [fsg_setup]
+[   44.996643] daveti: ep0-setup ctrl req len [8]
+[   45.001342] 00000000: a1 fe 00 00 00 00 01 00
+[   45.005950] daveti: class-specific control req [a1.fe v0000 i0000 l1]
+[   45.012756] daveti: got BULK_get_max_lun
+[   45.016906] daveti: into [ep0_complete]
+[   45.021301] daveti: enter [fsg_setup]
+[   45.025177] daveti: ep0-setup ctrl req len [8]
+[   45.029876] 00000000: a1 00 00 00 00 00 17 00
+[   45.034484] daveti: class-specific control req [a1.00 v0000 i0000 l23]
+[   45.041381] daveti: got the damn ADSC req
+[   45.045623] daveti: dump the req->buf:
+[   45.049560] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   45.055450] 01 01 01 01 ff 00 00
+[   45.058868] daveti: into [ep0_complete]
+[   45.397705] daveti: enter [fsg_setup]
+[   45.401580] daveti: ep0-setup ctrl req len [8]
+[   45.406280] 00000000: 21 00 00 00 00 00 1c 01
+[   45.410888] daveti: class-specific control req [21.00 v0000 i0000 l284]
+[   45.417877] daveti: got the damn ADSC req
+[   45.422576] daveti: into [ep0_complete]
+[   45.426635] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   45.432586] daveti: got AIK pub key:
+[   45.436370] 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   45.443176] 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   45.449981] 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   45.456787] 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   45.463562] 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   45.470367] 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   45.477172] 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   45.483978] 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   45.490783] 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   45.497558] 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   45.504364] 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   45.511169] 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   45.517974] 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   45.524780] 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   45.531585] 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   45.538360] 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   45.545166] 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   45.551971] 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   45.557678] daveti: into [fsg_trusted_dev_update_state]
+[   45.563171] daveti: into [fsg_trusted_dev_find_matching_aik]
+[   45.569152] daveti: found matching AIK
+[   45.573120] provusb: current tim is [bf14158c]
+[   45.577789] daveti: AIK processing done
+[   45.581970] daveti: enter [fsg_setup]
+[   45.585845] daveti: ep0-setup ctrl req len [8]
+[   45.590545] 00000000: 21 00 00 00 00 00 30 01
+[   45.595153] daveti: class-specific control req [21.00 v0000 i0000 l304]
+[   45.602111] daveti: got the damn ADSC req
+[   45.606536] daveti: into [ep0_complete]
+[   45.610595] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   45.616577] daveti: got TPM quote:
+[   45.620147] 00000000: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+[   45.626953] 00000010: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+[   45.633758] 00000020: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   45.640563] 00000030: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   45.647369] 00000040: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   45.654144] 00000050: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   45.660949] 00000060: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   45.667755] 00000070: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   45.674560] 00000080: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   45.681335] 00000090: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   45.688140] 000000a0: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   45.694946] 000000b0: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   45.701751] 000000c0: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   45.708557] 000000d0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   45.715332] 000000e0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   45.722137] 000000f0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   45.728942] 00000100: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   45.735748] 00000110: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   45.742553] 00000120: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   45.749328] daveti: into [fsg_trusted_dev_update_state]
+[   45.754852] daveti: into [fsg_trusted_dev_build_valid_data]
+[   45.760742] sig: 00000000: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   45.768005] sig: 00000010: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   45.775268] sig: 00000020: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   45.782501] sig: 00000030: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   45.789764] sig: 00000040: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   45.797027] sig: 00000050: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   45.804290] sig: 00000060: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   45.811553] sig: 00000070: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   45.818817] sig: 00000080: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   45.826049] sig: 00000090: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   45.833312] sig: 000000a0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   45.840576] sig: 000000b0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   45.847839] sig: 000000c0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   45.855102] sig: 000000d0: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   45.862335] sig: 000000e0: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   45.869598] sig: 000000f0: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   45.876861] Krsa: Entering: krsa_init
+[   45.880737] sig_bf1416c0: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04  EW..?.K:@g.*....
+[   45.889556] sig_bf1416d0: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9  (.@..<?..C..A...
+[   45.898376] sig_bf1416e0: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71  .$uk..Q......tcq
+[   45.907196] sig_bf1416f0: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa  ...)...QZR....|.
+[   45.915985] sig_bf141700: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d  E...P......-h\V.
+[   45.924804] sig_bf141710: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c  L.`..I"v.....U.,
+[   45.933624] sig_bf141720: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f  .AR....y....2J..
+[   45.942443] sig_bf141730: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a  .E...4.5F....%.*
+[   45.951263] sig_bf141740: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94  .jt73..Z2.wyJ...
+[   45.960083] sig_bf141750: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56  ...Aw[..Z6.$`DmV
+[   45.968902] sig_bf141760: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0  .&d... ....e..c.
+[   45.977722] sig_bf141770: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1  .....nr1...94"/.
+[   45.986541] sig_bf141780: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05  .N.R..+.,=$..+G.
+[   45.995361] sig_bf141790: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6  .....)...f..._J.
+[   46.004180] sig_bf1417a0: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f  T3.@.F.YR9.....O
+[   46.012969] sig_bf1417b0: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08  3.*..2.....Bh...
+[   46.021789] valid_bf1417c0: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   46.030792] valid_bf1417d0: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   46.039794] valid_bf1417e0: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   46.048797] rsa_n_bf1417f0: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8  .a._......K5..H.
+[   46.057800] rsa_n_bf141800: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71  ~Q.+o;.h.Q..N.wq
+[   46.066802] rsa_n_bf141810: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18  Q,.u5h..N)....X.
+[   46.075805] rsa_n_bf141820: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66  ./kk....wL..@xVf
+[   46.084808] rsa_n_bf141830: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4  ...*.i...)?@}._.
+[   46.093811] rsa_n_bf141840: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3  B.."..1"..}..@A.
+[   46.102813] rsa_n_bf141850: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12  ..}~._..g5......
+[   46.111816] rsa_n_bf141860: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90  ...1...E..i.....
+[   46.120819] rsa_n_bf141870: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee  ..D.......c:....
+[   46.129821] rsa_n_bf141880: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71  ......n..u...;.q
+[   46.138793] rsa_n_bf141890: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94  .(...3.]...&....
+[   46.147796] rsa_n_bf1418a0: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb  6..g.....&^E.R}.
+[   46.156799] rsa_n_bf1418b0: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2  ...x.3..K.N.$...
+[   46.165802] rsa_n_bf1418c0: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08  <.*..4/[.=....2.
+[   46.174804] rsa_n_bf1418d0: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53  9D/......t..?..S
+[   46.183807] rsa_n_bf1418e0: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29  ].............j)
+[   46.192810] rsa_e_bf1418f0: 01 00 01                                         ...
+[   46.200622] Krsa: ==>krsa_make_digest()
+[   46.204711] Krsa: hash [2], digest_size [20]
+[   46.209228] valid_ce1e0700: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   46.218231] valid_ce1e0710: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   46.227233] valid_ce1e0720: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   46.236267] Krsa: <==krsa_make_digest() = ok
+[   46.240783] digest_cc0c3200: 56 c1 39 ad a6 22 92 3a 46 f6 c5 a4 ce cd 21 13  V.9..".:F.....!.
+[   46.249847] digest_cc0c3210: e5 0c 71 be                                      ..q.
+[   46.257843] Krsa: krsa_init() done
+[   46.261444] Krsa: ==> krsa_verify()
+[   46.265136] Krsa: step 1: k=2048 size(S)=2047
+[   46.274200] Krsa: size(x)=2033 xLen*8=2048
+[   46.278533] Krsa: ==> RSA_verify(,,256,20,15)
+[   46.283142] Krsa: <== RSA_verify() = 0
+[   46.287109] Krsa: <== krsa_verify() = 0
+[   46.291168] daveti: RSA verification success - TPM Attestation success
+[   46.298034] Krsa: exiting krsa module
+[   46.301910] daveti: Quote processing done
+[   47.309020] provusb: SCSI cmd [18]
+[   47.317138] provusb: SCSI cmd [0]
+[   47.324371] provusb: SCSI cmd [3]
+[   47.332275] provusb: SCSI cmd [0]
+[   47.341613] provusb: SCSI cmd [37]
+[   47.349243] provusb: SCSI cmd [26]
+[   47.356994] provusb: SCSI cmd [26]
+[   47.365417] provusb: SCSI cmd [0]
+[   47.374298] provusb: SCSI cmd [30]
+[   47.381286] provusb: SCSI cmd [0]
+[   47.389984] provusb: SCSI cmd [37]
+[   47.394409] provusb: SCSI cmd [26]
+[   47.404876] provusb: SCSI cmd [26]
+[   47.413208] provusb: SCSI cmd [40]
+[   47.416839] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[0], file_offset[0], amount[4096]
+[   47.436584] provusb: provusb_log - ctrl [bf1412f4]
+[   47.441680] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.451080] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.464660] provusb: sent an nlmsg request to the provd
+[   47.473480] provusb: sent rep msg to provd
+[   47.485260] provusb: SCSI cmd [30]
+[   47.489349] provusb: SCSI cmd [0]
+[   47.497406] provusb: SCSI cmd [0]
+[   47.506500] provusb: SCSI cmd [37]
+[   47.513702] provusb: SCSI cmd [0]
+[   47.520721] provusb: SCSI cmd [26]
+[   47.528411] provusb: SCSI cmd [0]
+[   47.538421] provusb: SCSI cmd [26]
+[   47.542755] provusb: SCSI cmd [30]
+[   47.551361] provusb: SCSI cmd [40]
+[   47.559875] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130944], file_offset[67043328], amount[4096]
+[   47.575622] provusb: scsi read from host [0|0] for block [130944|-1]
+[   47.585784] provusb: provusb_log - ctrl [bf1412f4]
+[   47.590850] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.600585] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.613677] provusb: sent an nlmsg request to the provd
+[   47.622467] provusb: sent rep msg to provd
+[   47.633758] provusb: SCSI cmd [40]
+[   47.637390] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131056], file_offset[67100672], amount[4096]
+[   47.651763] provusb: scsi read from host [0|0] for block [131056|-1]
+[   47.663970] provusb: provusb_log - ctrl [bf1412f4]
+[   47.669036] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.678771] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.691864] provusb: sent an nlmsg request to the provd
+[   47.700714] provusb: sent rep msg to provd
+[   47.709350] provusb: SCSI cmd [40]
+[   47.716705] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[0], file_offset[0], amount[4096]
+[   47.729095] provusb: provusb_log - ctrl [bf1412f4]
+[   47.737609] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.746459] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.757965] provusb: sent an nlmsg request to the provd
+[   47.763488] provusb: sent rep msg to provd
+[   47.772552] provusb: SCSI cmd [40]
+[   47.776184] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[8], file_offset[4096], amount[4096]
+[   47.793395] provusb: scsi read from host [0|0] for block [8|-1]
+[   47.802917] provusb: provusb_log - ctrl [bf1412f4]
+[   47.811309] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.816864] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.830902] provusb: sent an nlmsg request to the provd
+[   47.839721] provusb: sent rep msg to provd
+[   47.848419] provusb: SCSI cmd [40]
+[   47.855560] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131064], file_offset[67104768], amount[512]
+[   47.869049] provusb: scsi read from host [0|0] for block [131064|-1]
+[   47.879058] provusb: provusb_log - ctrl [bf1412f4]
+[   47.887420] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.896209] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.907684] provusb: sent an nlmsg request to the provd
+[   47.916473] provusb: sent rep msg to provd
+[   47.926452] provusb: SCSI cmd [40]
+[   47.933715] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131065], file_offset[67105280], amount[512]
+[   47.947204] provusb: scsi read from host [0|0] for block [131065|-1]
+[   47.957183] provusb: provusb_log - ctrl [bf1412f4]
+[   47.965515] provusb: provusb_log - ctrl->tim [bf14158c]
+[   47.974334] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   47.985809] provusb: sent an nlmsg request to the provd
+[   47.994598] provusb: sent rep msg to provd
+[   48.002471] provusb: SCSI cmd [40]
+[   48.006103] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131066], file_offset[67105792], amount[512]
+[   48.020233] provusb: scsi read from host [0|0] for block [131066|-1]
+[   48.035247] provusb: provusb_log - ctrl [bf1412f4]
+[   48.043731] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.052551] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.064208] provusb: sent an nlmsg request to the provd
+[   48.073028] provusb: sent rep msg to provd
+[   48.080932] provusb: SCSI cmd [40]
+[   48.084564] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131067], file_offset[67106304], amount[512]
+[   48.099365] provusb: scsi read from host [0|0] for block [131067|-1]
+[   48.111633] provusb: provusb_log - ctrl [bf1412f4]
+[   48.119903] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.128662] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.140228] provusb: sent an nlmsg request to the provd
+[   48.145751] provusb: sent rep msg to provd
+[   48.154266] provusb: SCSI cmd [40]
+[   48.163543] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131068], file_offset[67106816], amount[512]
+[   48.176818] provusb: scsi read from host [0|0] for block [131068|-1]
+[   48.187011] provusb: provusb_log - ctrl [bf1412f4]
+[   48.192077] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.201629] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.215576] provusb: sent an nlmsg request to the provd
+[   48.224456] provusb: sent rep msg to provd
+[   48.232299] provusb: SCSI cmd [40]
+[   48.239227] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131069], file_offset[67107328], amount[512]
+[   48.252532] provusb: scsi read from host [0|0] for block [131069|-1]
+[   48.262664] provusb: provusb_log - ctrl [bf1412f4]
+[   48.270996] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.279754] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.291168] provusb: sent an nlmsg request to the provd
+[   48.299926] provusb: sent rep msg to provd
+[   48.307861] provusb: SCSI cmd [40]
+[   48.314758] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131070], file_offset[67107840], amount[512]
+[   48.328155] provusb: scsi read from host [0|0] for block [131070|-1]
+[   48.338104] provusb: provusb_log - ctrl [bf1412f4]
+[   48.346466] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.355224] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.366729] provusb: sent an nlmsg request to the provd
+[   48.372253] provusb: sent rep msg to provd
+[   48.380737] provusb: SCSI cmd [40]
+[   48.389892] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131071], file_offset[67108352], amount[512]
+[   48.403137] provusb: scsi read from host [0|0] for block [131071|-1]
+[   48.413208] provusb: provusb_log - ctrl [bf1412f4]
+[   48.418273] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.427703] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.441162] provusb: sent an nlmsg request to the provd
+[   48.449920] provusb: sent rep msg to provd
+[   48.458282] provusb: SCSI cmd [40]
+[   48.465423] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130808], file_offset[66973696], amount[4096]
+[   48.478851] provusb: scsi read from host [0|0] for block [130808|-1]
+[   48.488830] provusb: provusb_log - ctrl [bf1412f4]
+[   48.497192] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.505950] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.517395] provusb: sent an nlmsg request to the provd
+[   48.526184] provusb: sent rep msg to provd
+[   48.534973] provusb: SCSI cmd [40]
+[   48.542022] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[131008], file_offset[67076096], amount[4096]
+[   48.555572] provusb: scsi read from host [0|0] for block [131008|-1]
+[   48.565551] provusb: provusb_log - ctrl [bf1412f4]
+[   48.573913] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.582672] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.594146] provusb: sent an nlmsg request to the provd
+[   48.599670] provusb: sent rep msg to provd
+[   48.608642] provusb: SCSI cmd [40]
+[   48.612274] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130816], file_offset[66977792], amount[4096]
+[   48.630401] provusb: scsi read from host [0|0] for block [130816|-1]
+[   48.640502] provusb: provusb_log - ctrl [bf1412f4]
+[   48.645568] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.655212] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.669403] provusb: sent an nlmsg request to the provd
+[   48.679290] provusb: sent rep msg to provd
+[   48.684783] provusb: SCSI cmd [40]
+[   48.692687] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130672], file_offset[66904064], amount[4096]
+[   48.708190] provusb: scsi read from host [0|0] for block [130672|-1]
+[   48.718658] provusb: provusb_log - ctrl [bf1412f4]
+[   48.723724] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.733306] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.746765] provusb: sent an nlmsg request to the provd
+[   48.755523] provusb: sent rep msg to provd
+[   48.764221] provusb: SCSI cmd [40]
+[   48.771270] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130480], file_offset[66805760], amount[4096]
+[   48.785003] provusb: scsi read from host [0|0] for block [130480|-1]
+[   48.795043] provusb: provusb_log - ctrl [bf1412f4]
+[   48.803344] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.812194] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.823638] provusb: sent an nlmsg request to the provd
+[   48.832458] provusb: sent rep msg to provd
+[   48.841156] provusb: SCSI cmd [40]
+[   48.848297] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130392], file_offset[66760704], amount[4096]
+[   48.861846] provusb: scsi read from host [0|0] for block [130392|-1]
+[   48.871826] provusb: provusb_log - ctrl [bf1412f4]
+[   48.880157] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.888946] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.900482] provusb: sent an nlmsg request to the provd
+[   48.909271] provusb: sent rep msg to provd
+[   48.917938] provusb: SCSI cmd [40]
+[   48.925048] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130336], file_offset[66732032], amount[4096]
+[   48.938537] provusb: scsi read from host [0|0] for block [130336|-1]
+[   48.948608] provusb: provusb_log - ctrl [bf1412f4]
+[   48.956909] provusb: provusb_log - ctrl->tim [bf14158c]
+[   48.965698] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   48.977142] provusb: sent an nlmsg request to the provd
+[   48.982696] provusb: sent rep msg to provd
+[   48.991882] provusb: SCSI cmd [40]
+[   48.995513] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130160], file_offset[66641920], amount[4096]
+[   49.013824] provusb: scsi read from host [0|0] for block [130160|-1]
+[   49.023956] provusb: provusb_log - ctrl [bf1412f4]
+[   49.029052] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.038696] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.052032] provusb: sent an nlmsg request to the provd
+[   49.060821] provusb: sent rep msg to provd
+[   49.069702] provusb: SCSI cmd [40]
+[   49.073333] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130096], file_offset[66609152], amount[4096]
+[   49.087646] provusb: scsi read from host [0|0] for block [130096|-1]
+[   49.099639] provusb: provusb_log - ctrl [bf1412f4]
+[   49.108001] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.116882] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.128265] provusb: sent an nlmsg request to the provd
+[   49.137054] provusb: sent rep msg to provd
+[   49.145751] provusb: SCSI cmd [40]
+[   49.152832] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130080], file_offset[66600960], amount[4096]
+[   49.166503] provusb: scsi read from host [0|0] for block [130080|-1]
+[   49.176544] provusb: provusb_log - ctrl [bf1412f4]
+[   49.184875] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.193695] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.205139] provusb: sent an nlmsg request to the provd
+[   49.214233] provusb: sent rep msg to provd
+[   49.222991] provusb: SCSI cmd [40]
+[   49.230163] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[130120], file_offset[66621440], amount[4096]
+[   49.243804] provusb: scsi read from host [0|0] for block [130120|-1]
+[   49.253814] provusb: provusb_log - ctrl [bf1412f4]
+[   49.262145] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.270965] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.282470] provusb: sent an nlmsg request to the provd
+[   49.291259] provusb: sent rep msg to provd
+[   49.299804] provusb: SCSI cmd [40]
+[   49.306854] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[127984], file_offset[65527808], amount[4096]
+[   49.320465] provusb: scsi read from host [0|0] for block [127984|-1]
+[   49.330474] provusb: provusb_log - ctrl [bf1412f4]
+[   49.338775] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.347534] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.359130] provusb: sent an nlmsg request to the provd
+[   49.364654] provusb: sent rep msg to provd
+[   49.373626] provusb: SCSI cmd [40]
+[   49.382476] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2048], file_offset[1048576], amount[4096]
+[   49.395599] provusb: scsi read from host [0|0] for block [2048|-1]
+[   49.405517] provusb: provusb_log - ctrl [bf1412f4]
+[   49.410614] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.419952] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.433593] provusb: sent an nlmsg request to the provd
+[   49.442382] provusb: sent rep msg to provd
+[   49.454956] provusb: SCSI cmd [40]
+[   49.458587] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[256], file_offset[131072], amount[20480]
+[   49.472686] provusb: scsi read from host [0|0] for block [256|-1]
+[   49.484680] provusb: provusb_log - ctrl [bf1412f4]
+[   49.489746] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.498962] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.512542] provusb: sent an nlmsg request to the provd
+[   49.521362] provusb: sent rep msg to provd
+[   49.533355] provusb: SCSI cmd [40]
+[   49.536987] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[24], file_offset[12288], amount[4096]
+[   49.551574] provusb: scsi read from host [0|0] for block [24|-1]
+[   49.564117] provusb: provusb_log - ctrl [bf1412f4]
+[   49.572448] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.581207] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.592681] provusb: sent an nlmsg request to the provd
+[   49.598205] provusb: sent rep msg to provd
+[   49.607116] provusb: SCSI cmd [40]
+[   49.615875] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[56], file_offset[28672], amount[4096]
+[   49.628753] provusb: scsi read from host [0|0] for block [56|-1]
+[   49.638397] provusb: provusb_log - ctrl [bf1412f4]
+[   49.646789] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.655822] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.667205] provusb: sent an nlmsg request to the provd
+[   49.676025] provusb: sent rep msg to provd
+[   49.684356] provusb: SCSI cmd [0]
+[   49.691558] provusb: SCSI cmd [40]
+[   49.698516] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[120], file_offset[61440], amount[4096]
+[   49.711822] provusb: scsi read from host [0|0] for block [120|-1]
+[   49.721679] provusb: provusb_log - ctrl [bf1412f4]
+[   49.730010] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.738769] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.750274] provusb: sent an nlmsg request to the provd
+[   49.755798] provusb: sent rep msg to provd
+[   49.764678] provusb: SCSI cmd [40]
+[   49.768310] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[16], file_offset[8192], amount[4096]
+[   49.785736] provusb: scsi read from host [0|0] for block [16|-1]
+[   49.795379] provusb: provusb_log - ctrl [bf1412f4]
+[   49.803863] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.809387] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.821624] provusb: sent an nlmsg request to the provd
+[   49.832427] provusb: sent rep msg to provd
+[   49.840972] provusb: SCSI cmd [40]
+[   49.848083] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[128], file_offset[65536], amount[4096]
+[   49.861053] provusb: scsi read from host [0|0] for block [128|-1]
+[   49.870758] provusb: provusb_log - ctrl [bf1412f4]
+[   49.879058] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.887878] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.899353] provusb: sent an nlmsg request to the provd
+[   49.904876] provusb: sent rep msg to provd
+[   49.916259] provusb: SCSI cmd [40]
+[   49.919891] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[64], file_offset[32768], amount[4096]
+[   49.936828] provusb: scsi read from host [0|0] for block [64|-1]
+[   49.943206] provusb: provusb_log - ctrl [bf1412f4]
+[   49.952117] provusb: provusb_log - ctrl->tim [bf14158c]
+[   49.957641] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   49.973999] provusb: sent an nlmsg request to the provd
+[   49.982818] provusb: sent rep msg to provd
+[   49.991455] provusb: SCSI cmd [40]
+[   49.995086] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[296], file_offset[151552], amount[4096]
+[   50.009338] provusb: scsi read from host [0|0] for block [296|-1]
+[   50.017578] provusb: provusb_log - ctrl [bf1412f4]
+[   50.024230] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.029785] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.040649] provusb: sent an nlmsg request to the provd
+[   50.047790] provusb: sent rep msg to provd
+[   50.053100] provusb: SCSI cmd [40]
+[   50.059387] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[304], file_offset[155648], amount[4096]
+[   50.070526] provusb: scsi read from host [0|0] for block [304|-1]
+[   50.078399] provusb: provusb_log - ctrl [bf1412f4]
+[   50.083465] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.091278] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.100921] provusb: sent an nlmsg request to the provd
+[   50.106445] provusb: sent rep msg to provd
+[   50.114013] provusb: SCSI cmd [40]
+[   50.119293] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[312], file_offset[159744], amount[4096]
+[   50.130462] provusb: scsi read from host [0|0] for block [312|-1]
+[   50.138336] provusb: provusb_log - ctrl [bf1412f4]
+[   50.144805] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.151702] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.161437] provusb: sent an nlmsg request to the provd
+[   50.168487] provusb: sent rep msg to provd
+[   50.175201] provusb: SCSI cmd [40]
+[   50.180389] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[320], file_offset[163840], amount[4096]
+[   50.191558] provusb: scsi read from host [0|0] for block [320|-1]
+[   50.199432] provusb: provusb_log - ctrl [bf1412f4]
+[   50.205963] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.213287] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.222930] provusb: sent an nlmsg request to the provd
+[   50.229949] provusb: sent rep msg to provd
+[   50.237854] provusb: SCSI cmd [40]
+[   50.244018] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[328], file_offset[167936], amount[4096]
+[   50.255340] provusb: scsi read from host [0|0] for block [328|-1]
+[   50.264160] provusb: provusb_log - ctrl [bf1412f4]
+[   50.271240] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.278320] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.287994] provusb: sent an nlmsg request to the provd
+[   50.293518] provusb: sent rep msg to provd
+[   50.301269] provusb: SCSI cmd [40]
+[   50.306579] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[336], file_offset[172032], amount[4096]
+[   50.317718] provusb: scsi read from host [0|0] for block [336|-1]
+[   50.325592] provusb: provusb_log - ctrl [bf1412f4]
+[   50.332061] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.338989] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.348510] provusb: sent an nlmsg request to the provd
+[   50.355468] provusb: sent rep msg to provd
+[   50.362152] provusb: SCSI cmd [40]
+[   50.365783] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[344], file_offset[176128], amount[4096]
+[   50.378265] provusb: scsi read from host [0|0] for block [344|-1]
+[   50.386199] provusb: provusb_log - ctrl [bf1412f4]
+[   50.392730] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.399658] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.409301] provusb: sent an nlmsg request to the provd
+[   50.416290] provusb: sent rep msg to provd
+[   50.423095] provusb: SCSI cmd [40]
+[   50.426696] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[352], file_offset[180224], amount[4096]
+[   50.438995] provusb: scsi read from host [0|0] for block [352|-1]
+[   50.446929] provusb: provusb_log - ctrl [bf1412f4]
+[   50.453399] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.458923] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.469573] provusb: sent an nlmsg request to the provd
+[   50.475097] provusb: sent rep msg to provd
+[   50.482879] provusb: SCSI cmd [40]
+[   50.488098] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[360], file_offset[184320], amount[4096]
+[   50.499389] provusb: scsi read from host [0|0] for block [360|-1]
+[   50.505828] provusb: provusb_log - ctrl [bf1412f4]
+[   50.513214] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.520172] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.529724] provusb: sent an nlmsg request to the provd
+[   50.536651] provusb: sent rep msg to provd
+[   50.543365] provusb: SCSI cmd [40]
+[   50.548553] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[368], file_offset[188416], amount[4096]
+[   50.559692] provusb: scsi read from host [0|0] for block [368|-1]
+[   50.567565] provusb: provusb_log - ctrl [bf1412f4]
+[   50.574005] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.580932] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.590454] provusb: sent an nlmsg request to the provd
+[   50.597503] provusb: sent rep msg to provd
+[   50.604309] provusb: SCSI cmd [40]
+[   50.607940] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[376], file_offset[192512], amount[4096]
+[   50.620269] provusb: scsi read from host [0|0] for block [376|-1]
+[   50.628204] provusb: provusb_log - ctrl [bf1412f4]
+[   50.634704] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.641632] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.651153] provusb: sent an nlmsg request to the provd
+[   50.658111] provusb: sent rep msg to provd
+[   50.664672] provusb: SCSI cmd [40]
+[   50.668273] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[384], file_offset[196608], amount[4096]
+[   50.680511] provusb: scsi read from host [0|0] for block [384|-1]
+[   50.688507] provusb: provusb_log - ctrl [bf1412f4]
+[   50.693572] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.701385] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.711364] provusb: sent an nlmsg request to the provd
+[   50.716888] provusb: sent rep msg to provd
+[   50.724853] provusb: SCSI cmd [40]
+[   50.730102] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[392], file_offset[200704], amount[4096]
+[   50.741333] provusb: scsi read from host [0|0] for block [392|-1]
+[   50.747772] provusb: provusb_log - ctrl [bf1412f4]
+[   50.755279] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.762237] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.771789] provusb: sent an nlmsg request to the provd
+[   50.778808] provusb: sent rep msg to provd
+[   50.785522] provusb: SCSI cmd [40]
+[   50.790710] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[400], file_offset[204800], amount[4096]
+[   50.801940] provusb: scsi read from host [0|0] for block [400|-1]
+[   50.809875] provusb: provusb_log - ctrl [bf1412f4]
+[   50.816345] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.823272] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.832794] provusb: sent an nlmsg request to the provd
+[   50.839752] provusb: sent rep msg to provd
+[   50.846435] provusb: SCSI cmd [40]
+[   50.850067] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[408], file_offset[208896], amount[4096]
+[   50.862335] provusb: scsi read from host [0|0] for block [408|-1]
+[   50.870330] provusb: provusb_log - ctrl [bf1412f4]
+[   50.876831] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.883728] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.893249] provusb: sent an nlmsg request to the provd
+[   50.900207] provusb: sent rep msg to provd
+[   50.906738] provusb: SCSI cmd [40]
+[   50.910369] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[416], file_offset[212992], amount[4096]
+[   50.922637] provusb: scsi read from host [0|0] for block [416|-1]
+[   50.930572] provusb: provusb_log - ctrl [bf1412f4]
+[   50.935638] provusb: provusb_log - ctrl->tim [bf14158c]
+[   50.943603] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   50.953216] provusb: sent an nlmsg request to the provd
+[   50.958740] provusb: sent rep msg to provd
+[   50.966522] provusb: SCSI cmd [40]
+[   50.971740] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[424], file_offset[217088], amount[4096]
+[   50.982910] provusb: scsi read from host [0|0] for block [424|-1]
+[   50.990814] provusb: provusb_log - ctrl [bf1412f4]
+[   50.997375] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.004364] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.013916] provusb: sent an nlmsg request to the provd
+[   51.021118] provusb: sent rep msg to provd
+[   51.027954] provusb: SCSI cmd [40]
+[   51.033172] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[432], file_offset[221184], amount[4096]
+[   51.044342] provusb: scsi read from host [0|0] for block [432|-1]
+[   51.052246] provusb: provusb_log - ctrl [bf1412f4]
+[   51.058807] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.065734] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.075286] provusb: sent an nlmsg request to the provd
+[   51.082244] provusb: sent rep msg to provd
+[   51.088958] provusb: SCSI cmd [40]
+[   51.094146] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[440], file_offset[225280], amount[4096]
+[   51.105285] provusb: scsi read from host [0|0] for block [440|-1]
+[   51.113159] provusb: provusb_log - ctrl [bf1412f4]
+[   51.119659] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.126556] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.136352] provusb: sent an nlmsg request to the provd
+[   51.143432] provusb: sent rep msg to provd
+[   51.150207] provusb: SCSI cmd [40]
+[   51.153839] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[448], file_offset[229376], amount[4096]
+[   51.166503] provusb: scsi read from host [0|0] for block [448|-1]
+[   51.174468] provusb: provusb_log - ctrl [bf1412f4]
+[   51.180969] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.187988] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.197570] provusb: sent an nlmsg request to the provd
+[   51.204498] provusb: sent rep msg to provd
+[   51.213043] provusb: SCSI cmd [40]
+[   51.216705] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[456], file_offset[233472], amount[4096]
+[   51.230194] provusb: scsi read from host [0|0] for block [456|-1]
+[   51.238769] provusb: provusb_log - ctrl [bf1412f4]
+[   51.245422] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.252471] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.262054] provusb: sent an nlmsg request to the provd
+[   51.269042] provusb: sent rep msg to provd
+[   51.275756] provusb: SCSI cmd [40]
+[   51.279388] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[464], file_offset[237568], amount[4096]
+[   51.291687] provusb: scsi read from host [0|0] for block [464|-1]
+[   51.299652] provusb: provusb_log - ctrl [bf1412f4]
+[   51.306091] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.313018] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.322631] provusb: sent an nlmsg request to the provd
+[   51.329589] provusb: sent rep msg to provd
+[   51.336547] provusb: SCSI cmd [40]
+[   51.340179] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[472], file_offset[241664], amount[4096]
+[   51.352539] provusb: scsi read from host [0|0] for block [472|-1]
+[   51.360412] provusb: provusb_log - ctrl [bf1412f4]
+[   51.365509] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.373443] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.383117] provusb: sent an nlmsg request to the provd
+[   51.388641] provusb: sent rep msg to provd
+[   51.396392] provusb: SCSI cmd [40]
+[   51.401580] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[480], file_offset[245760], amount[4096]
+[   51.412750] provusb: scsi read from host [0|0] for block [480|-1]
+[   51.420593] provusb: provusb_log - ctrl [bf1412f4]
+[   51.427062] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.433990] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.443572] provusb: sent an nlmsg request to the provd
+[   51.450531] provusb: sent rep msg to provd
+[   51.457244] provusb: SCSI cmd [40]
+[   51.462493] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[488], file_offset[249856], amount[4096]
+[   51.473632] provusb: scsi read from host [0|0] for block [488|-1]
+[   51.481536] provusb: provusb_log - ctrl [bf1412f4]
+[   51.488006] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.494934] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.504455] provusb: sent an nlmsg request to the provd
+[   51.511383] provusb: sent rep msg to provd
+[   51.518096] provusb: SCSI cmd [40]
+[   51.521728] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[496], file_offset[253952], amount[4096]
+[   51.534057] provusb: scsi read from host [0|0] for block [496|-1]
+[   51.541992] provusb: provusb_log - ctrl [bf1412f4]
+[   51.548461] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.555389] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.564910] provusb: sent an nlmsg request to the provd
+[   51.571868] provusb: sent rep msg to provd
+[   51.578796] provusb: SCSI cmd [40]
+[   51.582427] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[504], file_offset[258048], amount[4096]
+[   51.594696] provusb: scsi read from host [0|0] for block [504|-1]
+[   51.602600] provusb: provusb_log - ctrl [bf1412f4]
+[   51.607666] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.615692] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.625274] provusb: sent an nlmsg request to the provd
+[   51.630798] provusb: sent rep msg to provd
+[   51.638519] provusb: SCSI cmd [40]
+[   51.643768] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[768], file_offset[393216], amount[4096]
+[   51.654907] provusb: scsi read from host [0|0] for block [768|-1]
+[   51.662780] provusb: provusb_log - ctrl [bf1412f4]
+[   51.669281] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.676208] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.685729] provusb: sent an nlmsg request to the provd
+[   51.692687] provusb: sent rep msg to provd
+[   51.699371] provusb: SCSI cmd [40]
+[   51.704528] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[776], file_offset[397312], amount[4096]
+[   51.716033] provusb: scsi read from host [0|0] for block [776|-1]
+[   51.723999] provusb: provusb_log - ctrl [bf1412f4]
+[   51.730529] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.737487] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.747039] provusb: sent an nlmsg request to the provd
+[   51.753997] provusb: sent rep msg to provd
+[   51.760711] provusb: SCSI cmd [0]
+[   51.766204] provusb: SCSI cmd [40]
+[   51.769836] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[784], file_offset[401408], amount[4096]
+[   51.782165] provusb: scsi read from host [0|0] for block [784|-1]
+[   51.790069] provusb: provusb_log - ctrl [bf1412f4]
+[   51.795135] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.803192] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.812744] provusb: sent an nlmsg request to the provd
+[   51.818298] provusb: sent rep msg to provd
+[   51.826049] provusb: SCSI cmd [40]
+[   51.831237] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[792], file_offset[405504], amount[4096]
+[   51.842376] provusb: scsi read from host [0|0] for block [792|-1]
+[   51.850250] provusb: provusb_log - ctrl [bf1412f4]
+[   51.856719] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.863677] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.873229] provusb: sent an nlmsg request to the provd
+[   51.880187] provusb: sent rep msg to provd
+[   51.886901] provusb: SCSI cmd [40]
+[   51.892181] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[800], file_offset[409600], amount[4096]
+[   51.903320] provusb: scsi read from host [0|0] for block [800|-1]
+[   51.911224] provusb: provusb_log - ctrl [bf1412f4]
+[   51.917694] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.924621] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.934173] provusb: sent an nlmsg request to the provd
+[   51.941131] provusb: sent rep msg to provd
+[   51.947814] provusb: SCSI cmd [40]
+[   51.951446] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[808], file_offset[413696], amount[4096]
+[   51.963836] provusb: scsi read from host [0|0] for block [808|-1]
+[   51.971862] provusb: provusb_log - ctrl [bf1412f4]
+[   51.978393] provusb: provusb_log - ctrl->tim [bf14158c]
+[   51.985412] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   51.994934] provusb: sent an nlmsg request to the provd
+[   52.001892] provusb: sent rep msg to provd
+[   52.008422] provusb: SCSI cmd [40]
+[   52.012054] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[816], file_offset[417792], amount[4096]
+[   52.024322] provusb: scsi read from host [0|0] for block [816|-1]
+[   52.032196] provusb: provusb_log - ctrl [bf1412f4]
+[   52.037292] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.045227] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.054809] provusb: sent an nlmsg request to the provd
+[   52.060333] provusb: sent rep msg to provd
+[   52.068084] provusb: SCSI cmd [40]
+[   52.073303] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[824], file_offset[421888], amount[4096]
+[   52.084503] provusb: scsi read from host [0|0] for block [824|-1]
+[   52.092407] provusb: provusb_log - ctrl [bf1412f4]
+[   52.098907] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.105865] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.115386] provusb: sent an nlmsg request to the provd
+[   52.122344] provusb: sent rep msg to provd
+[   52.129058] provusb: SCSI cmd [40]
+[   52.134246] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[832], file_offset[425984], amount[4096]
+[   52.145385] provusb: scsi read from host [0|0] for block [832|-1]
+[   52.153259] provusb: provusb_log - ctrl [bf1412f4]
+[   52.159942] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.167083] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.176788] provusb: sent an nlmsg request to the provd
+[   52.183776] provusb: sent rep msg to provd
+[   52.190521] provusb: SCSI cmd [40]
+[   52.195709] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[840], file_offset[430080], amount[4096]
+[   52.206848] provusb: scsi read from host [0|0] for block [840|-1]
+[   52.215057] provusb: provusb_log - ctrl [bf1412f4]
+[   52.221649] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.228607] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.238464] provusb: sent an nlmsg request to the provd
+[   52.245544] provusb: sent rep msg to provd
+[   52.252258] provusb: SCSI cmd [40]
+[   52.255889] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[848], file_offset[434176], amount[4096]
+[   52.268310] provusb: scsi read from host [0|0] for block [848|-1]
+[   52.276245] provusb: provusb_log - ctrl [bf1412f4]
+[   52.282745] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.289642] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.299194] provusb: sent an nlmsg request to the provd
+[   52.306152] provusb: sent rep msg to provd
+[   52.311218] provusb: SCSI cmd [40]
+[   52.317474] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[856], file_offset[438272], amount[4096]
+[   52.328613] provusb: scsi read from host [0|0] for block [856|-1]
+[   52.336486] provusb: provusb_log - ctrl [bf1412f4]
+[   52.341552] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.349487] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.359222] provusb: sent an nlmsg request to the provd
+[   52.364746] provusb: sent rep msg to provd
+[   52.372589] provusb: SCSI cmd [40]
+[   52.377807] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[864], file_offset[442368], amount[4096]
+[   52.388977] provusb: scsi read from host [0|0] for block [864|-1]
+[   52.396850] provusb: provusb_log - ctrl [bf1412f4]
+[   52.403320] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.410247] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.419769] provusb: sent an nlmsg request to the provd
+[   52.426727] provusb: sent rep msg to provd
+[   52.433410] provusb: SCSI cmd [40]
+[   52.438598] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[872], file_offset[446464], amount[4096]
+[   52.449737] provusb: scsi read from host [0|0] for block [872|-1]
+[   52.457702] provusb: provusb_log - ctrl [bf1412f4]
+[   52.464172] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.471130] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.480651] provusb: sent an nlmsg request to the provd
+[   52.487609] provusb: sent rep msg to provd
+[   52.494323] provusb: SCSI cmd [40]
+[   52.497955] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[880], file_offset[450560], amount[4096]
+[   52.510253] provusb: scsi read from host [0|0] for block [880|-1]
+[   52.518188] provusb: provusb_log - ctrl [bf1412f4]
+[   52.524658] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.531585] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.541107] provusb: sent an nlmsg request to the provd
+[   52.548034] provusb: sent rep msg to provd
+[   52.553344] provusb: SCSI cmd [40]
+[   52.559753] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[888], file_offset[454656], amount[4096]
+[   52.570892] provusb: scsi read from host [0|0] for block [888|-1]
+[   52.578765] provusb: provusb_log - ctrl [bf1412f4]
+[   52.583862] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.591796] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.601409] provusb: sent an nlmsg request to the provd
+[   52.606933] provusb: sent rep msg to provd
+[   52.614532] provusb: SCSI cmd [40]
+[   52.619720] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[896], file_offset[458752], amount[4096]
+[   52.630889] provusb: scsi read from host [0|0] for block [896|-1]
+[   52.638824] provusb: provusb_log - ctrl [bf1412f4]
+[   52.645294] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.652221] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.661743] provusb: sent an nlmsg request to the provd
+[   52.668701] provusb: sent rep msg to provd
+[   52.675415] provusb: SCSI cmd [40]
+[   52.680572] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[904], file_offset[462848], amount[4096]
+[   52.691741] provusb: scsi read from host [0|0] for block [904|-1]
+[   52.699615] provusb: provusb_log - ctrl [bf1412f4]
+[   52.706085] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.713287] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.722930] provusb: sent an nlmsg request to the provd
+[   52.729919] provusb: sent rep msg to provd
+[   52.736694] provusb: SCSI cmd [40]
+[   52.740325] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[912], file_offset[466944], amount[4096]
+[   52.752716] provusb: scsi read from host [0|0] for block [912|-1]
+[   52.760681] provusb: provusb_log - ctrl [bf1412f4]
+[   52.767150] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.774078] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.783630] provusb: sent an nlmsg request to the provd
+[   52.790618] provusb: sent rep msg to provd
+[   52.797271] provusb: SCSI cmd [40]
+[   52.800872] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[920], file_offset[471040], amount[4096]
+[   52.813232] provusb: scsi read from host [0|0] for block [920|-1]
+[   52.821136] provusb: provusb_log - ctrl [bf1412f4]
+[   52.826202] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.834259] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.843872] provusb: sent an nlmsg request to the provd
+[   52.849395] provusb: sent rep msg to provd
+[   52.857208] provusb: SCSI cmd [40]
+[   52.862396] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[928], file_offset[475136], amount[4096]
+[   52.873535] provusb: scsi read from host [0|0] for block [928|-1]
+[   52.881439] provusb: provusb_log - ctrl [bf1412f4]
+[   52.887908] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.894805] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.904357] provusb: sent an nlmsg request to the provd
+[   52.911285] provusb: sent rep msg to provd
+[   52.917968] provusb: SCSI cmd [40]
+[   52.923217] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[936], file_offset[479232], amount[4096]
+[   52.934356] provusb: scsi read from host [0|0] for block [936|-1]
+[   52.942230] provusb: provusb_log - ctrl [bf1412f4]
+[   52.948791] provusb: provusb_log - ctrl->tim [bf14158c]
+[   52.955749] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   52.965301] provusb: sent an nlmsg request to the provd
+[   52.972259] provusb: sent rep msg to provd
+[   52.978973] provusb: SCSI cmd [40]
+[   52.982574] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[944], file_offset[483328], amount[4096]
+[   52.994873] provusb: scsi read from host [0|0] for block [944|-1]
+[   53.002777] provusb: provusb_log - ctrl [bf1412f4]
+[   53.009582] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.016754] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.026367] provusb: sent an nlmsg request to the provd
+[   53.033355] provusb: sent rep msg to provd
+[   53.039459] provusb: SCSI cmd [40]
+[   53.043060] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[952], file_offset[487424], amount[4096]
+[   53.055297] provusb: scsi read from host [0|0] for block [952|-1]
+[   53.063201] provusb: provusb_log - ctrl [bf1412f4]
+[   53.068267] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.076202] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.085845] provusb: sent an nlmsg request to the provd
+[   53.091400] provusb: sent rep msg to provd
+[   53.099121] provusb: SCSI cmd [40]
+[   53.104339] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[960], file_offset[491520], amount[4096]
+[   53.115570] provusb: scsi read from host [0|0] for block [960|-1]
+[   53.123474] provusb: provusb_log - ctrl [bf1412f4]
+[   53.129943] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.136871] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.146514] provusb: sent an nlmsg request to the provd
+[   53.153472] provusb: sent rep msg to provd
+[   53.164672] provusb: SCSI cmd [40]
+[   53.168914] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[968], file_offset[495616], amount[4096]
+[   53.182464] provusb: scsi read from host [0|0] for block [968|-1]
+[   53.191375] provusb: provusb_log - ctrl [bf1412f4]
+[   53.198059] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.205841] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.216461] provusb: sent an nlmsg request to the provd
+[   53.223632] provusb: sent rep msg to provd
+[   53.230438] provusb: SCSI cmd [40]
+[   53.235656] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[976], file_offset[499712], amount[4096]
+[   53.246826] provusb: scsi read from host [0|0] for block [976|-1]
+[   53.254699] provusb: provusb_log - ctrl [bf1412f4]
+[   53.261169] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.268096] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.277648] provusb: sent an nlmsg request to the provd
+[   53.284667] provusb: sent rep msg to provd
+[   53.291381] provusb: SCSI cmd [40]
+[   53.295013] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[984], file_offset[503808], amount[4096]
+[   53.307373] provusb: scsi read from host [0|0] for block [984|-1]
+[   53.315399] provusb: provusb_log - ctrl [bf1412f4]
+[   53.321929] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.328857] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.338745] provusb: sent an nlmsg request to the provd
+[   53.345886] provusb: sent rep msg to provd
+[   53.352691] provusb: SCSI cmd [40]
+[   53.356323] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[992], file_offset[507904], amount[4096]
+[   53.368621] provusb: scsi read from host [0|0] for block [992|-1]
+[   53.376525] provusb: provusb_log - ctrl [bf1412f4]
+[   53.382995] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.388519] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.399261] provusb: sent an nlmsg request to the provd
+[   53.404785] provusb: sent rep msg to provd
+[   53.412567] provusb: SCSI cmd [40]
+[   53.417785] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[1000], file_offset[512000], amount[4096]
+[   53.429077] provusb: scsi read from host [0|0] for block [1000|-1]
+[   53.435638] provusb: provusb_log - ctrl [bf1412f4]
+[   53.443145] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.450073] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.459625] provusb: sent an nlmsg request to the provd
+[   53.466552] provusb: sent rep msg to provd
+[   53.473266] provusb: SCSI cmd [40]
+[   53.478485] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[1008], file_offset[516096], amount[4096]
+[   53.489715] provusb: scsi read from host [0|0] for block [1008|-1]
+[   53.497772] provusb: provusb_log - ctrl [bf1412f4]
+[   53.504272] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.511199] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.520721] provusb: sent an nlmsg request to the provd
+[   53.527679] provusb: sent rep msg to provd
+[   53.534484] provusb: SCSI cmd [40]
+[   53.539672] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[1016], file_offset[520192], amount[4096]
+[   53.550933] provusb: scsi read from host [0|0] for block [1016|-1]
+[   53.558929] provusb: provusb_log - ctrl [bf1412f4]
+[   53.565429] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.572357] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.581878] provusb: sent an nlmsg request to the provd
+[   53.588897] provusb: sent rep msg to provd
+[   53.595581] provusb: SCSI cmd [40]
+[   53.599212] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[512], file_offset[262144], amount[4096]
+[   53.611511] provusb: scsi read from host [0|0] for block [512|-1]
+[   53.619415] provusb: provusb_log - ctrl [bf1412f4]
+[   53.625885] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.631408] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.641998] provusb: sent an nlmsg request to the provd
+[   53.648956] provusb: sent rep msg to provd
+[   53.654266] provusb: SCSI cmd [40]
+[   53.660491] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[32], file_offset[16384], amount[4096]
+[   53.671508] provusb: scsi read from host [0|0] for block [32|-1]
+[   53.677856] provusb: provusb_log - ctrl [bf1412f4]
+[   53.685424] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.692382] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.702026] provusb: sent an nlmsg request to the provd
+[   53.707550] provusb: sent rep msg to provd
+[   53.715789] provusb: SCSI cmd [40]
+[   53.721069] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[4096], file_offset[2097152], amount[4096]
+[   53.732543] provusb: scsi read from host [0|0] for block [4096|-1]
+[   53.740539] provusb: provusb_log - ctrl [bf1412f4]
+[   53.747100] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.754028] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.763580] provusb: sent an nlmsg request to the provd
+[   53.770538] provusb: sent rep msg to provd
+[   53.777435] provusb: SCSI cmd [0]
+[   53.783050] provusb: SCSI cmd [30]
+[   53.787139] provusb: SCSI cmd [0]
+[   53.793792] provusb: SCSI cmd [0]
+[   53.799377] provusb: SCSI cmd [30]
+[   53.804931] provusb: SCSI cmd [40]
+[   53.808563] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[0], file_offset[0], amount[4096]
+[   53.820159] provusb: provusb_log - ctrl [bf1412f4]
+[   53.825225] provusb: provusb_log - ctrl->tim [bf14158c]
+[   53.833221] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   53.842834] provusb: sent an nlmsg request to the provd
+[   53.848388] provusb: sent rep msg to provd
+[   53.856170] provusb: SCSI cmd [30]
+[   53.861938] provusb: SCSI cmd [0]
+[   53.867767] provusb: SCSI cmd [0]
+[   53.871459] provusb: SCSI cmd [30]
+[   53.878143] provusb: SCSI cmd [30]
+[   53.883514] provusb: SCSI cmd [0]
+[   53.887481] provusb: SCSI cmd [0]
+[   53.894134] provusb: SCSI cmd [30]
+[   53.899780] provusb: SCSI cmd [30]
+[   53.903869] provusb: SCSI cmd [0]
+[   55.037994] daveti: into [fsg_trusted_dev_tpm_quote_timer_handler]
+[   56.332977] provusb: SCSI cmd [0]
+[   58.380981] provusb: SCSI cmd [0]
+[   60.429016] provusb: SCSI cmd [0]
+[   62.477050] provusb: SCSI cmd [0]
+[   64.525054] provusb: SCSI cmd [0]
+[   65.586456] provusb: SCSI cmd [0]
+[   65.590148] provusb: SCSI cmd [30]
+[   65.597106] provusb: SCSI cmd [40]
+[   65.602325] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[0], file_offset[0], amount[512]
+[   65.612762] provusb: provusb_log - ctrl [bf1412f4]
+[   65.619262] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.626220] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.635742] provusb: sent an nlmsg request to the provd
+[   65.642822] provusb: sent rep msg to provd
+[   65.649261] provusb: SCSI cmd [40]
+[   65.652893] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[257], file_offset[131584], amount[512]
+[   65.665222] provusb: scsi read from host [0|0] for block [257|-1]
+[   65.673156] provusb: provusb_log - ctrl [bf1412f4]
+[   65.678222] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.686187] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.695739] provusb: sent an nlmsg request to the provd
+[   65.701263] provusb: sent rep msg to provd
+[   65.708709] provusb: SCSI cmd [40]
+[   65.714172] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[258], file_offset[132096], amount[512]
+[   65.725311] provusb: scsi read from host [0|0] for block [258|-1]
+[   65.733306] provusb: provusb_log - ctrl [bf1412f4]
+[   65.738372] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.746337] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.755981] provusb: sent an nlmsg request to the provd
+[   65.762939] provusb: sent rep msg to provd
+[   65.769378] provusb: SCSI cmd [40]
+[   65.774566] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[259], file_offset[132608], amount[512]
+[   65.785614] provusb: scsi read from host [0|0] for block [259|-1]
+[   65.793487] provusb: provusb_log - ctrl [bf1412f4]
+[   65.799957] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.806884] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.816406] provusb: sent an nlmsg request to the provd
+[   65.823364] provusb: sent rep msg to provd
+[   65.829772] provusb: SCSI cmd [40]
+[   65.833374] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[260], file_offset[133120], amount[512]
+[   65.845672] provusb: scsi read from host [0|0] for block [260|-1]
+[   65.853668] provusb: provusb_log - ctrl [bf1412f4]
+[   65.860137] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.865692] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.876129] provusb: sent an nlmsg request to the provd
+[   65.883087] provusb: sent rep msg to provd
+[   65.888092] provusb: SCSI cmd [40]
+[   65.894317] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[261], file_offset[133632], amount[512]
+[   65.905426] provusb: scsi read from host [0|0] for block [261|-1]
+[   65.911865] provusb: provusb_log - ctrl [bf1412f4]
+[   65.919372] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.926330] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.935852] provusb: sent an nlmsg request to the provd
+[   65.942871] provusb: sent rep msg to provd
+[   65.949310] provusb: SCSI cmd [40]
+[   65.954467] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[262], file_offset[134144], amount[512]
+[   65.965515] provusb: scsi read from host [0|0] for block [262|-1]
+[   65.973388] provusb: provusb_log - ctrl [bf1412f4]
+[   65.979858] provusb: provusb_log - ctrl->tim [bf14158c]
+[   65.986755] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   65.996307] provusb: sent an nlmsg request to the provd
+[   66.003265] provusb: sent rep msg to provd
+[   66.009643] provusb: SCSI cmd [40]
+[   66.013275] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[263], file_offset[134656], amount[512]
+[   66.025543] provusb: scsi read from host [0|0] for block [263|-1]
+[   66.033538] provusb: provusb_log - ctrl [bf1412f4]
+[   66.040161] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.047149] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.056701] provusb: sent an nlmsg request to the provd
+[   66.063629] provusb: sent rep msg to provd
+[   66.068664] provusb: SCSI cmd [40]
+[   66.074890] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[264], file_offset[135168], amount[512]
+[   66.085998] provusb: scsi read from host [0|0] for block [264|-1]
+[   66.092437] provusb: provusb_log - ctrl [bf1412f4]
+[   66.100036] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.106994] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.116638] provusb: sent an nlmsg request to the provd
+[   66.122161] provusb: sent rep msg to provd
+[   66.129669] provusb: SCSI cmd [40]
+[   66.134887] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[265], file_offset[135680], amount[512]
+[   66.145935] provusb: scsi read from host [0|0] for block [265|-1]
+[   66.153808] provusb: provusb_log - ctrl [bf1412f4]
+[   66.160491] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.167510] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.177398] provusb: sent an nlmsg request to the provd
+[   66.184509] provusb: sent rep msg to provd
+[   66.191009] provusb: SCSI cmd [40]
+[   66.196258] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[266], file_offset[136192], amount[512]
+[   66.207336] provusb: scsi read from host [0|0] for block [266|-1]
+[   66.215515] provusb: provusb_log - ctrl [bf1412f4]
+[   66.222167] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.229156] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.238830] provusb: sent an nlmsg request to the provd
+[   66.245819] provusb: sent rep msg to provd
+[   66.252258] provusb: SCSI cmd [40]
+[   66.255889] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[267], file_offset[136704], amount[512]
+[   66.268096] provusb: scsi read from host [0|0] for block [267|-1]
+[   66.276000] provusb: provusb_log - ctrl [bf1412f4]
+[   66.282501] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.289459] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.298980] provusb: sent an nlmsg request to the provd
+[   66.305938] provusb: sent rep msg to provd
+[   66.310943] provusb: SCSI cmd [40]
+[   66.317260] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[268], file_offset[137216], amount[512]
+[   66.328308] provusb: scsi read from host [0|0] for block [268|-1]
+[   66.336181] provusb: provusb_log - ctrl [bf1412f4]
+[   66.341278] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.349212] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.358856] provusb: sent an nlmsg request to the provd
+[   66.364379] provusb: sent rep msg to provd
+[   66.371826] provusb: SCSI cmd [40]
+[   66.377014] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[269], file_offset[137728], amount[512]
+[   66.388092] provusb: scsi read from host [0|0] for block [269|-1]
+[   66.395996] provusb: provusb_log - ctrl [bf1412f4]
+[   66.402557] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.409484] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.419036] provusb: sent an nlmsg request to the provd
+[   66.425964] provusb: sent rep msg to provd
+[   66.432434] provusb: SCSI cmd [40]
+[   66.436065] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[270], file_offset[138240], amount[512]
+[   66.448272] provusb: scsi read from host [0|0] for block [270|-1]
+[   66.456207] provusb: provusb_log - ctrl [bf1412f4]
+[   66.462677] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.469604] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.479156] provusb: sent an nlmsg request to the provd
+[   66.486114] provusb: sent rep msg to provd
+[   66.492645] provusb: SCSI cmd [40]
+[   66.496276] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[271], file_offset[138752], amount[512]
+[   66.508544] provusb: scsi read from host [0|0] for block [271|-1]
+[   66.516448] provusb: provusb_log - ctrl [bf1412f4]
+[   66.521514] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.529449] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.539062] provusb: sent an nlmsg request to the provd
+[   66.544586] provusb: sent rep msg to provd
+[   66.552032] provusb: SCSI cmd [40]
+[   66.557220] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[272], file_offset[139264], amount[512]
+[   66.568237] provusb: scsi read from host [0|0] for block [272|-1]
+[   66.576110] provusb: provusb_log - ctrl [bf1412f4]
+[   66.582580] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.589569] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.599121] provusb: sent an nlmsg request to the provd
+[   66.606079] provusb: sent rep msg to provd
+[   66.612518] provusb: SCSI cmd [40]
+[   66.617645] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[273], file_offset[139776], amount[512]
+[   66.628814] provusb: scsi read from host [0|0] for block [273|-1]
+[   66.636718] provusb: provusb_log - ctrl [bf1412f4]
+[   66.643218] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.650115] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.659667] provusb: sent an nlmsg request to the provd
+[   66.666595] provusb: sent rep msg to provd
+[   66.673004] provusb: SCSI cmd [40]
+[   66.676635] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[274], file_offset[140288], amount[512]
+[   66.688873] provusb: scsi read from host [0|0] for block [274|-1]
+[   66.696807] provusb: provusb_log - ctrl [bf1412f4]
+[   66.703308] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.708862] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.719818] provusb: sent an nlmsg request to the provd
+[   66.726837] provusb: sent rep msg to provd
+[   66.731872] provusb: SCSI cmd [40]
+[   66.738128] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[275], file_offset[140800], amount[512]
+[   66.749237] provusb: scsi read from host [0|0] for block [275|-1]
+[   66.755676] provusb: provusb_log - ctrl [bf1412f4]
+[   66.763305] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.770263] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.779907] provusb: sent an nlmsg request to the provd
+[   66.786865] provusb: sent rep msg to provd
+[   66.793334] provusb: SCSI cmd [40]
+[   66.798522] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[276], file_offset[141312], amount[512]
+[   66.809570] provusb: scsi read from host [0|0] for block [276|-1]
+[   66.817443] provusb: provusb_log - ctrl [bf1412f4]
+[   66.824005] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.830993] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.840545] provusb: sent an nlmsg request to the provd
+[   66.847534] provusb: sent rep msg to provd
+[   66.854003] provusb: SCSI cmd [40]
+[   66.857635] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[277], file_offset[141824], amount[512]
+[   66.869812] provusb: scsi read from host [0|0] for block [277|-1]
+[   66.877807] provusb: provusb_log - ctrl [bf1412f4]
+[   66.884307] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.891235] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.900878] provusb: sent an nlmsg request to the provd
+[   66.907806] provusb: sent rep msg to provd
+[   66.914367] provusb: SCSI cmd [40]
+[   66.917999] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[278], file_offset[142336], amount[512]
+[   66.930267] provusb: scsi read from host [0|0] for block [278|-1]
+[   66.938140] provusb: provusb_log - ctrl [bf1412f4]
+[   66.943237] provusb: provusb_log - ctrl->tim [bf14158c]
+[   66.951171] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   66.960784] provusb: sent an nlmsg request to the provd
+[   66.966308] provusb: sent rep msg to provd
+[   66.973754] provusb: SCSI cmd [40]
+[   66.978942] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[279], file_offset[142848], amount[512]
+[   66.990081] provusb: scsi read from host [0|0] for block [279|-1]
+[   66.997955] provusb: provusb_log - ctrl [bf1412f4]
+[   67.004455] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.011657] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.021453] provusb: sent an nlmsg request to the provd
+[   67.028503] provusb: sent rep msg to provd
+[   67.034973] provusb: SCSI cmd [40]
+[   67.040161] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[280], file_offset[143360], amount[512]
+[   67.051208] provusb: scsi read from host [0|0] for block [280|-1]
+[   67.059112] provusb: provusb_log - ctrl [bf1412f4]
+[   67.065582] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.072509] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.082153] provusb: sent an nlmsg request to the provd
+[   67.089141] provusb: sent rep msg to provd
+[   67.095550] provusb: SCSI cmd [40]
+[   67.099182] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[281], file_offset[143872], amount[512]
+[   67.111358] provusb: scsi read from host [0|0] for block [281|-1]
+[   67.119293] provusb: provusb_log - ctrl [bf1412f4]
+[   67.125762] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.131286] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.141845] provusb: sent an nlmsg request to the provd
+[   67.148803] provusb: sent rep msg to provd
+[   67.153808] provusb: SCSI cmd [40]
+[   67.160278] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[282], file_offset[144384], amount[512]
+[   67.171539] provusb: scsi read from host [0|0] for block [282|-1]
+[   67.177978] provusb: provusb_log - ctrl [bf1412f4]
+[   67.185516] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.192474] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.202056] provusb: sent an nlmsg request to the provd
+[   67.207611] provusb: sent rep msg to provd
+[   67.215484] provusb: SCSI cmd [40]
+[   67.220733] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[283], file_offset[144896], amount[512]
+[   67.231781] provusb: scsi read from host [0|0] for block [283|-1]
+[   67.239654] provusb: provusb_log - ctrl [bf1412f4]
+[   67.246124] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.253051] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.262969] provusb: sent an nlmsg request to the provd
+[   67.270080] provusb: sent rep msg to provd
+[   67.276550] provusb: SCSI cmd [40]
+[   67.281738] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[284], file_offset[145408], amount[512]
+[   67.292785] provusb: scsi read from host [0|0] for block [284|-1]
+[   67.300628] provusb: provusb_log - ctrl [bf1412f4]
+[   67.307098] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.314025] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.323577] provusb: sent an nlmsg request to the provd
+[   67.330535] provusb: sent rep msg to provd
+[   67.336975] provusb: SCSI cmd [40]
+[   67.340606] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[285], file_offset[145920], amount[512]
+[   67.352783] provusb: scsi read from host [0|0] for block [285|-1]
+[   67.360809] provusb: provusb_log - ctrl [bf1412f4]
+[   67.365875] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.373962] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.383483] provusb: sent an nlmsg request to the provd
+[   67.389007] provusb: sent rep msg to provd
+[   67.396453] provusb: SCSI cmd [40]
+[   67.401641] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[286], file_offset[146432], amount[512]
+[   67.412872] provusb: scsi read from host [0|0] for block [286|-1]
+[   67.419311] provusb: provusb_log - ctrl [bf1412f4]
+[   67.426910] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.433868] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.443420] provusb: sent an nlmsg request to the provd
+[   67.450439] provusb: sent rep msg to provd
+[   67.456878] provusb: SCSI cmd [40]
+[   67.462036] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[287], file_offset[146944], amount[512]
+[   67.473083] provusb: scsi read from host [0|0] for block [287|-1]
+[   67.480957] provusb: provusb_log - ctrl [bf1412f4]
+[   67.487457] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.494354] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.503875] provusb: sent an nlmsg request to the provd
+[   67.510833] provusb: sent rep msg to provd
+[   67.517211] provusb: SCSI cmd [40]
+[   67.520843] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[288], file_offset[147456], amount[512]
+[   67.533020] provusb: scsi read from host [0|0] for block [288|-1]
+[   67.541046] provusb: provusb_log - ctrl [bf1412f4]
+[   67.547515] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.553070] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.563690] provusb: sent an nlmsg request to the provd
+[   67.570648] provusb: sent rep msg to provd
+[   67.575775] provusb: SCSI cmd [0]
+[   67.582153] provusb: SCSI cmd [40]
+[   67.587249] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[3], file_offset[1536], amount[512]
+[   67.597900] provusb: scsi read from host [0|0] for block [3|-1]
+[   67.605682] provusb: provusb_log - ctrl [bf1412f4]
+[   67.612182] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.619110] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.628662] provusb: sent an nlmsg request to the provd
+[   67.635681] provusb: sent rep msg to provd
+[   67.641693] provusb: SCSI cmd [0]
+[   67.645721] provusb: SCSI cmd [40]
+[   67.651947] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2501], file_offset[1280512], amount[512]
+[   67.663238] provusb: scsi read from host [0|0] for block [2501|-1]
+[   67.669799] provusb: provusb_log - ctrl [bf1412f4]
+[   67.677307] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.684265] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.693817] provusb: sent an nlmsg request to the provd
+[   67.700775] provusb: sent rep msg to provd
+[   67.710449] provusb: SCSI cmd [40]
+[   67.714416] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2502], file_offset[1281024], amount[1536]
+[   67.727233] provusb: scsi read from host [0|0] for block [2502|-1]
+[   67.735321] provusb: provusb_log - ctrl [bf1412f4]
+[   67.740386] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.748413] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.757995] provusb: sent an nlmsg request to the provd
+[   67.763519] provusb: sent rep msg to provd
+[   67.773132] provusb: SCSI cmd [40]
+[   67.776794] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2509], file_offset[1284608], amount[512]
+[   67.789428] provusb: scsi read from host [0|0] for block [2509|-1]
+[   67.797546] provusb: provusb_log - ctrl [bf1412f4]
+[   67.802642] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.810668] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.820343] provusb: sent an nlmsg request to the provd
+[   67.825866] provusb: sent rep msg to provd
+[   67.833068] provusb: SCSI cmd [40]
+[   67.838226] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2510], file_offset[1285120], amount[512]
+[   67.849456] provusb: scsi read from host [0|0] for block [2510|-1]
+[   67.857452] provusb: provusb_log - ctrl [bf1412f4]
+[   67.863891] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.870849] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.880493] provusb: sent an nlmsg request to the provd
+[   67.887481] provusb: sent rep msg to provd
+[   67.893524] provusb: SCSI cmd [40]
+[   67.897125] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2511], file_offset[1285632], amount[1024]
+[   67.909545] provusb: scsi read from host [0|0] for block [2511|-1]
+[   67.917633] provusb: provusb_log - ctrl [bf1412f4]
+[   67.924102] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.931060] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.940582] provusb: sent an nlmsg request to the provd
+[   67.947509] provusb: sent rep msg to provd
+[   67.955017] provusb: SCSI cmd [40]
+[   67.958679] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2505], file_offset[1282560], amount[512]
+[   67.972320] provusb: provusb_log - ctrl [bf1412f4]
+[   67.978973] provusb: provusb_log - ctrl->tim [bf14158c]
+[   67.985992] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   67.995971] provusb: sent an nlmsg request to the provd
+[   68.003112] provusb: sent rep msg to provd
+[   68.009185] provusb: SCSI cmd [40]
+[   68.012786] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2506], file_offset[1283072], amount[512]
+[   68.025207] provusb: scsi read from host [0|0] for block [2506|-1]
+[   68.033203] provusb: provusb_log - ctrl [bf1412f4]
+[   68.039672] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.045227] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.055847] provusb: sent an nlmsg request to the provd
+[   68.062835] provusb: sent rep msg to provd
+[   68.067474] provusb: SCSI cmd [40]
+[   68.073760] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2507], file_offset[1283584], amount[1024]
+[   68.085144] provusb: scsi read from host [0|0] for block [2507|-1]
+[   68.091705] provusb: provusb_log - ctrl [bf1412f4]
+[   68.099212] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.106262] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.115783] provusb: sent an nlmsg request to the provd
+[   68.122772] provusb: sent rep msg to provd
+[   68.129455] provusb: SCSI cmd [40]
+[   68.134643] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2513], file_offset[1286656], amount[512]
+[   68.145874] provusb: scsi read from host [0|0] for block [2513|-1]
+[   68.153839] provusb: provusb_log - ctrl [bf1412f4]
+[   68.160522] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.167541] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.177124] provusb: sent an nlmsg request to the provd
+[   68.184082] provusb: sent rep msg to provd
+[   68.197570] provusb: SCSI cmd [40]
+[   68.201171] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[1], file_offset[512], amount[512]
+[   68.213378] provusb: provusb_log - ctrl [bf1412f4]
+[   68.220001] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.226989] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.236572] provusb: sent an nlmsg request to the provd
+[   68.243530] provusb: sent rep msg to provd
+[   68.248168] provusb: SCSI cmd [40]
+[   68.254333] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[2], file_offset[1024], amount[512]
+[   68.265075] provusb: provusb_log - ctrl [bf1412f4]
+[   68.270141] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.278106] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.287658] provusb: sent an nlmsg request to the provd
+[   68.294586] provusb: sent rep msg to provd
+[   68.300720] provusb: SCSI cmd [40]
+[   68.305847] daveti: trusted-dev do_read, ctrl[bf1412f4], lba[4], file_offset[2048], amount[64000]
+[   68.316650] provusb: scsi read from host [0|0] for block [4|-1]
+[   68.324310] provusb: provusb_log - ctrl [bf1412f4]
+[   68.330810] provusb: provusb_log - ctrl->tim [bf14158c]
+[   68.337738] provusb: into [provusb_nl_send], opcode [1], data [ce23fee0], len [32]
+[   68.347564] provusb: sent an nlmsg request to the provd
+[   68.354644] provusb: sent rep msg to provd
+[   69.901092] provusb: SCSI cmd [0]
+[   72.205017] provusb: SCSI cmd [0]
+[   74.253082] provusb: SCSI cmd [0]
+[   76.301055] provusb: SCSI cmd [0]
+[   78.349060] provusb: SCSI cmd [0]
+[   80.397125] provusb: SCSI cmd [0]
+[   82.445098] provusb: SCSI cmd [0]
+[   84.493103] provusb: SCSI cmd [0]
+
+root@overo:~$  [   86.541137] provusb: SCSI cmd [0]
+
+root@overo:~$  [   88.589080] provusb: SCSI cmd [0]
+ll
+total 1624
+drwxr-xr-x 4 root root     4096 Jan  1  2000 .
+drwxr-xr-x 4 root root     4096 Aug  8  2014 ..
+-rw------- 1 root root     5091 Jan  1  2000 .bash_history
+-rwxr-xr-x 1 root root     1960 Jan  1  2000 .load-mod.sh.un~
+-rw------- 1 root root        0 Jan  1  2000 .python-history
+-rw------- 1 root root     5163 Jan  1  2000 .viminfo
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_aik_pub.key
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_ut_aik_pub.key
+drwxr-xr-x 2 root root     4096 Jan  1  2000 blk
+-rw-r--r-- 1 root root 67108864 Jan  1  2000 daveti.img
+-rwxr-xr-x 1 root root      273 Aug  8  2014 genbin.sh
+-rwxr-xr-x 1 root root      139 Jan  1  2000 load-mod.sh
+drwxr-xr-x 2 root root     4096 Jan  1  2000 log
+-rwxr-xr-x 1 root root    41703 Sep  3  2015 provd
+-rw-r--r-- 1 root root    32768 Jan  1 00:01 provd.log
+root@overo:~$  [   90.637115] provusb: SCSI cmd [0]
+ll
+total 1624
+drwxr-xr-x 4 root root     4096 Jan  1  2000 .
+drwxr-xr-x 4 root root     4096 Aug  8  2014 ..
+-rw------- 1 root root     5091 Jan  1  2000 .bash_history
+-rwxr-xr-x 1 root root     1960 Jan  1  2000 .load-mod.sh.un~
+-rw------- 1 root root        0 Jan  1  2000 .python-history
+-rw------- 1 root root     5163 Jan  1  2000 .viminfo
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_aik_pub.key
+-rw-r--r-- 1 root root      284 Aug  8  2014 arpsec03_ut_aik_pub.key
+drwxr-xr-x 2 root root     4096 Jan  1  2000 blk
+-rw-r--r-- 1 root root 67108864 Jan  1  2000 daveti.img
+-rwxr-xr-x 1 root root      273 Aug  8  2014 genbin.sh
+-rwxr-xr-x 1 root root      139 Jan  1  2000 load-mod.sh
+drwxr-xr-x 2 root root     4096 Jan  1  2000 log
+-rwxr-xr-x 1 root root    41703 Sep  3  2015 provd
+-rw-r--r-- 1 root root    32768 Jan  1 00:01 provd.log
+root@overo:~$  [   92.685028] provusb: SCSI cmd [0]
+
+root@overo:~$  [   94.733123] provusb: SCSI cmd [0]
+
+root@overo:~$  
+root@overo:~$  [   96.781097] provusb: SCSI cmd [0]
+[   98.829101] provusb: SCSI cmd [0]
+[  100.877136] provusb: SCSI cmd [0]
+[  101.201690] provusb: SCSI cmd [0]
+[  101.209136] provusb: SCSI cmd [42]
+[  101.216186] daveti: trusted-dev do_write, ctrl[bf1412f4], lba[2505], file_offset[1282560], amount[512]
+[  101.229400] provusb: provusb_log - ctrl [bf1412f4]
+[  101.237762] provusb: provusb_log - ctrl->tim [bf14158c]
+[  101.246582] provusb: into [provusb_nl_send], opcode [1], data [ce23fec0], len [32]
+[  101.258117] provusb: sent an nlmsg request to the provd
+[  101.263641] provusb: sent rep msg to provd
+[  101.272583] provusb: SCSI cmd [0]
+[  101.278594] provusb: SCSI cmd [42]
+[  101.286193] daveti: trusted-dev do_write, ctrl[bf1412f4], lba[2505], file_offset[1282560], amount[512]
+[  101.301391] provusb: provusb_log - ctrl [bf1412f4]
+[  101.309722] provusb: provusb_log - ctrl->tim [bf14158c]
+[  101.318542] provusb: into [provusb_nl_send], opcode [1], data [ce23fec0], len [32]
+[  101.330017] provusb: sent an nlmsg request to the provd
+[  101.338806] provusb: sent rep msg to provd
+[  101.347167] provusb: SCSI cmd [0]
+[  101.354431] provusb: SCSI cmd [30]
+[  101.379730] provusb: SCSI cmd [0]
+[  101.387054] provusb: SCSI cmd [30]
+[  101.394805] provusb: SCSI cmd [27]
+[  101.402099] provusb: SCSI cmd [3]
+[  101.410430] provusb: SCSI cmd [30]
+[  101.419311] provusb: SCSI cmd [27]
+[  101.429138] provusb: SCSI cmd [27]
+[  101.433319] provusb: SCSI cmd [0]
+[  101.441619] provusb: SCSI cmd [3]
+[  101.450683] provusb: SCSI cmd [30]
+[  101.457153] provusb: SCSI cmd [0]
+[  101.465850] provusb: SCSI cmd [3]
+[  101.476470] provusb: SCSI cmd [0]
+[  101.483551] provusb: SCSI cmd [3]
+[  101.488769] provusb: SCSI cmd [0]
+[  101.497589] provusb: SCSI cmd [3]
+[  101.510131] provusb: SCSI cmd [0]
+[  101.514801] provusb: SCSI cmd [3]
+[  101.524322] provusb: SCSI cmd [0]
+[  101.530792] provusb: SCSI cmd [3]
+[  101.539855] provusb: SCSI cmd [0]
+[  101.550689] provusb: SCSI cmd [3]
+[  101.554748] provusb: SCSI cmd [0]
+[  101.563659] provusb: SCSI cmd [3]
+[  101.570373] provusb: SCSI cmd [0]
+[  101.579101] provusb: SCSI cmd [3]
+[  101.586883] provusb: SCSI cmd [0]
+[  101.594726] provusb: SCSI cmd [3]
+[  101.604187] provusb: SCSI cmd [0]
+[  101.610107] provusb: SCSI cmd [3]
+[  103.949127] provusb: SCSI cmd [0]
+[  103.956573] provusb: SCSI cmd [3]
+[  105.997100] provusb: SCSI cmd [0]
+[  106.003082] provusb: SCSI cmd [3]
+[  108.045074] provusb: SCSI cmd [0]
+[  108.052612] provusb: SCSI cmd [3]
+[  110.093109] provusb: SCSI cmd [0]
+[  110.097076] provusb: SCSI cmd [3]
+[  112.141113] provusb: SCSI cmd [0]
+[  112.144805] provusb: SCSI cmd [3]
+
+root@overo:~$  
+root@overo:~$  
+root@overo:~$  [  114.189178] provusb: SCSI cmd [0]
+[  114.193176] provusb: SCSI cmd [3]
+
+root@overo:~$  
+root@overo:~$  [  116.237152] provusb: SCSI cmd [0]
+[  116.242919] provusb: SCSI cmd [3]
+
+root@overo:~$  [  118.285339] provusb: SCSI cmd [0]
+[  118.292877] provusb: SCSI cmd [3]
+[  120.333129] provusb: SCSI cmd [0]
+[  120.340698] provusb: SCSI cmd [3]
+[  122.381134] provusb: SCSI cmd [0]
+[  122.387176] provusb: SCSI cmd [3]
+[  124.429107] provusb: SCSI cmd [0]
+[  124.432769] provusb: SCSI cmd [3]
+[  126.477142] provusb: SCSI cmd [0]
+[  126.481109] provusb: SCSI cmd [3]
+[  128.525115] provusb: SCSI cmd [0]
+[  128.528778] provusb: SCSI cmd [3]
+[  130.573181] provusb: SCSI cmd [0]
+[  130.578918] provusb: SCSI cmd [3]
+[  132.621154] provusb: SCSI cmd [0]
+[  132.628570] provusb: SCSI cmd [3]
+[  134.669189] provusb: SCSI cmd [0]
+[  134.674224] provusb: SCSI cmd [3]
+[  136.717102] provusb: SCSI cmd [0]
+[  136.724700] provusb: SCSI cmd [3]
+[  138.765136] provusb: SCSI cmd [0]
+[  138.769104] provusb: SCSI cmd [3]
+[  140.813140] provusb: SCSI cmd [0]
+[  140.817108] provusb: SCSI cmd [3]
+[  142.861114] provusb: SCSI cmd [0]
+[  142.865081] provusb: SCSI cmd [3]
+[  144.909118] provusb: SCSI cmd [0]
+[  144.912841] provusb: SCSI cmd [3]
+[  146.957122] provusb: SCSI cmd [0]
+[  146.964538] provusb: SCSI cmd [3]
+[  149.005126] provusb: SCSI cmd [0]
+[  149.012786] provusb: SCSI cmd [3]
+[  151.053070] provusb: SCSI cmd [0]
+[  151.058197] provusb: SCSI cmd [3]
+[  153.101135] provusb: SCSI cmd [0]
+[  153.105102] provusb: SCSI cmd [3]
+[  155.149078] provusb: SCSI cmd [0]
+[  155.153045] provusb: SCSI cmd [3]
+[  157.197174] provusb: SCSI cmd [0]
+[  157.201141] provusb: SCSI cmd [3]
+[  159.245147] provusb: SCSI cmd [0]
+[  159.250518] provusb: SCSI cmd [3]
+[  161.293151] provusb: SCSI cmd [0]
+[  161.298217] provusb: SCSI cmd [3]
+[  163.341125] provusb: SCSI cmd [0]
+[  163.346130] provusb: SCSI cmd [3]
+[  165.389068] provusb: SCSI cmd [0]
+[  165.396484] provusb: SCSI cmd [3]
+[  167.437133] provusb: SCSI cmd [0]
+[  167.441101] provusb: SCSI cmd [3]
+[  169.485107] provusb: SCSI cmd [0]
+[  169.489074] provusb: SCSI cmd [3]
+[  171.533142] provusb: SCSI cmd [0]
+[  171.537109] provusb: SCSI cmd [3]
+[  173.581115] provusb: SCSI cmd [0]
+[  173.586486] provusb: SCSI cmd [3]
+[  175.629119] provusb: SCSI cmd [0]
+[  175.636596] provusb: SCSI cmd [3]
+[  177.677093] provusb: SCSI cmd [0]
+[  177.682098] provusb: SCSI cmd [3]
+[  179.725097] provusb: SCSI cmd [0]
+[  179.732574] provusb: SCSI cmd [3]
+[  181.773101] provusb: SCSI cmd [0]
+[  181.777069] provusb: SCSI cmd [3]
+[  183.821105] provusb: SCSI cmd [0]
+[  183.825073] provusb: SCSI cmd [3]
+[  185.869110] provusb: SCSI cmd [0]
+[  185.873077] provusb: SCSI cmd [3]
+[  187.917083] provusb: SCSI cmd [0]
+[  187.923614] provusb: SCSI cmd [3]
+[  189.965087] provusb: SCSI cmd [0]
+[  189.972534] provusb: SCSI cmd [3]
+
+   Meta-Z for help |115200 8N1 | NOR | Mi

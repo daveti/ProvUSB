@@ -1,0 +1,7 @@
+The example .config and .config.old are also provided here as modifying the defconfig from Yocto may not work!
+To hack the .config for the Yocto kernel build, go to:
+yocto/build/tmp/work/overo-poky-linux-gnueabi/linux-gumstix/3.5.7-r0/linux-overo-standard-build
+where you will find .config and .config.old.
+
+Jan 6, 2015
+daveti

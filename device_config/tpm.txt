@@ -1,0 +1,59 @@
+[daveti@daveti device_config]$ openssl rsautl -verify -in signature.bin -inkey arpsec03_aik_pub.pem -pubin -hexdump
+0000 - 30 21 30 09 06 05 2b 0e-03 02 1a 05 00 04 14 56   0!0...+........V
+0010 - c1 39 ad a6 22 92 3a 46-f6 c5 a4 ce cd 21 13 e5   .9..".:F.....!..
+0020 - 0c 71 be                                          .q.
+[daveti@daveti device_config]$ openssl sha1 -c valid.bin
+SHA1(valid.bin)= 56:c1:39:ad:a6:22:92:3a:46:f6:c5:a4:ce:cd:21:13:e5:0c:71:be
+
+abdul@arpsec03:~/Desktop/ubp/device_config$ openssl dgst -sha1 -verify arpsec03_aik_pub.pem -signature signature.bin valid.bin
+Verified OK
+
+
+Daves-MacBook-Pro-2:device_config daveti$ openssl rsa -in arpsec03_aik_pub.pem -text -noout -pubin
+Modulus (2048 bit):
+    00:c4:61:13:5f:a6:0f:a8:0a:8a:eb:4b:35:a3:8f:
+    48:e8:7e:51:f4:2b:6f:3b:9e:68:df:51:ee:a1:4e:
+    87:77:71:51:2c:95:75:35:68:d2:14:4e:29:ef:0e:
+    01:91:58:18:83:2f:6b:6b:bd:f1:f6:03:77:4c:96:
+    ff:40:78:56:66:97:ea:de:2a:0d:69:a4:09:d7:29:
+    3f:40:7d:cd:5f:b4:42:9d:cb:22:95:8f:31:22:19:
+    2e:7d:fa:fa:40:41:b3:e4:14:7d:7e:cd:5f:de:1d:
+    67:35:d1:bd:e3:e7:00:12:d0:82:e6:31:94:e8:ff:
+    45:c4:b8:69:fc:0e:8d:d2:90:89:0d:44:e9:f7:e5:
+    f4:93:ee:19:63:3a:fc:9f:0d:ee:96:1f:ac:fb:9f:
+    cd:6e:00:d0:75:86:d1:0f:3b:ba:71:08:28:f9:d5:
+    7f:33:ed:5d:2e:11:93:26:84:1a:0d:94:36:c4:04:
+    67:bb:f5:92:dd:f5:26:5e:45:e8:52:7d:cb:13:8b:
+    06:78:81:33:13:9a:4b:fe:4e:e3:24:ae:d2:c2:3c:
+    b9:2a:ef:97:34:2f:5b:8b:3d:96:e3:94:9e:32:08:
+    39:44:2f:09:15:88:8f:9e:ed:74:bc:be:3f:c4:98:
+    53:5d:ff:80:b0:06:b3:ed:09:12:c0:ce:90:87:8a:
+    6a:29
+Exponent: 65537 (0x10001)
+Daves-MacBook-Pro-2:device_config daveti$ 
+
+
+Daves-MacBook-Pro-2:device_config daveti$ openssl rsa -in arpsec03_aik_pub.pem -text -noout -pubin -modulus
+Modulus (2048 bit):
+    00:c4:61:13:5f:a6:0f:a8:0a:8a:eb:4b:35:a3:8f:
+    48:e8:7e:51:f4:2b:6f:3b:9e:68:df:51:ee:a1:4e:
+    87:77:71:51:2c:95:75:35:68:d2:14:4e:29:ef:0e:
+    01:91:58:18:83:2f:6b:6b:bd:f1:f6:03:77:4c:96:
+    ff:40:78:56:66:97:ea:de:2a:0d:69:a4:09:d7:29:
+    3f:40:7d:cd:5f:b4:42:9d:cb:22:95:8f:31:22:19:
+    2e:7d:fa:fa:40:41:b3:e4:14:7d:7e:cd:5f:de:1d:
+    67:35:d1:bd:e3:e7:00:12:d0:82:e6:31:94:e8:ff:
+    45:c4:b8:69:fc:0e:8d:d2:90:89:0d:44:e9:f7:e5:
+    f4:93:ee:19:63:3a:fc:9f:0d:ee:96:1f:ac:fb:9f:
+    cd:6e:00:d0:75:86:d1:0f:3b:ba:71:08:28:f9:d5:
+    7f:33:ed:5d:2e:11:93:26:84:1a:0d:94:36:c4:04:
+    67:bb:f5:92:dd:f5:26:5e:45:e8:52:7d:cb:13:8b:
+    06:78:81:33:13:9a:4b:fe:4e:e3:24:ae:d2:c2:3c:
+    b9:2a:ef:97:34:2f:5b:8b:3d:96:e3:94:9e:32:08:
+    39:44:2f:09:15:88:8f:9e:ed:74:bc:be:3f:c4:98:
+    53:5d:ff:80:b0:06:b3:ed:09:12:c0:ce:90:87:8a:
+    6a:29
+Exponent: 65537 (0x10001)
+Modulus=C461135FA60FA80A8AEB4B35A38F48E87E51F42B6F3B9E68DF51EEA14E877771512C95753568D2144E29EF0E01915818832F6B6BBDF1F603774C96FF4078566697EADE2A0D69A409D7293F407DCD5FB4429DCB22958F3122192E7DFAFA4041B3E4147D7ECD5FDE1D6735D1BDE3E70012D082E63194E8FF45C4B869FC0E8DD290890D44E9F7E5F493EE19633AFC9F0DEE961FACFB9FCD6E00D07586D10F3BBA710828F9D57F33ED5D2E119326841A0D9436C40467BBF592DDF5265E45E8527DCB138B06788133139A4BFE4EE324AED2C23CB92AEF97342F5B8B3D96E3949E320839442F0915888F9EED74BCBE3FC498535DFF80B006B3ED0912C0CE90878A6A29
+Daves-MacBook-Pro-2:device_config daveti$ 
+

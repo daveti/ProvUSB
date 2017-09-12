@@ -1,0 +1,41 @@
+# File size:
+1024, 10K, 100K, 1M, 10M, 100M
+
+# filemicro_rread
+filebench> set $dir=/mnt
+filebench> set $bytes=1024
+filebench> set $filesize=1024
+filebench> set $iters=100
+filebench> set $iosize=1024
+filebench> run 60
+
+# filemicro_rwrite
+filebench> set $dir=/mnt
+filebench> set $bytes=102400000
+filebench> set $filesize=102400000
+filebench> set $iosize=1024
+filebench> set $iters=100
+filebench> run 60 
+
+# filemicro_seqread
+filebench> set $dir=/mnt
+filebench> set $filesize=102400000
+filebench> set $iosize=1024
+filebench> run 60
+
+# filemicro_seqwrite (only for 100MB)
+filebench> set $dir=/mnt
+filebench> set $count=100000
+filebench> set $iosize=1024
+filebench> run 60
+
+
+# fileserver - total storage: 725MB
+filebench> set $dir=/mnt
+filebench> set $meanfilesize=10240000
+filebench> set $nfiles=100
+filebench> set $nthreads=1
+filebench> set $meanappendsize=1024
+filebench> set $iosize=1024
+filebench> run 60
+

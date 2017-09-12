@@ -1,0 +1,13 @@
+# Extract AIK pub key from the AIK creditials
+# NOTE: both input and output are PEM format!
+openssl x509 -pubkey -noout -in arpsec03_aik_cred.pem  > arpsec03_aik_pub.pem
+
+# Verify the signature using the AIK pub key
+openssl dgst -sha1 -verify arpsec03_aik_pub.pem -signature signature.bin valid.bin
+
+# Alternative way to verify the signature
+# (add -raw if padding data is needed) 
+openssl rsautl -verify -in signature.bin -inkey arpsec03_aik_pub.pem -pubin -hexdump
+
+# Generate the SHA1 hash given the validation data
+openssl sha1 -c valid.bin

@@ -1,0 +1,13 @@
+# Timing for VM installation using KVM
+# ISO: Ubuntu 14.04 server amd64
+# Size: 608387072 (581 MB)
+
+kingston2g:
+473.859545 seconds
+
+sandisk16g:
+490.239802 seconds
+
+provusb:
+406.507251 seconds
+log: 186245

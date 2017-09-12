@@ -1,0 +1,56 @@
+[ 1936.137554] Krsa: Entering: krsa_init
+[ 1936.137567] sig_ffffffffa00e7780: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04  EW..?.K:@g.*....
+[ 1936.137574] sig_ffffffffa00e7790: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9  (.@..<?..C..A...
+[ 1936.137581] sig_ffffffffa00e77a0: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71  .$uk..Q......tcq
+[ 1936.137587] sig_ffffffffa00e77b0: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa  ...)...QZR....|.
+[ 1936.137593] sig_ffffffffa00e77c0: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d  E...P......-h\V.
+[ 1936.137600] sig_ffffffffa00e77d0: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c  L.`..I"v.....U.,
+[ 1936.137606] sig_ffffffffa00e77e0: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f  .AR....y....2J..
+[ 1936.137613] sig_ffffffffa00e77f0: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a  .E...4.5F....%.*
+[ 1936.137619] sig_ffffffffa00e7800: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94  .jt73..Z2.wyJ...
+[ 1936.137625] sig_ffffffffa00e7810: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56  ...Aw[..Z6.$`DmV
+[ 1936.137632] sig_ffffffffa00e7820: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0  .&d... ....e..c.
+[ 1936.137638] sig_ffffffffa00e7830: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1  .....nr1...94"/.
+[ 1936.137644] sig_ffffffffa00e7840: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05  .N.R..+.,=$..+G.
+[ 1936.137651] sig_ffffffffa00e7850: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6  .....)...f..._J.
+[ 1936.137657] sig_ffffffffa00e7860: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f  T3.@.F.YR9.....O
+[ 1936.137664] sig_ffffffffa00e7870: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08  3.*..2.....Bh...
+[ 1936.137671] valid_ffffffffa00e7740: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[ 1936.137677] valid_ffffffffa00e7750: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[ 1936.137683] valid_ffffffffa00e7760: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[ 1936.137690] rsa_n_ffffffffa00e7640: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8  .a._......K5..H.
+[ 1936.137697] rsa_n_ffffffffa00e7650: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71  ~Q.+o;.h.Q..N.wq
+[ 1936.137703] rsa_n_ffffffffa00e7660: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18  Q,.u5h..N)....X.
+[ 1936.137709] rsa_n_ffffffffa00e7670: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66  ./kk....wL..@xVf
+[ 1936.137716] rsa_n_ffffffffa00e7680: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4  ...*.i...)?@}._.
+[ 1936.137722] rsa_n_ffffffffa00e7690: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3  B.."..1"..}..@A.
+[ 1936.137728] rsa_n_ffffffffa00e76a0: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12  ..}~._..g5......
+[ 1936.137735] rsa_n_ffffffffa00e76b0: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90  ...1...E..i.....
+[ 1936.137741] rsa_n_ffffffffa00e76c0: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee  ..D.......c:....
+[ 1936.137776] rsa_n_ffffffffa00e76d0: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71  ......n..u...;.q
+[ 1936.137784] rsa_n_ffffffffa00e76e0: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94  .(...3.]...&....
+[ 1936.137789] rsa_n_ffffffffa00e76f0: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb  6..g.....&^E.R}.
+[ 1936.137793] rsa_n_ffffffffa00e7700: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2  ...x.3..K.N.$...
+[ 1936.137798] rsa_n_ffffffffa00e7710: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08  <.*..4/[.=....2.
+[ 1936.137802] rsa_n_ffffffffa00e7720: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53  9D/......t..?..S
+[ 1936.137807] rsa_n_ffffffffa00e7730: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29  ].............j)
+[ 1936.137811] rsa_e_ffffffffa00e763b: 01 00 01                                         ...
+[ 1936.137843] Krsa: ==>krsa_make_digest()
+[ 1936.137851] Krsa: hash [2], digest_size [20]
+[ 1936.137857] valid_ffff88004f5b5340: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[ 1936.137862] valid_ffff88004f5b5350: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[ 1936.137866] valid_ffff88004f5b5360: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[ 1936.137873] Krsa: <==krsa_make_digest() = ok
+[ 1936.137878] digest_ffff88004e01e2c0: 56 c1 39 ad a6 22 92 3a 46 f6 c5 a4 ce cd 21 13  V.9..".:F.....!.
+[ 1936.137882] digest_ffff88004e01e2d0: e5 0c 71 be                                      ..q.
+[ 1936.137886] Krsa: ==> krsa_verify()
+[ 1936.137891] Krsa: step 1: k=2048 size(S)=2047
+[ 1936.138172] Krsa: size(x)=2033 xLen*8=2048
+[ 1936.138178] Krsa: ==> RSA_verify(,,256,20,15)
+[ 1936.138182] Krsa: <== RSA_verify() = 0
+[ 1936.138187] Krsa: <== krsa_verify() = 0
+[ 1936.138191] Krsa: verification succeeded
+[ 1936.138195] Krsa: krsa_init() done
+[ 1968.467480] Krsa: exiting krsa module
+daveti@ubuntu14-crypto:~$ 
+

@@ -1,0 +1,457 @@
+#1
+[  264.012951] usb 3-4: new high-speed USB device number 3 using xhci_hcd
+[  264.029322] provusb-perf: new device plugged
+[  264.029946] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  264.029951] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  264.029954] usb 3-4: Product: Trusted Mass Storage Gadget
+[  264.029956] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  264.065392] daveti2: netlink socket created in USB storage
+[  264.065396] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  264.065485] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  264.065567] scsi6 : usb-storage 3-4:1.0
+[  264.065625] provusb-perf: new device starts to work
+[  264.065641] usbcore: registered new interface driver usb-storage
+[  265.094367] provusb-perf: scan done
+[  265.094913] scsi 6:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  265.095265] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[  265.096624] sd 6:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  265.097684] sd 6:0:0:0: [sdb] Write Protect is off
+[  265.097689] sd 6:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  265.098425] sd 6:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  265.107331]  sdb:
+[  265.119379] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#2
+[  452.962039] usb 3-4: new high-speed USB device number 5 using xhci_hcd
+[  452.978344] provusb-perf: new device plugged
+[  452.978984] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  452.978988] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  452.978991] usb 3-4: Product: Trusted Mass Storage Gadget
+[  452.978993] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  452.987585] daveti2: netlink socket created in USB storage
+[  452.987591] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  452.987715] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  452.987813] scsi7 : usb-storage 3-4:1.0
+[  452.987889] provusb-perf: new device starts to work
+[  454.014875] provusb-perf: scan done
+[  454.015431] scsi 7:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  454.015813] sd 7:0:0:0: Attached scsi generic sg2 type 0
+[  454.016997] sd 7:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  454.017836] sd 7:0:0:0: [sdb] Write Protect is off
+[  454.017841] sd 7:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  454.022547] sd 7:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  454.026750]  sdb:
+[  454.038884] sd 7:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#3
+[  620.861408] usb 3-4: new high-speed USB device number 7 using xhci_hcd
+[  620.877779] provusb-perf: new device plugged
+[  620.879195] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  620.879200] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  620.879203] usb 3-4: Product: Trusted Mass Storage Gadget
+[  620.879205] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  620.887631] daveti2: netlink socket created in USB storage
+[  620.887637] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  620.887760] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  620.887856] scsi8 : usb-storage 3-4:1.0
+[  620.887928] provusb-perf: new device starts to work
+[  621.914286] provusb-perf: scan done
+[  621.914844] scsi 8:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  621.915185] sd 8:0:0:0: Attached scsi generic sg2 type 0
+[  621.920787] sd 8:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  621.921128] sd 8:0:0:0: [sdb] Write Protect is off
+[  621.921133] sd 8:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  621.921981] sd 8:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  621.926057]  sdb:
+[  621.937766] sd 8:0:0:0: [sdb] Attached SCSI removable disk
+
+#4
+[  740.595754] usb 3-4: new high-speed USB device number 9 using xhci_hcd
+[  740.612102] provusb-perf: new device plugged
+[  740.613685] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  740.613689] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  740.613692] usb 3-4: Product: Trusted Mass Storage Gadget
+[  740.613694] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  740.622068] daveti2: netlink socket created in USB storage
+[  740.622073] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  740.622179] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  740.622289] scsi9 : usb-storage 3-4:1.0
+[  740.622362] provusb-perf: new device starts to work
+[  741.648495] provusb-perf: scan done
+[  741.649428] scsi 9:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  741.649765] sd 9:0:0:0: Attached scsi generic sg2 type 0
+[  741.650616] sd 9:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  741.651616] sd 9:0:0:0: [sdb] Write Protect is off
+[  741.651620] sd 9:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  741.761280] sd 9:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  741.767269]  sdb:
+[  741.780884] sd 9:0:0:0: [sdb] Attached SCSI removable disk
+
+#5
+[  893.873966] usb 3-4: new high-speed USB device number 11 using xhci_hcd
+[  893.890289] provusb-perf: new device plugged
+[  893.891041] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  893.891046] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  893.891048] usb 3-4: Product: Trusted Mass Storage Gadget
+[  893.891051] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  893.899564] daveti2: netlink socket created in USB storage
+[  893.899569] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  893.899674] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  893.899785] scsi10 : usb-storage 3-4:1.0
+[  893.899860] provusb-perf: new device starts to work
+[  894.926946] provusb-perf: scan done
+[  894.927860] scsi 10:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  894.928179] sd 10:0:0:0: Attached scsi generic sg2 type 0
+[  894.934989] sd 10:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  894.935297] sd 10:0:0:0: [sdb] Write Protect is off
+[  894.935301] sd 10:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  894.935563] sd 10:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  894.940289]  sdb:
+[  894.952628] sd 10:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#6
+[  973.498147] usb 3-4: new high-speed USB device number 13 using xhci_hcd
+[  973.514499] provusb-perf: new device plugged
+[  973.515136] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[  973.515141] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  973.515143] usb 3-4: Product: Trusted Mass Storage Gadget
+[  973.515145] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  973.523786] daveti2: netlink socket created in USB storage
+[  973.523791] usb-storage 3-4:1.0: USB Mass Storage device detected
+[  973.523895] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  973.524006] scsi11 : usb-storage 3-4:1.0
+[  973.524078] provusb-perf: new device starts to work
+[  974.551537] provusb-perf: scan done
+[  974.552447] scsi 11:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  974.552772] sd 11:0:0:0: Attached scsi generic sg2 type 0
+[  974.556252] sd 11:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[  974.556810] sd 11:0:0:0: [sdb] Write Protect is off
+[  974.556814] sd 11:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  974.557603] sd 11:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  974.562693]  sdb:
+[  974.571580] sd 11:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#7
+[ 1045.459552] usb 3-4: new high-speed USB device number 15 using xhci_hcd
+[ 1045.475942] provusb-perf: new device plugged
+[ 1045.476550] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1045.476555] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1045.476558] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1045.476560] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1045.485186] daveti2: netlink socket created in USB storage
+[ 1045.485191] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1045.485294] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1045.485414] scsi12 : usb-storage 3-4:1.0
+[ 1045.485485] provusb-perf: new device starts to work
+[ 1046.512912] provusb-perf: scan done
+[ 1046.513890] scsi 12:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1046.514735] sd 12:0:0:0: Attached scsi generic sg2 type 0
+[ 1046.514828] sd 12:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1046.515056] sd 12:0:0:0: [sdb] Write Protect is off
+[ 1046.515059] sd 12:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1046.515307] sd 12:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1046.524376]  sdb:
+[ 1046.535398] sd 12:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#8
+[ 1134.539542] usb 3-4: new high-speed USB device number 17 using xhci_hcd
+[ 1134.555885] provusb-perf: new device plugged
+[ 1134.556608] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1134.556613] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1134.556616] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1134.556618] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1134.565145] daveti2: netlink socket created in USB storage
+[ 1134.565150] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1134.565275] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1134.565394] scsi13 : usb-storage 3-4:1.0
+[ 1134.565466] provusb-perf: new device starts to work
+[ 1135.592899] provusb-perf: scan done
+[ 1135.593485] scsi 13:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1135.593804] sd 13:0:0:0: Attached scsi generic sg2 type 0
+[ 1135.596231] sd 13:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1135.597172] sd 13:0:0:0: [sdb] Write Protect is off
+[ 1135.597178] sd 13:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1135.597644] sd 13:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1135.607653]  sdb:
+[ 1135.664699] sd 13:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#9
+[ 1218.455141] usb 3-4: new high-speed USB device number 19 using xhci_hcd
+[ 1218.471489] provusb-perf: new device plugged
+[ 1218.472109] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1218.472114] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1218.472116] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1218.472119] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1218.480731] daveti2: netlink socket created in USB storage
+[ 1218.480736] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1218.480863] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1218.480981] scsi14 : usb-storage 3-4:1.0
+[ 1218.481051] provusb-perf: new device starts to work
+[ 1219.508495] provusb-perf: scan done
+[ 1219.509043] scsi 14:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1219.509363] sd 14:0:0:0: Attached scsi generic sg2 type 0
+[ 1219.515474] sd 14:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1219.515753] sd 14:0:0:0: [sdb] Write Protect is off
+[ 1219.515757] sd 14:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1219.516037] sd 14:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1219.520222]  sdb:
+[ 1219.575716] sd 14:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#10
+[ 1301.678145] usb 3-4: new high-speed USB device number 21 using xhci_hcd
+[ 1301.694481] provusb-perf: new device plugged
+[ 1301.695209] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1301.695213] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1301.695216] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1301.695218] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1301.703915] daveti2: netlink socket created in USB storage
+[ 1301.703920] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1301.704026] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1301.704141] scsi15 : usb-storage 3-4:1.0
+[ 1301.704213] provusb-perf: new device starts to work
+[ 1302.731521] provusb-perf: scan done
+[ 1302.732453] scsi 15:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1302.734920] sd 15:0:0:0: Attached scsi generic sg2 type 0
+[ 1302.738235] sd 15:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1302.738732] sd 15:0:0:0: [sdb] Write Protect is off
+[ 1302.738738] sd 15:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1302.739133] sd 15:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1302.743648]  sdb:
+[ 1302.801667] sd 15:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#11
+[ 1394.549340] usb 3-4: new high-speed USB device number 23 using xhci_hcd
+[ 1394.565704] provusb-perf: new device plugged
+[ 1394.566515] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1394.566520] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1394.566523] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1394.566525] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1394.575148] daveti2: netlink socket created in USB storage
+[ 1394.575153] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1394.575258] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1394.575365] scsi16 : usb-storage 3-4:1.0
+[ 1394.575438] provusb-perf: new device starts to work
+[ 1395.602752] provusb-perf: scan done
+[ 1395.603290] scsi 16:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1395.603611] sd 16:0:0:0: Attached scsi generic sg2 type 0
+[ 1395.607484] sd 16:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1395.607741] sd 16:0:0:0: [sdb] Write Protect is off
+[ 1395.607746] sd 16:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1395.607992] sd 16:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1395.614911]  sdb:
+[ 1395.627511] sd 16:0:0:0: [sdb] Attached SCSI removable disk
+
+#12
+[ 1487.428614] usb 3-4: new high-speed USB device number 25 using xhci_hcd
+[ 1487.444950] provusb-perf: new device plugged
+[ 1487.445704] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1487.445709] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1487.445712] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1487.445714] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1487.454509] daveti2: netlink socket created in USB storage
+[ 1487.454515] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1487.454633] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1487.454756] scsi17 : usb-storage 3-4:1.0
+[ 1487.454826] provusb-perf: new device starts to work
+[ 1488.481968] provusb-perf: scan done
+[ 1488.482955] scsi 17:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1488.483276] sd 17:0:0:0: Attached scsi generic sg2 type 0
+[ 1488.485242] sd 17:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1488.487497] sd 17:0:0:0: [sdb] Write Protect is off
+[ 1488.487502] sd 17:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1488.488539] sd 17:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1488.492732]  sdb:
+[ 1488.504349] sd 17:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#13
+[ 1768.636535] usb 3-4: new high-speed USB device number 27 using xhci_hcd
+[ 1768.652924] provusb-perf: new device plugged
+[ 1768.653609] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1768.653614] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1768.653617] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1768.653619] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1768.662175] daveti2: netlink socket created in USB storage
+[ 1768.662181] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1768.662283] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1768.662404] scsi18 : usb-storage 3-4:1.0
+[ 1768.662480] provusb-perf: new device starts to work
+[ 1769.689945] provusb-perf: scan done
+[ 1769.690331] scsi 18:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1769.690573] sd 18:0:0:0: Attached scsi generic sg2 type 0
+[ 1769.694394] sd 18:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1769.695389] sd 18:0:0:0: [sdb] Write Protect is off
+[ 1769.695392] sd 18:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1769.696290] sd 18:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1769.700914]  sdb:
+[ 1769.757403] sd 18:0:0:0: [sdb] Attached SCSI removable disk
+
+#14
+[ 1932.444282] usb 3-4: new high-speed USB device number 11 using xhci_hcd
+[ 1932.460662] provusb-perf: new device plugged
+[ 1932.461372] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 1932.461376] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 1932.461379] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 1932.461381] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 1932.470012] daveti2: netlink socket created in USB storage
+[ 1932.470018] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 1932.470142] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 1932.470239] scsi19 : usb-storage 3-4:1.0
+[ 1932.470312] provusb-perf: new device starts to work
+[ 1933.497658] provusb-perf: scan done
+[ 1933.498230] scsi 19:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 1933.499338] sd 19:0:0:0: Attached scsi generic sg2 type 0
+[ 1933.500582] sd 19:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 1933.504990] sd 19:0:0:0: [sdb] Write Protect is off
+[ 1933.504996] sd 19:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 1933.505679] sd 19:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 1933.509907]  sdb:
+[ 1933.511106] sd 19:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#15
+[ 2015.987556] usb 3-4: new high-speed USB device number 13 using xhci_hcd
+[ 2016.003913] provusb-perf: new device plugged
+[ 2016.004644] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2016.004656] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2016.004658] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2016.004660] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2016.013409] daveti2: netlink socket created in USB storage
+[ 2016.013414] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2016.013538] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2016.013659] scsi20 : usb-storage 3-4:1.0
+[ 2016.013731] provusb-perf: new device starts to work
+[ 2017.040921] provusb-perf: scan done
+[ 2017.041906] scsi 20:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2017.042268] sd 20:0:0:0: Attached scsi generic sg2 type 0
+[ 2017.042843] sd 20:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2017.043276] sd 20:0:0:0: [sdb] Write Protect is off
+[ 2017.043280] sd 20:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2017.043919] sd 20:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2017.052380]  sdb:
+[ 2017.108457] sd 20:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#16
+[ 2110.948584] usb 3-4: new high-speed USB device number 15 using xhci_hcd
+[ 2110.964933] provusb-perf: new device plugged
+[ 2110.965684] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2110.965689] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2110.965692] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2110.965694] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2110.974230] daveti2: netlink socket created in USB storage
+[ 2110.974235] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2110.974340] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2110.974449] scsi21 : usb-storage 3-4:1.0
+[ 2110.974521] provusb-perf: new device starts to work
+[ 2112.001947] provusb-perf: scan done
+[ 2112.002511] scsi 21:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2112.002846] sd 21:0:0:0: Attached scsi generic sg2 type 0
+[ 2112.004048] sd 21:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2112.004584] sd 21:0:0:0: [sdb] Write Protect is off
+[ 2112.004589] sd 21:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2112.007295] sd 21:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2112.018106]  sdb:
+[ 2112.019327] sd 21:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#17
+[ 2216.698806] usb 3-4: new high-speed USB device number 17 using xhci_hcd
+[ 2216.715147] provusb-perf: new device plugged
+[ 2216.716080] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2216.716085] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2216.716088] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2216.716090] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2216.724679] daveti2: netlink socket created in USB storage
+[ 2216.724685] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2216.724790] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2216.724901] scsi22 : usb-storage 3-4:1.0
+[ 2216.724973] provusb-perf: new device starts to work
+[ 2217.752159] provusb-perf: scan done
+[ 2217.752720] scsi 22:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2217.753022] sd 22:0:0:0: Attached scsi generic sg2 type 0
+[ 2217.755076] sd 22:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2217.863246] sd 22:0:0:0: [sdb] Write Protect is off
+[ 2217.863252] sd 22:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2217.864118] sd 22:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2217.870124]  sdb:
+[ 2217.872374] sd 22:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#18
+[ 2329.791282] usb 3-4: new high-speed USB device number 19 using xhci_hcd
+[ 2329.807635] provusb-perf: new device plugged
+[ 2329.809024] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2329.809029] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2329.809032] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2329.809034] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2329.817495] daveti2: netlink socket created in USB storage
+[ 2329.817501] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2329.817604] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2329.817725] scsi23 : usb-storage 3-4:1.0
+[ 2329.817798] provusb-perf: new device starts to work
+[ 2330.844647] provusb-perf: scan done
+[ 2330.845626] scsi 23:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2330.846898] sd 23:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2330.846945] sd 23:0:0:0: Attached scsi generic sg2 type 0
+[ 2330.848031] sd 23:0:0:0: [sdb] Write Protect is off
+[ 2330.848037] sd 23:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2330.848956] sd 23:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2330.856014]  sdb:
+[ 2330.857401] sd 23:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#19
+[ 2432.210664] usb 3-4: new high-speed USB device number 21 using xhci_hcd
+[ 2432.227024] provusb-perf: new device plugged
+[ 2432.228671] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2432.228676] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2432.228679] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2432.228681] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2432.237056] daveti2: netlink socket created in USB storage
+[ 2432.237062] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2432.237183] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2432.237305] scsi24 : usb-storage 3-4:1.0
+[ 2432.237376] provusb-perf: new device starts to work
+[ 2433.264026] provusb-perf: scan done
+[ 2433.264542] scsi 24:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2433.264836] sd 24:0:0:0: Attached scsi generic sg2 type 0
+[ 2433.271335] sd 24:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2433.271689] sd 24:0:0:0: [sdb] Write Protect is off
+[ 2433.271691] sd 24:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2433.271950] sd 24:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2433.276265]  sdb:
+[ 2433.277560] sd 24:0:0:0: [sdb] Attached SCSI removable disk
+
+
+#20
+[ 2523.908880] usb 3-4: new high-speed USB device number 23 using xhci_hcd
+[ 2523.925235] provusb-perf: new device plugged
+[ 2523.926017] usb 3-4: New USB device found, idVendor=b000, idProduct=a4a5
+[ 2523.926021] usb 3-4: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[ 2523.926024] usb 3-4: Product: Trusted Mass Storage Gadget
+[ 2523.926026] usb 3-4: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[ 2523.934699] daveti2: netlink socket created in USB storage
+[ 2523.934704] usb-storage 3-4:1.0: USB Mass Storage device detected
+[ 2523.934832] usb-storage 3-4:1.0: Quirks match for vid b000 pid a4a5: 10000
+[ 2523.934948] scsi25 : usb-storage 3-4:1.0
+[ 2523.935018] provusb-perf: new device starts to work
+[ 2524.962262] provusb-perf: scan done
+[ 2524.962895] scsi 25:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[ 2524.963266] sd 25:0:0:0: Attached scsi generic sg2 type 0
+[ 2524.967948] sd 25:0:0:0: [sdb] 2097152 512-byte logical blocks: (1.07 GB/1.00 GiB)
+[ 2524.968528] sd 25:0:0:0: [sdb] Write Protect is off
+[ 2524.968533] sd 25:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[ 2525.072642] sd 25:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[ 2525.078861]  sdb:
+[ 2525.081292] sd 25:0:0:0: [sdb] Attached SCSI removable disk
+
+

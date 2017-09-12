@@ -1,0 +1,46 @@
+ID 0781:5571 SanDisk Corp. Cruzer Fit
+ID 0951:1625 Kingston Technology DataTraveler 101 II
+
+
+Kingston2G
+
+./kingston.txt
+
+Average: 343003
+Min: 338446
+Max: 389194
+Standard deviation: 10629.5
+Median: 340682
+
+
+
+SanDisk16G
+
+./sandisk.txt
+
+Average: 122583
+Min: 119962
+Max: 125309
+Standard deviation: 1382.71
+Median: 122550
+
+
+
+Gumstix
+
+./gumstix.txt
+
+Average: 75501.1
+Min: 39270
+Max: 158997
+Standard deviation: 37713.2
+Median: 49226
+
+./gumstix2.txt
+
+Average: 65381.7
+Min: 40246
+Max: 97724
+Standard deviation: 22286.4
+Median: 50857
+

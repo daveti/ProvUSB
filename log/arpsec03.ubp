@@ -1,0 +1,141 @@
+Jan 22 13:14:08 arpsec03 kernel: [  549.965079] usb 3-3: adding 3-3:1.0 (config #1, interface 0)
+Jan 22 13:14:08 arpsec03 kernel: [  549.970540] xhci_hcd 0000:00:14.0: Waiting for status stage event
+Jan 22 13:14:08 arpsec03 kernel: [  549.970600] daveti2: device_add() done
+Jan 22 13:14:08 arpsec03 kernel: [  549.970609] daveti2: end usb_new_device
+Jan 22 13:14:08 arpsec03 kernel: [  549.970610] daveti2: end (return) hub_port_connect_change
+Jan 22 13:14:08 arpsec03 kernel: [  550.017175] usb-storage 3-3:1.0: usb_probe_interface
+Jan 22 13:14:08 arpsec03 kernel: [  550.017180] usb-storage 3-3:1.0: usb_probe_interface - got id
+Jan 22 13:14:08 arpsec03 kernel: [  550.017182] daveti2: into storage_probe
+Jan 22 13:14:08 arpsec03 kernel: [  550.017183] daveti2: into [us_trusted_dev_init_ctrl_block]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017186] daveti2: netlink socket created in USB storage
+Jan 22 13:14:08 arpsec03 kernel: [  550.017186] daveti: into usb_stor_probe1
+Jan 22 13:14:08 arpsec03 kernel: [  550.017188] usb-storage 3-3:1.0: USB Mass Storage device detected
+Jan 22 13:14:08 arpsec03 kernel: [  550.017512] usb-storage 3-3:1.0: Quirks match for vid b000 pid a4a5: 10000
+Jan 22 13:14:08 arpsec03 kernel: [  550.017514] daveti2: done usb_stor_probe1
+Jan 22 13:14:08 arpsec03 kernel: [  550.017515] daveti2: into usb_stor_probe2
+Jan 22 13:14:08 arpsec03 kernel: [  550.017523] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017526] daveti2: netlink received msg opcode [0]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017527] daveti2: into [us_trusted_dev_tpm_nl_init]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017528] daveti2: tpmd pid [2868]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017528] daveti2: into [us_trusted_dev_tpm_nl_send_request]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017530] daveti2: sent an ATT request to the tpmd
+Jan 22 13:14:08 arpsec03 kernel: [  550.017531] daveti2: sent hello msg to tpmd
+Jan 22 13:14:08 arpsec03 kernel: [  550.017535] scsi6 : usb-storage 3-3:1.0
+Jan 22 13:14:08 arpsec03 kernel: [  550.017575] daveti2: done usb_stor_probe2
+Jan 22 13:14:08 arpsec03 kernel: [  550.017576] daveti2: done storage_probe
+Jan 22 13:14:08 arpsec03 kernel: [  550.017587] usbcore: registered new interface driver usb-storage
+Jan 22 13:14:08 arpsec03 kernel: [  550.017594] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017595] daveti2: netlink received msg opcode [3]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017596] daveti2: into [us_trusted_dev_tpm_nl_process_aik]
+Jan 22 13:14:08 arpsec03 kernel: [  550.017598] daveti2: got AIK pub key from tpmd:
+Jan 22 13:14:08 arpsec03 kernel: [  550.017600] 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+Jan 22 13:14:08 arpsec03 kernel: [  550.017601] 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+Jan 22 13:14:08 arpsec03 kernel: [  550.017602] a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+Jan 22 13:14:08 arpsec03 kernel: [  550.017603] 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+Jan 22 13:14:08 arpsec03 kernel: [  550.017604] 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+Jan 22 13:14:08 arpsec03 kernel: [  550.017605] bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+Jan 22 13:14:08 arpsec03 kernel: [  550.017606] 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+Jan 22 13:14:08 arpsec03 kernel: [  550.017607] 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+Jan 22 13:14:08 arpsec03 kernel: [  550.017607] cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+Jan 22 13:14:08 arpsec03 kernel: [  550.017608] 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+Jan 22 13:14:08 arpsec03 kernel: [  550.017609] f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+Jan 22 13:14:08 arpsec03 kernel: [  550.017610] 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+Jan 22 13:14:08 arpsec03 kernel: [  550.017611] 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+Jan 22 13:14:08 arpsec03 kernel: [  550.017611] bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+Jan 22 13:14:08 arpsec03 kernel: [  550.017612] 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+Jan 22 13:14:08 arpsec03 kernel: [  550.017613] 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+Jan 22 13:14:08 arpsec03 kernel: [  550.017614] 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+Jan 22 13:14:08 arpsec03 kernel: [  550.017615] 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+Jan 22 13:14:08 arpsec03 kernel: [  550.187826] xhci_hcd 0000:00:14.0: xhci_hub_status_data: stopping port polling.
+Jan 22 13:14:09 arpsec03 kernel: [  551.045063] daveti2: trusted dev UT mode [0]
+Jan 22 13:14:09 arpsec03 kernel: [  551.045066] daveti2: into [usb_stor_Ctrl_get_nonce]
+Jan 22 13:14:09 arpsec03 kernel: [  551.086863] daveti2: TPM ATT init with rtn [23]
+Jan 22 13:14:09 arpsec03 kernel: [  551.086863] Dump the TPM ATT init:
+Jan 22 13:14:09 arpsec03 kernel: [  551.086867] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+Jan 22 13:14:09 arpsec03 kernel: [  551.086868] 01 01 01 01 ff 00 00
+Jan 22 13:14:09 arpsec03 kernel: [  551.086869] daveti2: into [us_trusted_dev_tpm_nl_send_request]
+Jan 22 13:14:09 arpsec03 kernel: [  551.086887] daveti2: sent an ATT request to the tpmd
+Jan 22 13:14:09 arpsec03 kernel: [  551.086889] daveti2: sending the nonce with rtn [0]
+Jan 22 13:14:09 arpsec03 kernel: [  551.421734] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+Jan 22 13:14:09 arpsec03 kernel: [  551.421738] daveti2: netlink received msg opcode [2]
+Jan 22 13:14:09 arpsec03 kernel: [  551.421739] daveti2: into [us_trusted_dev_tpm_nl_process_reply]
+Jan 22 13:14:09 arpsec03 kernel: [  551.421741] daveti2: TPM quote store is ready to go
+Jan 22 13:14:09 arpsec03 kernel: [  551.421742] daveti2: got the TPM quote from tpmd
+Jan 22 13:14:09 arpsec03 kernel: [  551.421744] 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+Jan 22 13:14:09 arpsec03 kernel: [  551.421746] e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+Jan 22 13:14:09 arpsec03 kernel: [  551.421748] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+Jan 22 13:14:09 arpsec03 kernel: [  551.421749] 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+Jan 22 13:14:09 arpsec03 kernel: [  551.421751] 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+Jan 22 13:14:09 arpsec03 kernel: [  551.421752] 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+Jan 22 13:14:09 arpsec03 kernel: [  551.421754] 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+Jan 22 13:14:09 arpsec03 kernel: [  551.421755] 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+Jan 22 13:14:09 arpsec03 kernel: [  551.421756] 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+Jan 22 13:14:09 arpsec03 kernel: [  551.421758] c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+Jan 22 13:14:09 arpsec03 kernel: [  551.421759] 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+Jan 22 13:14:09 arpsec03 kernel: [  551.421761] 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+Jan 22 13:14:09 arpsec03 kernel: [  551.421762] c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+Jan 22 13:14:09 arpsec03 kernel: [  551.421764] b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+Jan 22 13:14:09 arpsec03 kernel: [  551.421765] f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+Jan 22 13:14:09 arpsec03 kernel: [  551.421767] 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+Jan 22 13:14:09 arpsec03 kernel: [  551.421768] 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+Jan 22 13:14:09 arpsec03 kernel: [  551.421770] 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+Jan 22 13:14:09 arpsec03 kernel: [  551.421771] 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+Jan 22 13:14:09 arpsec03 kernel: [  551.436889] daveti2: into [usb_stor_Ctrl_send_adsc], data_len [284]
+Jan 22 13:14:09 arpsec03 kernel: [  551.597424] daveti2: ADSC send with rtn [284]
+Jan 22 13:14:09 arpsec03 kernel: [  551.597429] daveti2: into [usb_stor_Ctrl_send_adsc], data_len [304]
+Jan 22 13:14:09 arpsec03 kernel: [  551.765081] daveti2: ADSC send with rtn [304]
+Jan 22 13:14:09 arpsec03 kernel: [  551.765084] daveti2: Dump the TPM AIK pub key:
+Jan 22 13:14:09 arpsec03 kernel: [  551.765087] 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+Jan 22 13:14:09 arpsec03 kernel: [  551.765089] 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+Jan 22 13:14:09 arpsec03 kernel: [  551.765090] a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+Jan 22 13:14:09 arpsec03 kernel: [  551.765092] 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+Jan 22 13:14:09 arpsec03 kernel: [  551.765093] 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+Jan 22 13:14:09 arpsec03 kernel: [  551.765095] bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+Jan 22 13:14:09 arpsec03 kernel: [  551.765096] 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+Jan 22 13:14:09 arpsec03 kernel: [  551.765097] 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+Jan 22 13:14:09 arpsec03 kernel: [  551.765099] cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+Jan 22 13:14:09 arpsec03 kernel: [  551.765100] 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+Jan 22 13:14:09 arpsec03 kernel: [  551.765102] f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+Jan 22 13:14:09 arpsec03 kernel: [  551.765103] 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+Jan 22 13:14:09 arpsec03 kernel: [  551.765105] 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+Jan 22 13:14:09 arpsec03 kernel: [  551.765106] bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+Jan 22 13:14:09 arpsec03 kernel: [  551.765108] 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+Jan 22 13:14:09 arpsec03 kernel: [  551.765109] 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+Jan 22 13:14:09 arpsec03 kernel: [  551.765111] 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+Jan 22 13:14:09 arpsec03 kernel: [  551.765112] 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+Jan 22 13:14:09 arpsec03 kernel: [  551.765113] daveti2: Dump the TPM ATT quote:
+Jan 22 13:14:09 arpsec03 kernel: [  551.765115] 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+Jan 22 13:14:09 arpsec03 kernel: [  551.765116] e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+Jan 22 13:14:09 arpsec03 kernel: [  551.765118] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+Jan 22 13:14:09 arpsec03 kernel: [  551.765119] 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+Jan 22 13:14:09 arpsec03 kernel: [  551.765121] 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+Jan 22 13:14:09 arpsec03 kernel: [  551.765122] 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+Jan 22 13:14:09 arpsec03 kernel: [  551.765124] 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+Jan 22 13:14:09 arpsec03 kernel: [  551.765125] 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+Jan 22 13:14:09 arpsec03 kernel: [  551.765126] 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+Jan 22 13:14:09 arpsec03 kernel: [  551.765128] c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+Jan 22 13:14:09 arpsec03 kernel: [  551.765129] 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+Jan 22 13:14:09 arpsec03 kernel: [  551.765131] 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+Jan 22 13:14:09 arpsec03 kernel: [  551.765132] c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+Jan 22 13:14:09 arpsec03 kernel: [  551.765134] b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+Jan 22 13:14:09 arpsec03 kernel: [  551.765135] f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+Jan 22 13:14:09 arpsec03 kernel: [  551.765137] 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+Jan 22 13:14:09 arpsec03 kernel: [  551.765156] 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+Jan 22 13:14:09 arpsec03 kernel: [  551.765158] 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+Jan 22 13:14:09 arpsec03 kernel: [  551.765159] 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+Jan 22 13:14:09 arpsec03 kernel: [  551.765161] daveti2: delay the scan with [1000] ms
+Jan 22 13:14:31 arpsec03 kernel: [  573.319579] xhci_hcd 0000:00:14.0: Cancel URB ffff88020e11bd80, dev 3, ep 0x81, starting at offset 0x2111ed800
+Jan 22 13:14:31 arpsec03 kernel: [  573.319587] xhci_hcd 0000:00:14.0: // Ding dong!
+Jan 22 13:14:31 arpsec03 kernel: [  573.319639] xhci_hcd 0000:00:14.0: Stopped on Transfer TRB
+Jan 22 13:14:31 arpsec03 kernel: [  573.319647] xhci_hcd 0000:00:14.0: Removing canceled TD starting at 0x2111ed800 (dma).
+Jan 22 13:14:31 arpsec03 kernel: [  573.319650] xhci_hcd 0000:00:14.0: Finding endpoint context
+Jan 22 13:14:31 arpsec03 kernel: [  573.319653] xhci_hcd 0000:00:14.0: Finding segment containing last TRB in TD.
+Jan 22 13:14:31 arpsec03 kernel: [  573.319655] xhci_hcd 0000:00:14.0: Cycle state = 0x1
+Jan 22 13:14:31 arpsec03 kernel: [  573.319657] xhci_hcd 0000:00:14.0: New dequeue segment = ffff88021115a5a0 (virtual)
+Jan 22 13:14:31 arpsec03 kernel: [  573.319660] xhci_hcd 0000:00:14.0: New dequeue pointer = 0x2111ed810 (DMA)
+Jan 22 13:14:31 arpsec03 kernel: [  573.319663] xhci_hcd 0000:00:14.0: Set TR Deq Ptr cmd, new deq seg = ffff88021115a5a0 (0x2111ed800 dma), new deq ptr = ffff8802111ed810 (0x2111ed810 dma), new cycle = 1
+Jan 22 13:14:31 arpsec03 kernel: [  573.319666] xhci_hcd 0000:00:14.0: // Ding dong!
+Jan 22 13:14:31 arpsec03 kernel: [  573.319679] xhci_hcd 0000:00:14.0: Successful Set TR Deq Ptr cmd, deq = @2111ed811
+Jan 22 13:14:31 arpsec03 kernel: [  573.319700] daveti2: into usb_reset_device
+Jan 22 13:14:31 arpsec03 kernel: [  573.319704] daveti2: into usb_reset_and_verify_device
+

@@ -1,0 +1,188 @@
+[  349.378705] hub 1-1:1.0: state 7 ports 6 chg 0000 evt 0008
+[  349.378949] daveti2: into hub_port_connect_change
+[  349.378955] hub 1-1:1.0: port 3, status 0101, change 0001, 12 Mb/s
+[  349.506569] hub 1-1:1.0: debounce: port 3: total 100ms stable 100ms status 0x101
+[  349.578748] usb 1-1.3: new high-speed USB device number 10 using ehci-pci
+[  349.671066] daveti2: into !status for usb_new_device()
+[  349.671070] daveti2: into usb_new_device
+[  349.671073] daveti2: into usb_enumerate_device
+[  349.671075] daveti2: into usb_get_configuration()
+[  349.671560] daveti2: into usb_parse_configuration()
+[  349.671566] usb 1-1.3: skipped 1 descriptor after configuration
+[  349.671812] usb 1-1.3: default language 0x0409
+[  349.672564] usb 1-1.3: udev 10, busnum 1, minor = 9
+[  349.672565] daveti2: announce_device start
+[  349.672568] usb 1-1.3: New USB device found, idVendor=b000, idProduct=a4a5
+[  349.672570] usb 1-1.3: New USB device strings: Mfr=2, Product=3, SerialNumber=0
+[  349.672573] usb 1-1.3: Product: Trusted Mass Storage Gadget
+[  349.672575] usb 1-1.3: Manufacturer: Linux 3.5.7-custom with musb-hdrc
+[  349.672576] daveti2: announce_device done
+[  349.672699] usb 1-1.3: usb_probe_device
+[  349.672702] usb 1-1.3: configuration #1 chosen from 1 choice
+[  349.680824] usb 1-1.3: adding 1-1.3:1.0 (config #1, interface 0)
+[  349.681100] usb-storage 1-1.3:1.0: usb_probe_interface
+[  349.681103] usb-storage 1-1.3:1.0: usb_probe_interface - got id
+[  349.681114] daveti2: into storage_probe
+[  349.681116] daveti2: into [us_trusted_dev_init_ctrl_block]
+[  349.681120] daveti2: netlink socket created in USB storage
+[  349.681122] daveti: into usb_stor_probe1
+[  349.681124] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[  349.681253] usb-storage 1-1.3:1.0: Quirks match for vid b000 pid a4a5: 10000
+[  349.681254] daveti2: done usb_stor_probe1
+[  349.681255] daveti2: into usb_stor_probe2
+[  349.681318] scsi8 : usb-storage 1-1.3:1.0
+[  349.681370] daveti2: done usb_stor_probe2
+[  349.681372] daveti2: done storage_probe
+[  349.681402] daveti2: device_add() done
+[  349.681415] daveti2: end usb_new_device
+[  349.681416] daveti2: end (return) hub_port_connect_change
+[  349.681420] hub 1-1:1.0: state 7 ports 6 chg 0000 evt 0008
+[  350.308151] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+[  350.308158] daveti2: netlink received msg opcode [0]
+[  350.308159] daveti2: into [us_trusted_dev_tpm_nl_init]
+[  350.308161] daveti2: tpmd pid [20782]
+[  350.308163] daveti2: into [us_trusted_dev_tpm_nl_send_request]
+[  350.308166] daveti2: sent an ATT request to the tpmd
+[  350.308168] daveti2: sent hello msg to tpmd
+[  350.308214] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+[  350.308216] daveti2: netlink received msg opcode [3]
+[  350.308218] daveti2: into [us_trusted_dev_tpm_nl_process_aik]
+[  350.308219] daveti2: got AIK pub key from tpmd:
+[  350.308221] 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[  350.308223] 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[  350.308225] a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[  350.308226] 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[  350.308227] 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[  350.308229] bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[  350.308230] 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[  350.308232] 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[  350.308233] cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[  350.308235] 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[  350.308236] f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[  350.308238] 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[  350.308239] 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[  350.308241] bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[  350.308242] 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[  350.308244] 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[  350.308245] 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[  350.308247] 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[  350.708689] daveti2: trusted dev UT mode [0]
+[  350.708693] daveti2: into [usb_stor_Ctrl_get_nonce]
+[  350.750837] daveti2: TPM ATT init with rtn [23]
+[  350.750837] Dump the TPM ATT init:
+[  350.750840] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[  350.750841] 01 01 01 01 ff 00 00
+[  350.750842] daveti2: into [us_trusted_dev_tpm_nl_send_request]
+[  350.750847] daveti2: sent an ATT request to the tpmd
+[  350.750848] daveti2: sending the nonce with rtn [0]
+[  350.750862] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  350.750862] data_len [30], use_iobuf [1]
+[  350.750863] daveti: using iobuf
+[  350.798633] daveti2: ADSC debug [30] using iobuf rtn [30]
+[  350.798638] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  350.798638] data_len [30], use_iobuf [0]
+[  350.846327] daveti2: ADSC debug [30] not using iobuf rtn [30]
+[  350.846333] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  350.846333] data_len [32], use_iobuf [0]
+[  350.894731] daveti2: ADSC debug [32] not using iobuf rtn [32]
+[  350.894734] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  350.894734] data_len [64], use_iobuf [0]
+[  350.956675] daveti2: ADSC debug [64] not using iobuf rtn [64]
+[  350.956681] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  350.956681] data_len [128], use_iobuf [0]
+[  351.045993] daveti2: ADSC debug [128] not using iobuf rtn [128]
+[  351.045996] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  351.045996] data_len [128], use_iobuf [0]
+[  351.085495] daveti2: entering [us_trusted_dev_tpm_nl_handler]
+[  351.085501] daveti2: netlink received msg opcode [2]
+[  351.085504] daveti2: into [us_trusted_dev_tpm_nl_process_reply]
+[  351.085505] daveti2: got the TPM quote from tpmd
+[  351.085508] 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+[  351.085510] e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+[  351.085511] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[  351.085512] 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[  351.085514] 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[  351.085515] 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[  351.085517] 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[  351.085518] 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[  351.085520] 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[  351.085521] c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[  351.085523] 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[  351.085524] 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[  351.085526] c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[  351.085527] b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[  351.085528] f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[  351.085530] 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[  351.085531] 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[  351.085533] 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[  351.085534] 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[  351.135305] daveti2: ADSC debug [128] not using iobuf rtn [128]
+[  351.135311] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  351.135311] data_len [256], use_iobuf [0]
+[  351.279067] daveti2: ADSC debug [256] not using iobuf rtn [256]
+[  351.279073] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  351.279073] data_len [256], use_iobuf [0]
+[  351.423046] daveti2: ADSC debug [256] not using iobuf rtn [256]
+[  351.423052] daveti2: into [usb_stor_Ctrl_send_adsc_debug]
+[  351.423052] data_len [512], use_iobuf [0]
+[  351.676010] daveti2: ADSC debug [512] not using iobuf rtn [512]
+[  351.676015] daveti2: into [usb_stor_Ctrl_send_adsc], data_len [284]
+[  351.957750] daveti: ADSC send with rtn [284]
+[  351.957754] daveti2: sending the AIK pub key with last rtn [284]
+[  351.957754] Dump the TPM AIK pub key:
+[  351.957758] 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[  351.957760] 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[  351.957762] a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[  351.957763] 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[  351.957765] 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[  351.957766] bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[  351.957768] 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[  351.957769] 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[  351.957770] cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[  351.957772] 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[  351.957773] f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[  351.957775] 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[  351.957776] 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[  351.957778] bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[  351.957794] 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[  351.957796] 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[  351.957797] 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[  351.957799] 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[  351.957800] daveti2: sending the quote with last rtn [284]
+[  351.957800] Dump the TPM ATT quote:
+[  351.957802] 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+[  351.957804] e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+[  351.957805] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[  351.957819] 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[  351.957820] 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[  351.957821] 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[  351.957822] 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[  351.957823] 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[  351.957824] 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[  351.957825] c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[  351.957826] 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[  351.957827] 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[  351.957828] c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[  351.957829] b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[  351.957830] f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[  351.957830] 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[  351.957831] 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[  351.957832] 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[  351.957834] 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[  351.957852] daveti2: delay the scan with [1000] ms
+[  374.344403] daveti2: into usb_reset_device
+[  374.344410] daveti2: into usb_reset_and_verify_device
+[  374.416335] usb 1-1.3: reset high-speed USB device number 10 using ehci-pci
+[  374.487904] hub 1-1:1.0: state 7 ports 6 chg 0000 evt 0008
+[  374.517185] daveti2: end usb_reset_device
+[  374.520713] scsi 8:0:0:0: Direct-Access     Linux    File-CD Gadget   0316 PQ: 0 ANSI: 2
+[  374.521005] sd 8:0:0:0: Attached scsi generic sg2 type 0
+[  374.522928] sd 8:0:0:0: [sdb] 131072 512-byte logical blocks: (67.1 MB/64.0 MiB)
+[  374.630051] sd 8:0:0:0: [sdb] Write Protect is off
+[  374.630058] sd 8:0:0:0: [sdb] Mode Sense: 0f 00 00 00
+[  374.631127] sd 8:0:0:0: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[  374.753834]  sdb:
+[  374.758131] sd 8:0:0:0: [sdb] Attached SCSI removable disk
+[  376.524298] FAT-fs (sdb): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+abdul@arpsec03:~/nltpmd4usb$ 
+

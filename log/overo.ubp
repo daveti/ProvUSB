@@ -1,0 +1,345 @@
+root@overo:~$  ./load-mod.sh 
+[   28.950225] daveti: trusted-dev fsg_common_init
+[   28.963836]  gadget: Mass Storage Function, version: 2009/09/11
+[   28.970123]  gadget: Number of LUNs=1
+[   28.986572]  lun0: LUN: removable file: /home/root/daveti.img
+[   28.996063] daveti: into [fsg_trusted_dev_init]
+[   29.000885] daveti: fsg_trusted_dev_ctrl is initialized
+[   29.010955] daveti: into [fsg_trusted_dev_load_config]
+[   29.016387] daveti: into [fsg_trusted_dev_load_key_file]
+[   29.030822] daveti: into [fsg_trusted_dev_parse_aik_pub_key]
+[   29.040283] daveti: fsg_trusted_dev_ctrl is loaded with config:
+[   29.040283] key_file [arpsec03_aik_pub.key], force_fail [0] - dump the TIM DB:
+[   29.059875] AIK: 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   29.070312] AIK: 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   29.080932] AIK: 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   29.088226] AIK: 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   29.099273] AIK: 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   29.111663] AIK: 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   29.122131] AIK: 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   29.132995] AIK: 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   29.143737] AIK: 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   29.151031] AIK: 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   29.162139] AIK: 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   29.174468] AIK: 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   29.185180] AIK: 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   29.195678] AIK: 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   29.206298] AIK: 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   29.213562] AIK: 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   29.224700] AIK: 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   29.237243] AIK: 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   29.243438] valid: 00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   29.256591] valid: 00000010: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   29.267364] valid: 00000020: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   29.278137] RSA-n: 00000000: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8
+[   29.288787] RSA-n: 00000010: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71
+[   29.299407] RSA-n: 00000020: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18
+[   29.310089] RSA-n: 00000030: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66
+[   29.320678] RSA-n: 00000040: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4
+[   29.331481] RSA-n: 00000050: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3
+[   29.342071] RSA-n: 00000060: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12
+[   29.352691] RSA-n: 00000070: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90
+[   29.363403] RSA-n: 00000080: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee
+[   29.374145] RSA-n: 00000090: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71
+[   29.384826] RSA-n: 000000a0: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94
+[   29.395507] RSA-n: 000000b0: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb
+[   29.406097] RSA-n: 000000c0: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2
+[   29.416900] RSA-n: 000000d0: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08
+[   29.424377] RSA-n: 000000e0: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53
+[   29.435668] RSA-n: 000000f0: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   29.448272] RSA-e: 00000000: 01 00 01
+[   29.452331]  gadget: Trusted Mass Storage Gadget, version: 2014/04/30
+[   29.464874]  gadget: userspace failed to provide iSerialNumber
+[   29.471069]  gadget: g_mass_storage ready
+[   29.493377] musb-hdrc musb-hdrc: MUSB HDRC host driver
+[   29.508789] musb-hdrc musb-hdrc: new USB bus registered, assigned bus number 2
+[   29.526519] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[   29.533721] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[   29.557128] usb usb2: Product: MUSB HDRC host driver
+[   29.566955] usb usb2: Manufacturer: Linux 3.5.7-custom musb-hcd
+[   29.576751] usb usb2: SerialNumber: musb-hdrc
+[   29.592437] hub 2-0:1.0: USB hub found
+[   29.610168] hub 2-0:1.0: 1 port detected
+root@overo:~$  [   29.916778]  gadget: high-speed config #1: Trusted Linux File-Backed Storage
+[   30.923431] daveti: enter [fsg_setup]
+[   30.927337] daveti: ep0-setup ctrl req len [8]
+[   30.932006] 00000000: a1 fe 00 00 00 00 01 00
+[   30.936614] daveti: class-specific control req [a1.fe v0000 i0000 l1]
+[   30.943420] daveti: got BULK_get_max_lun
+[   30.947570] daveti: into [ep0_complete]
+[   30.951843] daveti: enter [fsg_setup]
+[   30.955688] daveti: ep0-setup ctrl req len [8]
+[   30.960388] 00000000: a1 00 00 00 00 00 17 00
+[   30.964996] daveti: class-specific control req [a1.00 v0000 i0000 l23]
+[   30.971893] daveti: got the damn ADSC req
+[   30.976135] daveti: dump the req->buf:
+[   30.980072] 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   30.985961] 01 01 01 01 ff 00 00
+[   30.989379] daveti: into [ep0_complete]
+[   31.343414] daveti: enter [fsg_setup]
+[   31.347320] daveti: ep0-setup ctrl req len [8]
+[   31.352020] 00000000: 21 00 00 00 00 00 1c 01
+[   31.356628] daveti: class-specific control req [21.00 v0000 i0000 l284]
+[   31.363586] daveti: got the damn ADSC req
+[   31.368041] daveti: into [ep0_complete]
+[   31.372100] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   31.378082] daveti: got AIK pub key:
+[   31.381896] 00000000: 00 00 00 01 00 01 00 02 00 00 00 0c 00 00 08 00
+[   31.388702] 00000010: 00 00 00 02 00 00 00 00 00 00 01 00 c4 61 13 5f
+[   31.395538] 00000020: a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8 7e 51 f4 2b
+[   31.402374] 00000030: 6f 3b 9e 68 df 51 ee a1 4e 87 77 71 51 2c 95 75
+[   31.409179] 00000040: 35 68 d2 14 4e 29 ef 0e 01 91 58 18 83 2f 6b 6b
+[   31.416015] 00000050: bd f1 f6 03 77 4c 96 ff 40 78 56 66 97 ea de 2a
+[   31.422851] 00000060: 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4 42 9d cb 22
+[   31.429656] 00000070: 95 8f 31 22 19 2e 7d fa fa 40 41 b3 e4 14 7d 7e
+[   31.436492] 00000080: cd 5f de 1d 67 35 d1 bd e3 e7 00 12 d0 82 e6 31
+[   31.443328] 00000090: 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90 89 0d 44 e9
+[   31.450134] 000000a0: f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee 96 1f ac fb
+[   31.456970] 000000b0: 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71 08 28 f9 d5
+[   31.463775] 000000c0: 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94 36 c4 04 67
+[   31.470611] 000000d0: bb f5 92 dd f5 26 5e 45 e8 52 7d cb 13 8b 06 78
+[   31.477416] 000000e0: 81 33 13 9a 4b fe 4e e3 24 ae d2 c2 3c b9 2a ef
+[   31.484252] 000000f0: 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08 39 44 2f 09
+[   31.491088] 00000100: 15 88 8f 9e ed 74 bc be 3f c4 98 53 5d ff 80 b0
+[   31.497894] 00000110: 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29
+[   31.503631] daveti: into [fsg_trusted_dev_update_state]
+[   31.509155] daveti: into [fsg_trusted_dev_find_matching_aik]
+[   31.515167] daveti: found matching AIK
+[   31.519134] daveti: AIK processing done
+[   31.523315] daveti: enter [fsg_setup]
+[   31.527191] daveti: ep0-setup ctrl req len [8]
+[   31.531890] 00000000: 21 00 00 00 00 00 30 01
+[   31.536499] daveti: class-specific control req [21.00 v0000 i0000 l304]
+[   31.543457] daveti: got the damn ADSC req
+[   31.547912] daveti: into [ep0_complete]
+[   31.551971] daveti: into [received_cbi_adsc_for_trusted_dev]
+[   31.557922] daveti: got TPM quote:
+[   31.561523] 00000000: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77
+[   31.568328] 00000010: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01
+[   31.575134] 00000020: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+[   31.581939] 00000030: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   31.588714] 00000040: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   31.595520] 00000050: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   31.602325] 00000060: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   31.609130] 00000070: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   31.615936] 00000080: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   31.622711] 00000090: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   31.629516] 000000a0: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   31.636322] 000000b0: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   31.643127] 000000c0: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   31.649932] 000000d0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   31.656707] 000000e0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   31.663513] 000000f0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   31.670318] 00000100: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   31.677124] 00000110: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   31.683929] 00000120: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   31.690704] daveti: into [fsg_trusted_dev_update_state]
+[   31.696228] daveti: into [fsg_trusted_dev_build_valid_data]
+[   31.702117] sig: 00000000: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04
+[   31.709381] sig: 00000010: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9
+[   31.716613] sig: 00000020: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71
+[   31.723876] sig: 00000030: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa
+[   31.731140] sig: 00000040: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d
+[   31.738403] sig: 00000050: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c
+[   31.745666] sig: 00000060: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f
+[   31.752929] sig: 00000070: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a
+[   31.760162] sig: 00000080: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94
+[   31.767425] sig: 00000090: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56
+[   31.774688] sig: 000000a0: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0
+[   31.781951] sig: 000000b0: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1
+[   31.789215] sig: 000000c0: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05
+[   31.796447] sig: 000000d0: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6
+[   31.803710] sig: 000000e0: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f
+[   31.810974] sig: 000000f0: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08
+[   31.818237] Krsa: Entering: krsa_init
+[   31.822113] sig_bf140648: 45 57 13 ff 3f 07 4b 3a 40 67 17 2a 93 86 f4 04  EW..?.K:@g.*....
+[   31.830932] sig_bf140658: 28 1c 40 aa be 3c 3f e7 be 43 d3 c5 41 ab 98 c9  (.@..<?..C..A...
+[   31.839721] sig_bf140668: 83 24 75 6b d0 bd 51 0c bc 09 f7 06 ab 74 63 71  .$uk..Q......tcq
+[   31.848541] sig_bf140678: 9d f5 02 29 f4 13 c2 51 5a 52 d9 11 fe 01 7c aa  ...)...QZR....|.
+[   31.857360] sig_bf140688: 45 ff 02 83 50 bb cd 99 c1 0e fd 2d 68 5c 56 8d  E...P......-h\V.
+[   31.866180] sig_bf140698: 4c 97 60 08 bb 49 22 76 b5 8a c6 c1 e1 55 b5 2c  L.`..I"v.....U.,
+[   31.875000] sig_bf1406a8: c7 41 52 a4 b7 9f ee 79 9e 1f 01 82 32 4a 93 0f  .AR....y....2J..
+[   31.883819] sig_bf1406b8: 17 45 bd da f5 34 c4 35 46 dd 0b d8 04 25 ce 2a  .E...4.5F....%.*
+[   31.892639] sig_bf1406c8: 1f 6a 74 37 33 b8 fa 5a 32 b4 77 79 4a af cf 94  .jt73..Z2.wyJ...
+[   31.901458] sig_bf1406d8: c3 cb 04 41 77 5b c8 fd 5a 36 1c 24 60 44 6d 56  ...Aw[..Z6.$`DmV
+[   31.910278] sig_bf1406e8: b2 26 64 ef bb 14 20 8e b1 dc c1 65 c3 cf 63 b0  .&d... ....e..c.
+[   31.919097] sig_bf1406f8: f7 bc d2 cb d1 6e 72 31 06 d2 c8 39 34 22 2f c1  .....nr1...94"/.
+[   31.927917] sig_bf140708: 16 4e a4 52 d0 15 2b ec 2c 3d 24 a2 bf 2b 47 05  .N.R..+.,=$..+G.
+[   31.936706] sig_bf140718: 01 ea 92 9e 0a 29 da e1 0f 66 93 c2 0c 5f 4a a6  .....)...f..._J.
+[   31.945526] sig_bf140728: 54 33 98 40 f7 46 9e 59 52 39 0f 8a 18 ef eb 4f  T3.@.F.YR9.....O
+[   31.954345] sig_bf140738: 33 af 2a af ff 32 9f 13 f2 d2 f6 42 68 85 bb 08  3.*..2.....Bh...
+[   31.963165] valid_bf140748: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   31.972167] valid_bf140758: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   31.981170] valid_bf140768: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   31.990173] rsa_n_bf140778: c4 61 13 5f a6 0f a8 0a 8a eb 4b 35 a3 8f 48 e8  .a._......K5..H.
+[   31.999176] rsa_n_bf140788: 7e 51 f4 2b 6f 3b 9e 68 df 51 ee a1 4e 87 77 71  ~Q.+o;.h.Q..N.wq
+[   32.008178] rsa_n_bf140798: 51 2c 95 75 35 68 d2 14 4e 29 ef 0e 01 91 58 18  Q,.u5h..N)....X.
+[   32.017181] rsa_n_bf1407a8: 83 2f 6b 6b bd f1 f6 03 77 4c 96 ff 40 78 56 66  ./kk....wL..@xVf
+[   32.026184] rsa_n_bf1407b8: 97 ea de 2a 0d 69 a4 09 d7 29 3f 40 7d cd 5f b4  ...*.i...)?@}._.
+[   32.035186] rsa_n_bf1407c8: 42 9d cb 22 95 8f 31 22 19 2e 7d fa fa 40 41 b3  B.."..1"..}..@A.
+[   32.044189] rsa_n_bf1407d8: e4 14 7d 7e cd 5f de 1d 67 35 d1 bd e3 e7 00 12  ..}~._..g5......
+[   32.053192] rsa_n_bf1407e8: d0 82 e6 31 94 e8 ff 45 c4 b8 69 fc 0e 8d d2 90  ...1...E..i.....
+[   32.062164] rsa_n_bf1407f8: 89 0d 44 e9 f7 e5 f4 93 ee 19 63 3a fc 9f 0d ee  ..D.......c:....
+[   32.071166] rsa_n_bf140808: 96 1f ac fb 9f cd 6e 00 d0 75 86 d1 0f 3b ba 71  ......n..u...;.q
+[   32.080169] rsa_n_bf140818: 08 28 f9 d5 7f 33 ed 5d 2e 11 93 26 84 1a 0d 94  .(...3.]...&....
+[   32.089172] rsa_n_bf140828: 36 c4 04 67 bb f5 92 dd f5 26 5e 45 e8 52 7d cb  6..g.....&^E.R}.
+[   32.098175] rsa_n_bf140838: 13 8b 06 78 81 33 13 9a 4b fe 4e e3 24 ae d2 c2  ...x.3..K.N.$...
+[   32.107177] rsa_n_bf140848: 3c b9 2a ef 97 34 2f 5b 8b 3d 96 e3 94 9e 32 08  <.*..4/[.=....2.
+[   32.116180] rsa_n_bf140858: 39 44 2f 09 15 88 8f 9e ed 74 bc be 3f c4 98 53  9D/......t..?..S
+[   32.125183] rsa_n_bf140868: 5d ff 80 b0 06 b3 ed 09 12 c0 ce 90 87 8a 6a 29  ].............j)
+[   32.134185] rsa_e_bf140878: 01 00 01                                         ...
+[   32.141998] Krsa: ==>krsa_make_digest()
+[   32.146087] Krsa: hash [2], digest_size [20]
+[   32.150604] valid_cefa5140: 01 01 00 00 51 55 4f 54 b0 bc 37 52 01 21 46 77  ....QUOT..7R.!Fw
+[   32.159606] valid_cefa5150: e8 4b b1 ee 7c 4f b1 b3 bd 01 6e 90 01 01 01 01  .K..|O....n.....
+[   32.168609] valid_cefa5160: 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01  ................
+[   32.177642] Krsa: <==krsa_make_digest() = ok
+[   32.182159] digest_ce13cf80: 56 c1 39 ad a6 22 92 3a 46 f6 c5 a4 ce cd 21 13  V.9..".:F.....!.
+[   32.191253] digest_ce13cf90: e5 0c 71 be                                      ..q.
+[   32.199249] Krsa: krsa_init() done
+[   32.202850] Krsa: ==> krsa_verify()
+[   32.206512] Krsa: step 1: k=2048 size(S)=2047
+[   32.215606] Krsa: size(x)=2033 xLen*8=2048
+[   32.219940] Krsa: ==> RSA_verify(,,256,20,15)
+[   32.224548] Krsa: <== RSA_verify() = 0
+[   32.228515] Krsa: <== krsa_verify() = 0
+[   32.232543] daveti: RSA verification success - TPM Attestation success
+[   32.239440] Krsa: exiting krsa module
+[   32.243316] daveti: Quote processing done
+[   33.262268] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   33.282562] daveti: trusted-dev do_read, lba[130944], file_offset[67043328], amount[4096]
+[   33.302154] daveti: trusted-dev do_read, lba[131056], file_offset[67100672], amount[4096]
+[   33.319152] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   33.331176] daveti: trusted-dev do_read, lba[8], file_offset[4096], amount[4096]
+[   33.343566] daveti: trusted-dev do_read, lba[131064], file_offset[67104768], amount[512]
+[   33.357818] daveti: trusted-dev do_read, lba[131065], file_offset[67105280], amount[512]
+[   33.370391] daveti: trusted-dev do_read, lba[131066], file_offset[67105792], amount[512]
+[   33.382629] daveti: trusted-dev do_read, lba[131067], file_offset[67106304], amount[512]
+[   33.394897] daveti: trusted-dev do_read, lba[131068], file_offset[67106816], amount[512]
+[   33.407043] daveti: trusted-dev do_read, lba[131069], file_offset[67107328], amount[512]
+[   33.419708] daveti: trusted-dev do_read, lba[131070], file_offset[67107840], amount[512]
+[   33.431976] daveti: trusted-dev do_read, lba[131071], file_offset[67108352], amount[512]
+[   33.444580] daveti: trusted-dev do_read, lba[130808], file_offset[66973696], amount[4096]
+[   33.457977] daveti: trusted-dev do_read, lba[131008], file_offset[67076096], amount[4096]
+[   33.471221] daveti: trusted-dev do_read, lba[130816], file_offset[66977792], amount[4096]
+[   33.484466] daveti: trusted-dev do_read, lba[130672], file_offset[66904064], amount[4096]
+[   33.497802] daveti: trusted-dev do_read, lba[130480], file_offset[66805760], amount[4096]
+[   33.511169] daveti: trusted-dev do_read, lba[130392], file_offset[66760704], amount[4096]
+[   33.524322] daveti: trusted-dev do_read, lba[130336], file_offset[66732032], amount[4096]
+[   33.537597] daveti: trusted-dev do_read, lba[130160], file_offset[66641920], amount[4096]
+[   33.550872] daveti: trusted-dev do_read, lba[130096], file_offset[66609152], amount[4096]
+[   33.564392] daveti: trusted-dev do_read, lba[130080], file_offset[66600960], amount[4096]
+[   33.577575] daveti: trusted-dev do_read, lba[130120], file_offset[66621440], amount[4096]
+[   33.590820] daveti: trusted-dev do_read, lba[127984], file_offset[65527808], amount[4096]
+[   33.604003] daveti: trusted-dev do_read, lba[2048], file_offset[1048576], amount[4096]
+[   33.618560] daveti: trusted-dev do_read, lba[256], file_offset[131072], amount[20480]
+[   33.632904] daveti: trusted-dev do_read, lba[24], file_offset[12288], amount[4096]
+[   33.645599] daveti: trusted-dev do_read, lba[56], file_offset[28672], amount[4096]
+[   33.657989] daveti: trusted-dev do_read, lba[120], file_offset[61440], amount[4096]
+[   33.670745] daveti: trusted-dev do_read, lba[16], file_offset[8192], amount[4096]
+[   33.683013] daveti: trusted-dev do_read, lba[128], file_offset[65536], amount[4096]
+[   33.697784] daveti: trusted-dev do_read, lba[64], file_offset[32768], amount[4096]
+[   33.710418] daveti: trusted-dev do_read, lba[296], file_offset[151552], amount[4096]
+[   33.723205] daveti: trusted-dev do_read, lba[304], file_offset[155648], amount[4096]
+[   33.735778] daveti: trusted-dev do_read, lba[312], file_offset[159744], amount[4096]
+[   33.748413] daveti: trusted-dev do_read, lba[320], file_offset[163840], amount[4096]
+[   33.761718] daveti: trusted-dev do_read, lba[328], file_offset[167936], amount[4096]
+[   33.774291] daveti: trusted-dev do_read, lba[336], file_offset[172032], amount[4096]
+[   33.787017] daveti: trusted-dev do_read, lba[344], file_offset[176128], amount[4096]
+[   33.799743] daveti: trusted-dev do_read, lba[352], file_offset[180224], amount[4096]
+[   33.812469] daveti: trusted-dev do_read, lba[360], file_offset[184320], amount[4096]
+[   33.825225] daveti: trusted-dev do_read, lba[368], file_offset[188416], amount[4096]
+[   33.837829] daveti: trusted-dev do_read, lba[376], file_offset[192512], amount[4096]
+[   33.850463] daveti: trusted-dev do_read, lba[384], file_offset[196608], amount[4096]
+[   33.863220] daveti: trusted-dev do_read, lba[392], file_offset[200704], amount[4096]
+[   33.875762] daveti: trusted-dev do_read, lba[400], file_offset[204800], amount[4096]
+[   33.888458] daveti: trusted-dev do_read, lba[408], file_offset[208896], amount[4096]
+[   33.901184] daveti: trusted-dev do_read, lba[416], file_offset[212992], amount[4096]
+[   33.913818] daveti: trusted-dev do_read, lba[424], file_offset[217088], amount[4096]
+[   33.926574] daveti: trusted-dev do_read, lba[432], file_offset[221184], amount[4096]
+[   33.939117] daveti: trusted-dev do_read, lba[440], file_offset[225280], amount[4096]
+[   33.951782] daveti: trusted-dev do_read, lba[448], file_offset[229376], amount[4096]
+[   33.965057] daveti: trusted-dev do_read, lba[456], file_offset[233472], amount[4096]
+[   33.977722] daveti: trusted-dev do_read, lba[464], file_offset[237568], amount[4096]
+[   33.988555] daveti: trusted-dev do_read, lba[472], file_offset[241664], amount[4096]
+[   33.999267] daveti: trusted-dev do_read, lba[480], file_offset[245760], amount[4096]
+[   34.010406] daveti: trusted-dev do_read, lba[488], file_offset[249856], amount[4096]
+[   34.022338] daveti: trusted-dev do_read, lba[496], file_offset[253952], amount[4096]
+[   34.034210] daveti: trusted-dev do_read, lba[504], file_offset[258048], amount[4096]
+[   34.045623] daveti: trusted-dev do_read, lba[768], file_offset[393216], amount[4096]
+[   34.056457] daveti: trusted-dev do_read, lba[776], file_offset[397312], amount[4096]
+[   34.067291] daveti: trusted-dev do_read, lba[784], file_offset[401408], amount[4096]
+[   34.078002] daveti: trusted-dev do_read, lba[792], file_offset[405504], amount[4096]
+[   34.088745] daveti: trusted-dev do_read, lba[800], file_offset[409600], amount[4096]
+[   34.099426] daveti: trusted-dev do_read, lba[808], file_offset[413696], amount[4096]
+[   34.110107] daveti: trusted-dev do_read, lba[816], file_offset[417792], amount[4096]
+[   34.120849] daveti: trusted-dev do_read, lba[824], file_offset[421888], amount[4096]
+[   34.131652] daveti: trusted-dev do_read, lba[832], file_offset[425984], amount[4096]
+[   34.142425] daveti: trusted-dev do_read, lba[840], file_offset[430080], amount[4096]
+[   34.153259] daveti: trusted-dev do_read, lba[848], file_offset[434176], amount[4096]
+[   34.163970] daveti: trusted-dev do_read, lba[856], file_offset[438272], amount[4096]
+[   34.174743] daveti: trusted-dev do_read, lba[864], file_offset[442368], amount[4096]
+[   34.185424] daveti: trusted-dev do_read, lba[872], file_offset[446464], amount[4096]
+[   34.196105] daveti: trusted-dev do_read, lba[880], file_offset[450560], amount[4096]
+[   34.206970] daveti: trusted-dev do_read, lba[888], file_offset[454656], amount[4096]
+[   34.217773] daveti: trusted-dev do_read, lba[896], file_offset[458752], amount[4096]
+[   34.228485] daveti: trusted-dev do_read, lba[904], file_offset[462848], amount[4096]
+[   34.239227] daveti: trusted-dev do_read, lba[912], file_offset[466944], amount[4096]
+[   34.249908] daveti: trusted-dev do_read, lba[920], file_offset[471040], amount[4096]
+[   34.260681] daveti: trusted-dev do_read, lba[928], file_offset[475136], amount[4096]
+[   34.271331] daveti: trusted-dev do_read, lba[936], file_offset[479232], amount[4096]
+[   34.282073] daveti: trusted-dev do_read, lba[944], file_offset[483328], amount[4096]
+[   34.292846] daveti: trusted-dev do_read, lba[952], file_offset[487424], amount[4096]
+[   34.303497] daveti: trusted-dev do_read, lba[960], file_offset[491520], amount[4096]
+[   34.315368] daveti: trusted-dev do_read, lba[968], file_offset[495616], amount[4096]
+[   34.326110] daveti: trusted-dev do_read, lba[976], file_offset[499712], amount[4096]
+[   34.336791] daveti: trusted-dev do_read, lba[984], file_offset[503808], amount[4096]
+[   34.347564] daveti: trusted-dev do_read, lba[992], file_offset[507904], amount[4096]
+[   34.358245] daveti: trusted-dev do_read, lba[1000], file_offset[512000], amount[4096]
+[   34.369018] daveti: trusted-dev do_read, lba[1008], file_offset[516096], amount[4096]
+[   34.379882] daveti: trusted-dev do_read, lba[1016], file_offset[520192], amount[4096]
+[   34.390686] daveti: trusted-dev do_read, lba[512], file_offset[262144], amount[4096]
+[   34.401458] daveti: trusted-dev do_read, lba[32], file_offset[16384], amount[4096]
+[   34.412078] daveti: trusted-dev do_read, lba[4096], file_offset[2097152], amount[4096]
+[   34.428131] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[4096]
+[   34.611358] daveti: trusted-dev do_read, lba[0], file_offset[0], amount[512]
+[   34.642822] daveti: trusted-dev do_read, lba[257], file_offset[131584], amount[512]
+[   34.653198] daveti: trusted-dev do_read, lba[258], file_offset[132096], amount[512]
+[   34.663482] daveti: trusted-dev do_read, lba[259], file_offset[132608], amount[512]
+[   34.673767] daveti: trusted-dev do_read, lba[260], file_offset[133120], amount[512]
+[   34.684082] daveti: trusted-dev do_read, lba[261], file_offset[133632], amount[512]
+[   34.694335] daveti: trusted-dev do_read, lba[262], file_offset[134144], amount[512]
+[   34.704559] daveti: trusted-dev do_read, lba[263], file_offset[134656], amount[512]
+[   34.714935] daveti: trusted-dev do_read, lba[264], file_offset[135168], amount[512]
+[   34.725158] daveti: trusted-dev do_read, lba[265], file_offset[135680], amount[512]
+[   34.735412] daveti: trusted-dev do_read, lba[266], file_offset[136192], amount[512]
+[   34.745727] daveti: trusted-dev do_read, lba[267], file_offset[136704], amount[512]
+[   34.755981] daveti: trusted-dev do_read, lba[268], file_offset[137216], amount[512]
+[   34.766204] daveti: trusted-dev do_read, lba[269], file_offset[137728], amount[512]
+[   34.776489] daveti: trusted-dev do_read, lba[270], file_offset[138240], amount[512]
+[   34.786773] daveti: trusted-dev do_read, lba[271], file_offset[138752], amount[512]
+[   34.797027] daveti: trusted-dev do_read, lba[272], file_offset[139264], amount[512]
+[   34.807464] daveti: trusted-dev do_read, lba[273], file_offset[139776], amount[512]
+[   34.817687] daveti: trusted-dev do_read, lba[274], file_offset[140288], amount[512]
+[   34.827911] daveti: trusted-dev do_read, lba[275], file_offset[140800], amount[512]
+[   34.838134] daveti: trusted-dev do_read, lba[276], file_offset[141312], amount[512]
+[   34.848388] daveti: trusted-dev do_read, lba[277], file_offset[141824], amount[512]
+[   34.858612] daveti: trusted-dev do_read, lba[278], file_offset[142336], amount[512]
+[   34.868835] daveti: trusted-dev do_read, lba[279], file_offset[142848], amount[512]
+[   34.879150] daveti: trusted-dev do_read, lba[280], file_offset[143360], amount[512]
+[   34.889373] daveti: trusted-dev do_read, lba[281], file_offset[143872], amount[512]
+[   34.899597] daveti: trusted-dev do_read, lba[282], file_offset[144384], amount[512]
+[   34.910003] daveti: trusted-dev do_read, lba[283], file_offset[144896], amount[512]
+[   34.920227] daveti: trusted-dev do_read, lba[284], file_offset[145408], amount[512]
+[   34.930450] daveti: trusted-dev do_read, lba[285], file_offset[145920], amount[512]
+[   34.940917] daveti: trusted-dev do_read, lba[286], file_offset[146432], amount[512]
+[   34.951171] daveti: trusted-dev do_read, lba[287], file_offset[146944], amount[512]
+[   34.961425] daveti: trusted-dev do_read, lba[288], file_offset[147456], amount[512]
+[   35.063049] daveti: trusted-dev do_read, lba[1], file_offset[512], amount[512]
+[   35.072753] daveti: trusted-dev do_read, lba[2], file_offset[1024], amount[512]
+[   35.082458] daveti: trusted-dev do_read, lba[3], file_offset[1536], amount[64512]
+[   40.971618] daveti: into [fsg_trusted_dev_tpm_quote_timer_handler]
+
+root@overo:~$  
+root@overo:~$  poweroff
+
